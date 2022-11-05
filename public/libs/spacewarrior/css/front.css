@@ -1,0 +1,241 @@
+
+
+.bg {
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+}
+.bg .cadre {
+    border: solid 2px #ffa600;
+    margin: 0 auto;
+    width:640px !important;
+    height:820px !important;
+}
+
+.title-image{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top:200px;
+}
+.title-image img{
+    display: block;
+    margin: 0 auto;
+    width: 460px;
+}
+.title-image .by {
+    color:rgba(255, 255, 255, 0.7);
+}
+.title-image .pulse {
+    animation: opacityPulse 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+@keyframes opacityPulse {
+    0% {opacity: 0.0;}
+    70% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+.score{
+    position: absolute;
+    left: 0;
+    top:0;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 100;
+    padding: 5px 10px;
+}
+.life{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 100;
+    padding: 5px 10px;
+    width: 100%;
+}
+.life img{
+    width: 20px;
+    height: 20px
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.bg .cadre .sprite{
+    width: 50px;
+    height: 50px;
+    /* background-image: url("../img/spacecraft.png"); */
+    background-size: cover;
+    position: absolute;
+    /* top:710px;
+    left:295px; */
+}
+
+.stage-clear{
+    margin-top: 320;
+    width: 100%;
+    font-size: 30;
+    border-top: solid 4px;
+    border-bottom: solid 4px;
+    color:rgba(255, 255, 255, 0.7);
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top:0;
+    opacity: 0;
+}
+
+.missile-player{
+    width: 5px;
+    height: 10px;
+    background-color: #42bff5;
+    display: block;
+    border-radius: 1px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.enemy-1{
+    background-image: url('../img/enemy-1-small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enemy-2{
+    background-image: url('../img/enemy-2-small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enemy-3{
+    background-image: url('../img/enemy-3-small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enemy-4{
+    background-image: url('../img/enemy-4-small.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.enemy-5{
+    background-image: url('../img/enemy-turn.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.enemy-boss-1{
+    background-image: url('../img/boss-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.enemy-boss-2{
+    background-image: url('../img/boss-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.enemy-boss-3{
+    background-image: url('../img/boss-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.explosion{
+    background-image: url('../img/explosion.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explosion-boss{
+    background-image: url('../img/explosion-2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.end{
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    background-image: url("../img/end.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+.end .score-final{
+    color: red;
+    text-align: center;
+    margin-top: 550px;
+    font-size: 24px;
+}
+.gameover{
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    background-image: url("../img/gameover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+.gameover .score-gameover{
+    color: red;
+    text-align: center;
+    margin-top: 415px;
+    font-size: 24px;
+}
+
+.fullScreen{
+    width:100px;
+    height:100px;
+    background-image:url('../img/full.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+     position:absolute;
+     top:2rem;
+     right:2rem;
+     display:block;
+     z-index:99999;
+     cursor:pointer;
+     border: solid 2px #ffa600;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .bg{
+        padding-bottom: 0;
+        background-image: url('../img/bg-small.jpg');
+
+    }
+    .fullScreen{
+         top:85%;
+         right:41%;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .bg .cadre {
+        width:3px !important;
+        height:410px !important;
+    }
+}

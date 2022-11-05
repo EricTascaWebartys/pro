@@ -1,0 +1,15 @@
+{
+    "name": "WEB ARTYS",
+    "short_name": "Web Artys",
+    "description": "Admin - App",
+    "icons": [{
+        "src": "https://webartys.com/img/pwa.png",
+        "sizes": "72x72 96x96 128x128 256x256 512x512",
+        "type": "image\/png"
+    }],
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https://webartys.com/"
+}

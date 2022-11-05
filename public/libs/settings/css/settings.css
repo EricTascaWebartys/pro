@@ -1,0 +1,94 @@
+.settings {
+    position: fixed;
+    top: 70px;
+    right: -1px;
+    left: auto;
+    width: 215px;
+    background-color: #fff;
+    backface-visibility: hidden;
+    border: 1px solid #03b7fb;
+    margin-right: -215px;
+    z-index: 9999;
+    transition: margin 0.3s cubic-bezier(1, 0, 0, 1);
+}
+  .settings.show {
+    margin-right: 0;
+}
+
+.settings-inner {
+    position: relative;
+}
+.settings-inner .settings-ctrl {
+    position: absolute;
+    top: 25px;
+    left: -105px;
+    width: 105px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #03b7fb;
+    border-right: 0;
+    text-align: center;
+    cursor: pointer;
+    /* border-radius: 3px 0 0 3px; */
+    padding-top: 0.8rem;
+    color: #333;
+    font-family: "Myriad Web Pro";
+}
+.settings-inner .settings-ctrl > em {
+    line-height: 49px;
+    font-size: 20px;
+    color: #3a3f51;
+}
+
+.settings-content {
+    padding: 10px;
+}
+
+.setting-colors {
+    margin-bottom: 20px;
+}
+  .setting-colors::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+  .setting-colors .setting-color {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.setting-colors .setting-color:last-child {
+    margin-right: 0;
+}
+.setting-colors .setting-color > em {
+    display: none;
+    line-height: 39px;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.75);
+}
+.setting-colors .setting-color.checked > em {
+      display: block;
+}
+
+.btn-settings{
+    padding: 10px 10px;
+    border: 1px solid #03b7fb;
+    background-color: #03b7fb;
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: "Myriad Web Pro";
+}
+
+.btn-settings:hover{
+    background-color: #fff;
+    color: #03b7fb;
+
+}
+
+.phone-number{
+    color: #03b7fb;
+    font-size: 1.2rem;
+}
