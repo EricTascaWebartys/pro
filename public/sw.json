@@ -3,7 +3,7 @@
     "short_name": "Web Artys",
     "description": "Admin - App",
     "icons": [{
-        "src": "https://webartys.com/img/pwa.png",
+        "src": "http://localhost:8888/web/pro/public/img/pwa.png",
         "sizes": "72x72 96x96 128x128 256x256 512x512",
         "type": "image\/png"
     }],
@@ -11,5 +11,5 @@
     "theme_color": "#fff",
     "display": "standalone",
     "orientation": "portrait",
-    "start_url": "https://webartys.com/"
+    "start_url": "http://localhost:8888/web/pro/public/"
 }

@@ -17,7 +17,6 @@ class FrontController extends Controller
 
 
     public function homepage() {
-        // dd('front.'.$this->lang.'.index');
         $team = Staff::all();
         $video = null;
         $avis = Testimony::where('type', null)->orderBy('position', 'asc')->get();
