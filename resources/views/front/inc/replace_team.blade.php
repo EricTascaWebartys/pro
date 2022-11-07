@@ -27,7 +27,7 @@
                     <h4 class="team__name">@if(app()->getLocale() === "fr") SEO @else SEO @endif</h4>
                     <span class="team__position">
                         @if(app()->getLocale() === "fr")
-                            Un bon référencement
+                            Un bon référencement naturel
                         @else
                             A good referencing
                         @endif
