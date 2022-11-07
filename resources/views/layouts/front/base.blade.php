@@ -239,7 +239,7 @@
 
      	<!-- DISTORTION ADD-ON FILES -->
      	<link rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
-     	{{-- <script type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/pixi.min.js') }}'></script> --}}
+     	<script type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/pixi.min.js') }}'></script>
      	<script type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
 
 
