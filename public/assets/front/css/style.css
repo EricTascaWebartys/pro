@@ -2854,7 +2854,7 @@ header .flex-child.flex-right {
 	user-select: none; }
 	.btn:hover {
 		color: #fff;
-		box-shadow: 0 12px 20px rgba(254, 89, 0, 0.25);
+		/* box-shadow: 0 12px 20px rgba(254, 89, 0, 0.25); */
 		border-color: transparent; }
 	.btn:focus {
 		outline: none;
