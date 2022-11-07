@@ -250,13 +250,12 @@
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-2">
-                        <p class="section-description mt-32">Créer un site internet performant, qui vous ressemble</p>
+                        <p class="section-description mt-32">Un site internet performant, qui vous ressemble</p>
                     </div>
                 </div>
-                @if($team->count() === 3)
-                        <div class="row">
-                            @foreach ($team as $key => $staff)
-
+                @if($team->count() >= 3)
+                    <div class="row">
+                        @foreach ($team as $key => $staff)
                             <div class="col-lg-4">
                                 <div class="animate">
                                     <div class="animate-container">
@@ -279,8 +278,10 @@
                                     </div>
                                 </div>
                             </div>
-                    @endforeach
-                </div>
+                        @endforeach
+                    </div>
+                @else
+                    @include("front.inc.replace_team")
                 @endif
             </div>
         </section>
