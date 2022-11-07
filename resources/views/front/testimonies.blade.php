@@ -9,7 +9,7 @@
 				<div class="animate">
 					<div class="animate-container">
 						<p class="intro__text text-center" style="padding-bottom:40px;color:#333">
-							{{ __('navigation.They trusted us')}}
+							{{ __('navigation.Golden book')}}
 						</p>
 					</div>
 						@foreach ($testimonies as $key => $testimony)

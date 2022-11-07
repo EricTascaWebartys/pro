@@ -249,6 +249,7 @@ return [
     "Glove Lesdiguieres" => "Gant Lesdiguières",
     "Go back" => "Revenir en arrière",
     "Go Home" => "Aller à l'accueil",
+    "Golden book" => "Livre d'or",
     "Go to page :page" => "Aller à la page :page",
     "Great! You have accepted the invitation to join the :team team." => "Super ! Vous avez accepté l'invitation à rejoindre l'équipe :team",
     "Greece" => "Grèce",
