@@ -12,7 +12,6 @@
              <meta name="robots" content="noindex" />
              <meta name="googlebot" content="noindex">
          @endisset
-         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     	<link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'>
     	<link rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	<link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" />
