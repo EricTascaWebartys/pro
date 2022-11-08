@@ -8,8 +8,10 @@
         <meta content="Web Artys" name="eric tasca" />
         <meta name="service_worker" content="{{ asset('sw.js') }}">
         <link rel="manifest" href="{{ asset('sw.json') }}">
-        {{-- <meta name="service_worker" content="{{ asset('sw.js') }}"> --}}
-        {{-- <link rel="manifest" href="{{ asset('sw_back.json') }}"> --}}
+        @if(!isset($index_page) && app()->getLocale() === "fr")
+             <meta name="robots" content="noindex" />
+             <meta name="googlebot" content="noindex">
+         @endisset
 
         <!-- App favicon -->
         <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">

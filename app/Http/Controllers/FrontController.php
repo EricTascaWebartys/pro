@@ -30,7 +30,8 @@ class FrontController extends Controller
             'avis' => $avis,
             'avis_active' =>$avis_active,
             'demos' => $demos,
-            'return' => 'home'
+            'return' => 'home',
+            'index_page' => true
         ]);
     }
 
@@ -45,7 +46,7 @@ class FrontController extends Controller
 
         return view('front.description-2',[
             'products' => true,
-            'return' => $return
+            'return' => $return,
         ]);
     }
     public function description_3($return = null) {
@@ -60,21 +61,24 @@ class FrontController extends Controller
 
         return view('front.website_1',[
             'products' => true,
-            'return' => $return
+            'return' => $return,
+            'index_page' => true
         ]);
     }
     public function website_2($return = null) {
 
         return view('front.website_2',[
             'products' => true,
-            'return' => $return
+            'return' => $return,
+            'index_page' => true
         ]);
     }
     public function website_3($return = null) {
 
         return view('front.website_3',[
             'products' => true,
-            'return' => $return
+            'return' => $return,
+            'index_page' => true
         ]);
     }
 

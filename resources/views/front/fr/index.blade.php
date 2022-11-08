@@ -2,17 +2,10 @@
 
 @section('front.content')
     <div class="content-wrap">
-
-        <!-- Revolution Slider -->
         <section class="p-0">
             <div class="rev_slider_wrapper">
                 <div class="rev_slider" id="slider1" data-version="5.0">
-
                     <ul>
-                        {{-- <li>
-                            <img  src="{{ asset('img/logo.png') }}" alt="web artys" style="z-index:2; width:100%; height:6rem">
-                        </li>                    --}}
-                        <!-- SLIDE 1 -->
                         <li data-fstransition="fade"
                             data-transition="parallaxtoright"
                             data-easein="default"
@@ -22,8 +15,6 @@
                             data-delay="8000"
                             data-title="The Art of Design"
                             >
-                            <!-- MAIN IMAGE -->
-
                             <img src="{{ asset('img/introduction.jpg') }}"
                                 alt=""
                                 data-bgrepeat="no-repeat"
@@ -31,33 +22,6 @@
                                 data-bgparallax="7"
                                 class="rev-slidebg"
                                 >
-
-
-                            <!-- COLOR OVERLAY -->
-                            {{-- <div class="tp-caption tp-shape tp-shapewrapper"
-                                data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                                data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                                data-width="full"
-                                data-height="full"
-                                data-whitespace="nowrap"
-                                data-transform_idle="o:1;"
-                                data-transform_in="opacity:0;s:1500;e:Power3.easeInOut;"
-                                data-transform_out="s:300;s:300;"
-                                data-start="200"
-                                data-basealign="slide"
-                                data-responsive_offset="on"
-                                data-responsive="off"
-                                style="z-index: 1; background-color: rgba(255,255,255,0);">
-                            </div> --}}
-
-                            {{-- <div class="logo-intro text-center rs-parallaxlevel-7 logo-responsive" style="z-index:2;display:block">
-
-                                <img class="logo" src="{{ asset('img/logo.png') }}" alt="web artys">
-                            </div> --}}
-
-
-
-                            <!-- HERO TITLE -->
                             <div id="anim-title" class="tp-caption hero-title rs-parallaxlevel-7 color-5"
                                 data-x="center"
                                 data-y="center"
@@ -88,14 +52,10 @@
                                 style="font-family: 'Myriad Web Pro', sans-serif;font-weight:200;color:#333;z-index:2;"
                             >
                                 <div style="" class="bg-logo-intro">
-                                    {{-- <img  src="{{ asset('img/logo.png') }}" alt="web artys" style="width:100%; display:inline-block"> --}}
                                 </div>
-                                {{-- Cré<span class="color-7" style="font-family: 'Azonix'" id="A">A</span>tion Web --}}
                                 <p style="font-family: 'Azonix';letter-spacing: 0.5px;" class="mt-text-anim">Cré<span class="color-7">a</span>tion <span style="font-family: 'Azonix'">Web</span></p>
 
                             </div>
-
-                            <!-- LEARN MORE -->
                             <div id="fade-title" class="tp-caption hero-video-play rs-parallaxlevel-7"
                                 data-x="center"
                                 data-y="center"
@@ -116,16 +76,12 @@
                                     "ease":"Power3.easeInOut"
                                 }]'
                                 >
-                                {{-- <a href="#about" class="single-video-lightbox mfp-iframe" data-effect="mfp-zoom-in"> --}}
                                 <a href="#about">
-                                    {{-- <i class="ui-play hero-video-play__icon"></i> --}}
                                     <h1 class="hero-video-play__text color-black">Site Internet Professionnel</h1>
                                 </a>
                             </div>
-
-                        </li> <!-- end slide 1 -->
+                        </li>
                     </ul>
-
                     <div class="local-scroll">
                         <a href="#intro" class="scroll-down">
                             <i class="ui-arrow-scroll-down"></i>
@@ -135,8 +91,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- Intro -->
         <section id="intro" class="intro bg-dark bg-pattern angle angle--top angle--dark angle-mask">
             <div class="container">
                 <div class="animate">
@@ -145,12 +99,9 @@
                     </div>
                 </div>
             </div>
-        </section> <!-- end intro -->
+        </section>
         @include('front.inc.'. app()->getLocale() .'.products')
-
         @include('front.inc.'. app()->getLocale() .'.services')
-
-        <!-- Results -->
         <section class="section-results bg-gradient-bottom bg-results">
             <div class="container-fluid">
                 <div class="row">
@@ -192,11 +143,8 @@
                     </div>
                 </div>
             </div>
-        </section> <!-- end results -->
-
+        </section>
         @include('front.inc.'. app()->getLocale() .'.about')
-
-        <!-- Works -->
         <section class="section-works bg-light pt-72" id="works">
             <div class="container">
                 <div class="row justify-content-center">
@@ -208,8 +156,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Project Slider -->
             <div class="projects-slider">
                 @if($demos->count() >0)
                     @foreach ($demos as $key => $demo)
@@ -230,16 +176,11 @@
                         </div>
                     @endforeach
                 @endif
-
-            </div> <!-- end slick-works-slider -->
-
+            </div>
             <div class="text-center mt-40">
                 <a href="{{ route('contact') }}" class="btn btn--lg btn--stroke"><span>Contacter</span></a>
             </div>
-
-        </section> <!-- end works -->
-
-        <!-- Team -->
+        </section>
         <section class="section-team">
             <div class="container">
                 <div class="row">
@@ -285,10 +226,7 @@
                 @endif
             </div>
         </section>
-        <!-- end team -->
         @if($avis !== null)
-
-        <!-- Testimonials -->
         <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="" id="avis">
             <div class="container">
 
@@ -299,7 +237,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="row row-80">
                     @foreach ($avis as $key => $testimony)
                         <div class="col-lg-6">
@@ -318,7 +255,6 @@
                                 </div>
                             </div>
                         </div>
-
                     @endforeach
                     @if($avis_active->count() > 0)
                         <div style="text-align:center; margin:0 auto;padding-top:40px;">
@@ -328,13 +264,9 @@
                         </div>
                     @endif
                 </div>
-
             </div>
-        </section> <!-- end testimonials -->
+        </section>
         @endif
-
         @include('front.inc.'. app()->getLocale() .'.avantages')
-
-    </div> <!-- end content wrap -->
-
+    </div>
 @endsection
