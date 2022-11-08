@@ -14,9 +14,6 @@
                             An attractive visual
                         @endif
                     </span>
-                    <div class="socials socials--rounded mt-16">
-                        <a href="{{ route("description_2") }}"><i class="fa-2x fa-sharp fa-solid fa-circle-info"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -36,9 +33,6 @@
                             A good referencing
                         @endif
                     </span>
-                    <div class="socials socials--rounded mt-16">
-                        <a href="{{ route("seo") }}"><i class="fa-2x fa-sharp fa-solid fa-circle-info"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -58,9 +52,6 @@
                             Compatible with all devices
                         @endif
                     </span>
-                    <div class="socials socials--rounded mt-16">
-                        <a href="{{ route("description_3") }}"><i class="fa-2x fa-sharp fa-solid fa-circle-info"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
