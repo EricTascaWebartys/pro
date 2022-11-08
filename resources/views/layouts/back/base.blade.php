@@ -8,7 +8,7 @@
         <meta content="Web Artys" name="eric tasca" />
         <meta name="service_worker" content="{{ asset('sw.js') }}">
         <link rel="manifest" href="{{ asset('sw.json') }}">
-        @if(!isset($index_page) && app()->getLocale() === "fr")
+        @if(!isset($index_page) || app()->getLocale() !== "fr")
              <meta name="robots" content="noindex" />
              <meta name="googlebot" content="noindex">
          @endisset
