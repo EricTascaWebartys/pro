@@ -19,8 +19,8 @@
                 <div class="animate">
                     <div class="animate-container">
                         <div class="title-row mb-40">
-                            <h3 class="section-subtitle section-subtitle--line">Présentation</h3>
-                            <h2 class="section-title">WEB ARTYS</h2>
+                            <p class="section-subtitle section-subtitle--line h3">Présentation</p>
+                            <h2 class="section-title">Web Artys</h2>
                             <p class="section-description">
                                 La satisfaction client est au coeur de notre engagement. Nous vous accompagnons dans votre projet de création de <strong class="no-strong">site internet</strong> de manière simple et direct, sans aucun intermediaire.
                             </p>
