@@ -9,7 +9,10 @@
 
         <meta name="service_worker" content="{{ asset('sw.js') }}">
         <link rel="manifest" href="{{ asset('sw.json') }}">
-
+        @if(!isset($index_page) || app()->getLocale() !== "fr")
+             <meta name="robots" content="noindex" />
+             <meta name="googlebot" content="noindex">
+         @endisset
     	<!-- Google Fonts -->
     	<link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'>
 
