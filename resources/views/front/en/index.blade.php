@@ -189,7 +189,7 @@
                     <div class="col-lg-4">
                         <div class="title-row">
                             <h3 class="section-subtitle section-subtitle--line">LISTENING - INSPIRATION - QUALITY</h3>
-                            <h2 class="section-title">WEB ARTYS</h2>
+                            <h2 class="section-title">Web Artys</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-2">
@@ -270,5 +270,5 @@
         </section>
         @endif
         @include('front.inc.'. app()->getLocale() .'.avantages')
-    </div> 
+    </div>
 @endsection

@@ -19,7 +19,7 @@
                                         {{-- <cite>Eric Tasca</cite> --}}
                                     </blockquote>
 
-                                    <h3 class="text-center">Produits</h3>
+                                    <p class="text-center h1 font-weight-bold text-black">Nos produits</p>
 
                                     <div class="blocks-gallery-item is-cropped row">
                                         <div class="blocks-gallery-item col-md-4 col-12">

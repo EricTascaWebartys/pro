@@ -8,7 +8,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="title-row text-center">
-                    <h2 class="section-title" id="avantage">Avantages</h2>
+                    <p class="section-title h1 font-weight-bold text-black" id="avantage">Avantages</p>
                     <p class="section-description">Pourquoi choisir Web Artys ?</p>
                 </div>
             </div>

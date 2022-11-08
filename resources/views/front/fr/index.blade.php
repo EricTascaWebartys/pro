@@ -77,7 +77,7 @@
                                 }]'
                                 >
                                 <a href="#about">
-                                    <h1 class="hero-video-play__text color-black">Site Internet Professionnel</h1>
+                                    <p class="hero-video-play__text color-black">Site Internet</h1> Professionnel</p>
                                 </a>
                             </div>
                         </li>
@@ -150,7 +150,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="title-row text-center">
-                            <h2 class="section-title">Créations Digitales</h2>
+                            <p class="section-title h1 font-weight-bold text-black ">Créations Digitales</p>
                             <p class="section-description">Découvrez nos créations et travaux.</p>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                     <div class="col-lg-4">
                         <div class="title-row">
                             <h3 class="section-subtitle section-subtitle--line">ECOUTE - INSPIRATION - QUALITE</h3>
-                            <h2 class="section-title">WEB ARTYS</h2>
+                            <h2 class="section-title">Web Artys</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-2">
@@ -233,7 +233,7 @@
                 <div class="row justify-content-center mb-40">
                     <div class="col-lg-7">
                         <div class="title-row text-center">
-                            <h2 class="section-title" style="color: #fff">Témoignages</h2>
+                            <p class="section-title h1 font-weight-bold " style="color: #fff">Témoignages</p>
                         </div>
                     </div>
                 </div>

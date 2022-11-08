@@ -19,8 +19,8 @@
                 <div class="animate">
                     <div class="animate-container">
                         <div class="title-row mb-40">
-                            <h3 class="section-subtitle section-subtitle--line">Présentation</h3>
-                            <h2 class="section-title">WEB ARTYS</h2>
+                            <span class="section-subtitle section-subtitle--line h3">Présentation</span>
+                            <h2 class="section-title">Web Artys</h2>
                             <p class="section-description">
                                 La satisfaction client est au coeur de notre engagement. Nous vous accompagnons dans votre projet de création de <strong class="no-strong">site internet</strong> de manière simple et direct, sans aucun intermediaire.
                             </p>
@@ -34,7 +34,7 @@
                                     <div class="accordion__heading" id="heading-1">
                                         <a data-toggle="collapse" href="#collapse-1" class="accordion__link accordion--is-open" aria-expanded="true" aria-controls="collapse-1">
                                             <span class="accordion__toggle"></span>
-                                            <h4 class="accordion__title">Mission</h4>
+                                            <span class="accordion__title h4">Mission</span>
                                         </a>
                                     </div>
                                     <div id="collapse-1" class="collapse show" data-parent="#accordion-1" role="tabpanel" aria-labelledby="heading-1">
@@ -52,14 +52,14 @@
                                     <div class="accordion__heading" id="heading-2">
                                         <a data-toggle="collapse" href="#collapse-2" class="accordion__link" aria-expanded="true" aria-controls="collapse-2">
                                             <span class="accordion__toggle"></span>
-                                            <h4 class="accordion__title">Lieux</h4>
+                                            <span class="accordion__title h4">Lieux</span>
                                         </a>
                                     </div>
                                     <div id="collapse-2" class="collapse" data-parent="#accordion-1" role="tabpanel" aria-labelledby="heading-2">
                                         <div class="accordion__body">
                                             <p>
-                                                Implanté dans la région <strong class="no-strong color-7">PACA</strong> et plus précisement dans le département du <strong class="no-strong color-7">Vaucluse</strong>.<br>
-                                                Vous pouvez prendre rendez-vous sur <strong class="no-strong">Aix-en-Provence</strong>, <strong class="no-strong">Salon-de-Provence</strong>, <strong class="no-strong">Marseille</strong>, <strong class="no-strong">Nîmes</strong>, <strong class="no-strong">Avignon</strong>
+                                                Implanté dans la région <h3 class="font-weight-normal color-7">PACA</h3 > et plus précisement dans le département du <h3 class="font-weight-normal color-7">Vaucluse</h3>.<br>
+                                                Vous pouvez prendre rendez-vous sur <h3 class="font-weight-normal">Aix-en-Provence</h3>, <h3 class="font-weight-normal">Salon-de-Provence</h3>, <h3 class="font-weight-normal">Marseille</h3>, <h3 class="font-weight-normal">Nîmes</h3>, <h3 class="font-weight-normal">Avignon</h3>
                                                 et également dans toute la <strong class="no-strong color-7">France</strong> et à l'étranger.
 
                                             </p>
@@ -73,7 +73,7 @@
                                     <div class="accordion__heading" id="heading-3">
                                         <a data-toggle="collapse" href="#collapse-3" class="accordion__link" aria-expanded="true" aria-controls="collapse-3">
                                             <span class="accordion__toggle"></span>
-                                            <h4 class="accordion__title">Relation client</h4>
+                                            <span class="accordion__title h4">Relation client</span>
                                         </a>
                                     </div>
                                     <div id="collapse-3" class="collapse" data-parent="#accordion-1" role="tabpanel" aria-labelledby="heading-3">
