@@ -249,6 +249,7 @@ return [
     "Go back" => "Go back",
     "Go Home" => "Go Home",
     "Go to page :page" => "Go to page :page",
+    "Golden book" => "Golden book",
     "Great! You have accepted the invitation to join the :team team." => "Great! You have accepted the invitation to join the :team team.",
     "Greece" => "Greece",
     "Greenland" => "Greenland",

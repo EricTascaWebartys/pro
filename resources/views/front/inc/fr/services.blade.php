@@ -6,7 +6,7 @@
                 <div class="title-row animate">
                     <div class="animate-container">
                         <span class="section-subtitle section-subtitle--line h3">Nos Services</span>
-                        <p class="section-title text-black h1 font-weight-bold mt-2">Services</p>
+                        <p class="section-title title-home mt-2">Services</p>
                         <p class="section-description">Création de <strong class="no-strong">site internet</strong> et d'<strong class="no-strong">application web</strong> sur mesure pour répondre au besoin de l'entreprise.</p>
                     </div>
                 </div>

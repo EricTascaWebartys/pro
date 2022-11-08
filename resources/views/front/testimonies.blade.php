@@ -3,12 +3,12 @@
 @section('front.content')
 
 	<div class="content-wrap">
-		@include('front.inc.slider_testimonies')
+		{{-- @include('front.inc.slider_testimonies') --}}
 		<section class="intro" id="intro">
 			<div class="container">
 				<div class="animate">
 					<div class="animate-container">
-						<p class="intro__text text-center" style="padding-bottom:40px;color:#333">
+						<p class="intro__text text-center title-home mb-5">
 							{{ __('navigation.Golden book')}}
 						</p>
 					</div>
