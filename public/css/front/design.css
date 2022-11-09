@@ -17,6 +17,10 @@ body{
     font-family: "Myriad Web Pro";
 }
 
+.section-testimonials--large-padding {
+    padding: 160px 0 320px;
+}
+
 .title-home {
     font-size: 3rem;
     color:#000;
