@@ -180,7 +180,7 @@
          </script>
          <script type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
          <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
-     	<script src="{{ asset('assets/front/js/jquery.min.js') }}"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
         @yield('settings_options')
         <script type="text/javascript">
             $(document).click(function(event) {
