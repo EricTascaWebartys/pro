@@ -33,7 +33,7 @@
         <script type="text/javascript">
             let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
         </script>
-        <script defer type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
         @include('libs.tarteaucitron.script')
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
     </head>
