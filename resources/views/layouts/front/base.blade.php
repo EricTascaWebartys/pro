@@ -12,15 +12,15 @@
              <meta name="robots" content="noindex" />
              <meta name="googlebot" content="noindex">
          @endisset
-    	<link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'>
-    	<link rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
+    	<link async href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'>
+    	<link async rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	<link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" />
     	<link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
     	<link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
     	<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/apple-touch-icon-72x72.png') }}">
         <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('img/apple-touch-icon-114x114.png') }}">
-    	<link rel="stylesheet" href="{{ asset('libs/fontawesome/css/fontawesome.min.css') }}">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+    	<link async rel="stylesheet" href="{{ asset('libs/fontawesome/css/fontawesome.min.css') }}">
+        <link async rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
         <link rel="stylesheet" href="{{ asset("css/front/design.css") }}">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -33,7 +33,7 @@
         <script type="text/javascript">
             let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
         </script>
-        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
+        <script defer type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
         @include('libs.tarteaucitron.script')
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
     </head>
@@ -213,13 +213,13 @@
           gtag('js', new Date());
           gtag('config', 'G-H1BBG874CK');
         </script>
-        <script type="text/javascript">
+        <script defer type="text/javascript">
             tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
             tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
             (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
         </script>
         @yield('recaptcha')
-        <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
-        <script async type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
+        <script de type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
+        <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
     </body>
 </html>
