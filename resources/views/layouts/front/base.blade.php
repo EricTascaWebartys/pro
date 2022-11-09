@@ -173,22 +173,11 @@
                  <a href="#top"><i class="ui-arrow-up"></i></a>
              </div>
          </main>
-         @include('libs.settings.settings')
 
          <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
          <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-         <script src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
-         <script>
-           window.dataLayer = window.dataLayer || [];
-           function gtag(){dataLayer.push(arguments);}
-           gtag('js', new Date());
-           gtag('config', 'G-H1BBG874CK');
-         </script>
-         <script type="text/javascript">
-             tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
-             tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
-             (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
-         </script>
+         @include('libs.settings.settings')
+
          <script type="text/javascript">
              let Url_mentions = "{{ route('mentions') }}";
              let Url_contact = "contact.php";
@@ -218,7 +207,18 @@
      	<script async type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
      	<script async type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
      	<script async type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
-
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-H1BBG874CK');
+        </script>
+        <script type="text/javascript">
+            tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
+            tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+            (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+        </script>
         @yield('recaptcha')
         <script async type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
     </body>
