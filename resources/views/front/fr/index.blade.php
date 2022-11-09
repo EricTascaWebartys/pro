@@ -143,7 +143,7 @@
                     </div>
                 </div>
             </div>
-        </sectiona
+        </section
         @include('front.inc.'. app()->getLocale() .'.about')
         <section class="section-works bg-light pt-72" id="works">
             <div class="container">
@@ -233,7 +233,7 @@
                 <div class="row justify-content-center mb-40">
                     <div class="col-lg-7">
                         <div class="title-row text-center">
-                            <p class="section-title h1 font-weight-bold " style="color: #fff">Témoignages</p>
+                            <p class="section-title title-home text-light" style="color: #fff">Témoignages</p>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
             <figure class="about__img-holder">
                 <div class="animate">
                     <div class="animate-container">
-                        <img src="{{ asset('img/about.jpg') }}" alt="about us">
+                        <img src="{{ asset('img/about.jpg') }}" alt="about us" with="100%">
                         @if($video !== null)
                             <a href="https://www.youtube.com/watch?v=2GdzNhSB6-0" class="play-btn icon-wave single-video-lightbox mfp-iframe" data-effect="mfp-zoom-in">
                             </a>

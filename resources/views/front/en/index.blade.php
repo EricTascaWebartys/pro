@@ -22,6 +22,7 @@
                                 data-bgfit="cover"
                                 data-bgparallax="7"
                                 class="rev-slidebg"
+                                with="100%"
                                 >
                             <div id="anim-title" class="tp-caption hero-title rs-parallaxlevel-7 color-5"
                                 data-x="center"
@@ -165,7 +166,7 @@
                             <article class="project project-slide hover-shrink">
                                 <a href="{{ $demo->link }}" class="project__url" @if($demo->target !== null) target="_blank" @endif>
                                     <figure class="project__img-holder hover-shrink--shrink">
-                                        <img src="{{ $demo->image_url() }}" class="project__img hover-shrink--zoom" alt="project 1">
+                                        <img src="{{ $demo->image_url() }}" class="project__img hover-shrink--zoom" alt="project 1" with="100%">
                                     </figure>
                                 </a>
                                 <div class="project__description-wrap">
@@ -203,7 +204,7 @@
                                 <div class="animate">
                                     <div class="animate-container">
                                         <div class="team">
-                                            <img src="{{ $staff->image_url() }}" alt="{{ $staff->full_name() }}" class="team__img">
+                                            <img src="{{ $staff->image_url() }}" alt="{{ $staff->full_name() }}" class="team__img" with="100%">
                                             <h4 class="team__name">{{ $staff->full_name() }}</h4>
                                             <span class="team__position">{{ $staff->job_en }}</span>
                                             <div class="socials socials--rounded mt-16">
@@ -234,7 +235,7 @@
                 <div class="row justify-content-center mb-40">
                     <div class="col-lg-7">
                         <div class="title-row text-center">
-                            <h2 class="section-title" style="color: #fff">Testimonies</h2>
+                            <p class="title-home text-light">Testimonies</p>
                         </div>
                     </div>
                 </div>
@@ -244,7 +245,7 @@
                             <div class="animate">
                                 <div class="animate-container">
                                     <div class="testimonial mb-md-40">
-                                        <img src="{{ $testimony->image_url() }}" class="testimonial__img" alt="{{ $testimony->full_name()}}">
+                                        <img src="{{ $testimony->image_url() }}" class="testimonial__img" alt="{{ $testimony->full_name()}}" with="100%">
                                         <div class="testimonial__body">
                                             <p class="testimonial__text">
                                                 “{{ $testimony->text }}”

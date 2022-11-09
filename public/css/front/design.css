@@ -234,12 +234,12 @@ body{
     background: none;
     /* background-color: #443e44; */
     /* background-color: #333; */
-    background-color: #131313;
+    background-color: #191919;
 }
 
 .bg-overlay {
     /* background-color: #333; */
-    background-color: #131313;
+    background-color: #191919;
 }
 
 .footer__bottom {
@@ -249,7 +249,11 @@ body{
 
 
 .bg-results {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url('../../img/results-hd.jpg');
+    /* background-color: #191919 */
 }
 .bg-pwa {
     background-image: url('../../img/bg-pwa.jpg');
