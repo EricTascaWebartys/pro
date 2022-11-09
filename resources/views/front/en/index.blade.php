@@ -166,7 +166,7 @@
                             <article class="project project-slide hover-shrink">
                                 <a href="{{ $demo->link }}" class="project__url" @if($demo->target !== null) target="_blank" @endif>
                                     <figure class="project__img-holder hover-shrink--shrink">
-                                        <img src="{{ $demo->image_url() }}" class="project__img hover-shrink--zoom" alt="project 1" with="100%">
+                                        <img src="{{ $demo->image_url() }}" class="project__img hover-shrink--zoom" alt="project 1" with="100%" loading="lazy">
                                     </figure>
                                 </a>
                                 <div class="project__description-wrap">
@@ -204,7 +204,7 @@
                                 <div class="animate">
                                     <div class="animate-container">
                                         <div class="team">
-                                            <img src="{{ $staff->image_url() }}" alt="{{ $staff->full_name() }}" class="team__img" with="100%">
+                                            <img src="{{ $staff->image_url() }}" alt="{{ $staff->full_name() }}" class="team__img" with="100%" loading="lazy">
                                             <h4 class="team__name">{{ $staff->full_name() }}</h4>
                                             <span class="team__position">{{ $staff->job_en }}</span>
                                             <div class="socials socials--rounded mt-16">
@@ -245,7 +245,7 @@
                             <div class="animate">
                                 <div class="animate-container">
                                     <div class="testimonial mb-md-40">
-                                        <img src="{{ $testimony->image_url() }}" class="testimonial__img" alt="{{ $testimony->full_name()}}" with="100%">
+                                        <img src="{{ $testimony->image_url() }}" class="testimonial__img" alt="{{ $testimony->full_name()}}" with="100%" loading="lazy">
                                         <div class="testimonial__body">
                                             <p class="testimonial__text">
                                                 “{{ $testimony->text }}”
