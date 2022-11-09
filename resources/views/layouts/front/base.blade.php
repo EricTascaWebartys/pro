@@ -177,11 +177,10 @@
 
          <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
          <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-         <script async type="text/javascript">
+         <script type="text/javascript">
              let Url_mentions = "{{ route('mentions') }}";
              let Url_contact = "contact.php";
          </script>
-         <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
         @yield('settings_options')
         <script type="text/javascript">
             $(document).click(function(event) {
@@ -193,6 +192,7 @@
                     $('.navbar-collapse').collapse('hide');
             }, true);
         </script>
+        <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
         <script async src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
         <script async src="{{ asset('libs/settings/js/script.js') }}"></script>
      	<link rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
