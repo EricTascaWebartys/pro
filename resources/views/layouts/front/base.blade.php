@@ -181,6 +181,17 @@
          <script type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
          <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
      	<script src="{{ asset('assets/front/js/jquery.min.js') }}"></script>
+        @yield('settings_options')
+        <script type="text/javascript">
+            $(document).click(function(event) {
+                if(!$(event.target).closest('.navbar').length){
+                    $('.navbar-collapse').collapse('hide');
+                    }
+                });
+                document.addEventListener('scroll', function (event) {
+                    $('.navbar-collapse').collapse('hide');
+            }, true);
+        </script>
         <script src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
         <script src="{{ asset('libs/settings/js/script.js') }}"></script>
      	<link rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
