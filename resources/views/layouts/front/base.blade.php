@@ -213,7 +213,7 @@
           gtag('js', new Date());
           gtag('config', 'G-H1BBG874CK');
         </script>
-        <script defer type="text/javascript">
+        <script type="text/javascript">
             tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
             tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
             (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
