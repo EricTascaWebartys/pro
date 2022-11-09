@@ -1,4 +1,4 @@
-<script defer type="text/javascript">
+<script type="text/javascript">
 
 tarteaucitron.init({
   "privacyUrl": "https://webartys.com/mentions-legales", /* Privacy policy url */
