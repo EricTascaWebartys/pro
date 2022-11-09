@@ -207,7 +207,7 @@
      	<script async type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
      	<script async type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
-        <script>
+        <script async>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
