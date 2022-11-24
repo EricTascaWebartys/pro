@@ -485,6 +485,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .bg-results {
         background-image: url('../../img/results-mini.jpg');
+        background-size: cover;
     }
     #A {
         top:0.6rem;
