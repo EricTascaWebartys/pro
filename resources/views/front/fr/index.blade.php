@@ -53,7 +53,8 @@
                                 }]'
                                 style="font-family: 'Myriad Web Pro', sans-serif;font-weight:200;color:#333;z-index:2;"
                             >
-                                <div style="" class="bg-logo-intro">
+                                <div class="text-center w-100">
+                                  <img src="{{ asset('img/logo.png') }}" alt="logo" class="d-inline-block logo-homepage">
                                 </div>
                                 <p style="font-family: 'Azonix';letter-spacing: 0.5px;" class="mt-text-anim">Cré<span class="color-7">a</span>tion <span style="font-family: 'Azonix'">Web</span></p>
 
