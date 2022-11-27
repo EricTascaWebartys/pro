@@ -63,15 +63,10 @@ workbox.routing.registerRoute(
 
 
 workbox.precaching.precacheAndRoute(self.__precacheManifest || []);
-self.addEventListener("install", function(e) {
-    e.waitUntil(
-        caches.open("admin").then(function(cache) {
-            return cache.addAll([
-                "/",
-            ]);
-        })
-    );
-});
+self.addEventListener('fetch', function(evt) {
+    console.log('The service worker is serving the asset.');
+    evt.respondWith(fromCache(evt.request));
+});  
 
 self.addEventListener("fetch", function(event) {
     event.respondWith(
