@@ -1,5 +1,5 @@
 tarteaucitron.init({
-  "privacyUrl": "", /* Privacy policy url */
+  "privacyUrl": "https://webartys.com/mentions-legales", /* Privacy policy url */
 
   "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
   "cookieName": "tarteaucitron", /* Cookie name */

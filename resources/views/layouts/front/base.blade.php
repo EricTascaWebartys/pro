@@ -12,15 +12,16 @@
              <meta name="robots" content="noindex" />
              <meta name="googlebot" content="noindex">
          @endisset
-    	<link async href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'>
-    	<link async rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
+    	<link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'>
+    	<link rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	<link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" />
     	<link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
     	<link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
     	<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/apple-touch-icon-72x72.png') }}">
         <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('img/apple-touch-icon-114x114.png') }}">
-    	<link async rel="stylesheet" href="{{ asset('libs/fontawesome/css/fontawesome.min.css') }}">
-        <link async rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+    	<link rel="stylesheet" href="{{ asset('libs/fontawesome/css/fontawesome.min.css') }}">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+        <link rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
         <link rel="stylesheet" href="{{ asset("css/front/design.css") }}">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -33,8 +34,6 @@
         <script type="text/javascript">
             let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
         </script>
-        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
-        @include('libs.tarteaucitron.script')
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
     </head>
     <body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home" itemscope>
@@ -174,7 +173,7 @@
              </div>
          </main>
 
-         <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+         <script async src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
          <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
          @include('libs.settings.settings')
 
@@ -183,7 +182,7 @@
              let Url_contact = "contact.php";
          </script>
         @yield('settings_options')
-        <script type="text/javascript">
+        <script defer type="text/javascript">
             $(document).click(function(event) {
                 if(!$(event.target).closest('.navbar').length){
                     $('.navbar-collapse').collapse('hide');
@@ -195,7 +194,6 @@
         </script>
         <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
         <script defer src="{{ asset('libs/settings/js/script.js') }}"></script>
-     	<link rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
      	<script defer type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
@@ -206,20 +204,25 @@
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
-        <script defer src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
-        <script defer>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-H1BBG874CK');
-        </script>
-        <script defer type="text/javascript">
-            tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
-            tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
-            (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
-        </script>
-        @yield('recaptcha')
-        <script defer type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
+        <script defer type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
+        {{-- @include('libs.tarteaucitron.script') --}}
+        @if(Config::get('app.env') === "production")
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
+            <script async >
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-H1BBG874CK');
+            </script>
+            <script async  type="text/javascript">
+                tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
+                tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+                (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+            </script>
+            @yield('recaptcha')
+        @endif
+        <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
     </body>
 </html>
