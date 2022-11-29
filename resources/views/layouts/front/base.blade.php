@@ -186,26 +186,6 @@
                     $('.navbar-collapse').collapse('hide');
             }, true);
         </script>
-        @if(Config::get('app.env') == "production")
-
-            <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
-            <script async>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'GT-P35NMVR');
-            </script>
-
-            <script type="text/javascript">
-                tarteaucitron.user.gtagUa = 'GT-P35NMVR';
-                // tarteaucitron.user.gtagCrossdomain = ['example.com', 'example2.com'];
-                tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
-                (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
-            </script>
-            @yield('recaptcha')
-        @endif
         <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
         <script type="text/javascript">
             var currentLanguage = "{{ app()->getLocale() }}";
@@ -214,8 +194,27 @@
         <script type="text/javascript">
             let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
         </script>
-        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
+        <script defer type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
+        <script defer type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
+        @if(Config::get('app.env') == "production")
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
+            <script defer>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'GT-P35NMVR');
+            </script>
+
+            <script defer type="text/javascript">
+                tarteaucitron.user.gtagUa = 'GT-P35NMVR';
+                // tarteaucitron.user.gtagCrossdomain = ['example.com', 'example2.com'];
+                tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+                (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+            </script>
+            @yield('recaptcha')
+        @endif
         {{-- @include('libs.tarteaucitron.script') --}}
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
         <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
