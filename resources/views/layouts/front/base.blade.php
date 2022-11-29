@@ -27,16 +27,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Cabin+Condensed&family=NTR&family=Text+Me+One&family=Tomorrow:wght@100;200;300;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}">
-        <script type="text/javascript">
-            var currentLanguage = "{{ app()->getLocale() }}";
-            window.tarteaucitronForceLanguage = currentLanguage;
-        </script>
-        <script type="text/javascript">
-            let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
-        </script>
-        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
-        {{-- <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script> --}}
-        @include('libs.tarteaucitron.script')
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
     </head>
     <body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home" itemscope>
@@ -178,6 +168,7 @@
 
          <script async src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
          <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
          @include('libs.settings.settings')
 
          <script type="text/javascript">
@@ -216,7 +207,17 @@
             @yield('recaptcha')
         @endif
         <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
-        <script async type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
+        <script type="text/javascript">
+            var currentLanguage = "{{ app()->getLocale() }}";
+            window.tarteaucitronForceLanguage = currentLanguage;
+        </script>
+        <script type="text/javascript">
+            let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
+        </script>
+        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
+        {{-- @include('libs.tarteaucitron.script') --}}
+        <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
         <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
         <script defer src="{{ asset('libs/settings/js/script.js') }}"></script>
      	<script defer type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
