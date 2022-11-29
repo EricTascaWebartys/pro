@@ -34,6 +34,9 @@
         <script type="text/javascript">
             let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
         </script>
+        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
+        {{-- <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script> --}}
+        @include('libs.tarteaucitron.script')
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
     </head>
     <body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home" itemscope>
@@ -192,9 +195,6 @@
                     $('.navbar-collapse').collapse('hide');
             }, true);
         </script>
-        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
-        {{-- <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script> --}}
-        @include('libs.tarteaucitron.script')
         @if(Config::get('app.env') == "production")
 
             <!-- Google tag (gtag.js) -->
