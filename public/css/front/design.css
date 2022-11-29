@@ -38,13 +38,13 @@ body{
 }
 
 .bg-website_1 {
-    background-image: url("../../img/website_1.jpg");
+    background-image: url("../../img/website_1.webp");
 }
 .bg-website_2 {
-    background-image: url("../../img/website_2.jpg");
+    background-image: url("../../img/website_2.webp");
 }
 .bg-website_3 {
-    background-image: url("../../img/website_3.jpg");
+    background-image: url("../../img/website_3.webp");
 }
 
 .copyright-wrap {
@@ -57,12 +57,12 @@ body{
 .bg-product-1 {
     background-image: url('../../img/product_11.jpg');
 }
-.bg-product-2 {
+/* .bg-product-2 {
     background-image: url('../../img/product_22.jpg');
 }
 .bg-product-3 {
     background-image: url('../../img/product_33.jpg');
-}
+} */
 .figure-product {
     background-color: rgba(0,0,0,0);
     color: #a252a3;
@@ -95,7 +95,7 @@ body{
     top:-5rem;
 }
 .bg-logo-intro {
-    background-image: url("../../img/logo.png");
+    background-image: url("../../img/logo.webp");
     display: inline-block;
     background-size: cover;
     background-repeat: no-repeat;
@@ -262,15 +262,15 @@ body{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../../img/results-hd.jpg');
+    background-image: url('../../img/results-hd.webp');
     /* background-color: #191919 */
 }
 .bg-pwa {
-    background-image: url('../../img/bg-pwa.jpg');
+    background-image: url('../../img/bg-pwa.webp');
 }
 
 .bg-graphic {
-    background-image: url('../../img/bg-graphic.jpg');
+    background-image: url('../../img/bg-graphic.webp');
 }
 
 .bg-code {
