@@ -197,18 +197,18 @@
         @include('libs.tarteaucitron.script')
         @if(Config::get('app.env') == "production")
 
-            <!-- Global site tag (gtag.js) - Google Analytics -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
             <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
 
-                gtag('config', 'G-H1BBG874CK');
+              gtag('config', 'GT-P35NMVR');
             </script>
 
             <script type="text/javascript">
-                tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
+                tarteaucitron.user.gtagUa = 'GT-P35NMVR';
                 // tarteaucitron.user.gtagCrossdomain = ['example.com', 'example2.com'];
                 tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
                 (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
