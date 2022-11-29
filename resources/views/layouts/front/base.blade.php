@@ -196,13 +196,22 @@
         {{-- <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script> --}}
         @include('libs.tarteaucitron.script')
         @if(Config::get('app.env') == "production")
-            <script src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-H1BBG874CK');
+            </script>
 
             <script type="text/javascript">
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-H1BBG874CK');
+                tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
+                // tarteaucitron.user.gtagCrossdomain = ['example.com', 'example2.com'];
+                tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+                (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
             </script>
             @yield('recaptcha')
         @endif
