@@ -176,7 +176,7 @@
              </div>
          </main>
 
-         <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+         <script async src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
          <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
          @include('libs.settings.settings')
 
@@ -199,7 +199,7 @@
 
             <!-- Google tag (gtag.js) -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
-            <script>
+            <script async>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
@@ -215,20 +215,20 @@
             </script>
             @yield('recaptcha')
         @endif
-        <script type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
-        <script src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
-        <script src="{{ asset('libs/settings/js/script.js') }}"></script>
-     	<script type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
-     	<script type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+        <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
+        <script async type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
+        <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
+        <script defer src="{{ asset('libs/settings/js/script.js') }}"></script>
+     	<script defer type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
 
     </body>
 </html>
