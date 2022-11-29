@@ -34,3 +34,7 @@ tarteaucitron.init({
 
   "mandatory": true, /* Show a message about mandatory cookies */
 });
+
+tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
+tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+(tarteaucitron.job = tarteaucitron.job || []).push('gtag');

@@ -193,19 +193,12 @@
             }, true);
         </script>
         <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
-        {{-- @include('libs.tarteaucitron.script') --}}
+        {{-- <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script> --}}
+        @include('libs.tarteaucitron.script')
         @if(Config::get('app.env') == "production")
+            <script src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
 
             <script type="text/javascript">
-            tarteaucitron.user.multiplegtagUa = ['G-H1BBG874CK'];
-                (tarteaucitron.job = tarteaucitron.job || []).push('multiplegtag');
-                // tarteaucitron.user.gtagUa = 'G-H1BBG874CK';
-                // tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
-                // (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
-            </script>
-            <script src="https://www.googletagmanager.com/gtag/js?id=G-H1BBG874CK"></script>
-            <script>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
