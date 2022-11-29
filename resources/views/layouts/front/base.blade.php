@@ -194,12 +194,12 @@
         <script type="text/javascript">
             let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
         </script>
-        <script defer type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
-        <script defer type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
         @if(Config::get('app.env') == "production")
             <!-- Google tag (gtag.js) -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
-            <script defer>
+            <script async>
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
