@@ -26,7 +26,7 @@
    </div>
 </div>
 @section('settings_options')
-    <script defer type="text/javascript">
+    <script type="text/javascript">
         $(document).click(function(event) {
             if(!$(event.target).closest('.settings-zone').length){
                 $('.settings').removeClass('show');

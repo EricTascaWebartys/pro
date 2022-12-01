@@ -165,9 +165,9 @@
                  <a href="#top"><i class="ui-arrow-up"></i></a>
              </div>
          </main>
+         <script defer src="https://code.jquery.com/jquery-3.6.1.js"></script>
 
          <script async src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
-         <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
 
          @include('libs.settings.settings')
 
