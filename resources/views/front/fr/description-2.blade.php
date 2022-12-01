@@ -45,7 +45,7 @@
                                         et notre savoir faire au service de l'entreprise. </p>
 
                                         <figure class="wp-block-image">
-                                            <img src="{{ asset('img/ame.jpg') }}" alt="web artys graphic">
+                                            <img src="{{ asset('img/ame.webp') }}" alt="web artys graphic">
                                             <figcaption>Création Graphique</figcaption>
                                         </figure>
 

@@ -16,7 +16,7 @@
                             data-title="The Art of Design"
                             >
 
-                            <img src="{{ asset('img/introduction.jpg') }}"
+                            <img src="{{ asset('img/introduction.webp') }}"
                                 alt=""
                                 data-bgrepeat="no-repeat"
                                 data-bgfit="cover"

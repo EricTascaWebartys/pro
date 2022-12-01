@@ -214,7 +214,7 @@
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <img src="assets/images/users/user-8.jpg" alt="" class="img-activity">
+                                                        <img src="assets/images/users/user-8.webp" alt="" class="img-activity">
                                                         <div class="time-item">
                                                             <div class="item-info">
                                                                 <div class="text-muted text-right font-10">30 minutes ago</div>
@@ -234,7 +234,7 @@
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <img src="assets/images/users/user-6.jpg" alt="" class="img-activity">
+                                                        <img src="assets/images/users/user-6.webp" alt="" class="img-activity">
                                                         <div class="time-item ">
                                                             <div class="item-info">
                                                                 <div class="text-muted text-right font-10">1 Day ago</div>
@@ -244,7 +244,7 @@
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <img src="assets/images/users/user-8.jpg" alt="" class="img-activity">
+                                                        <img src="assets/images/users/user-8.webp" alt="" class="img-activity">
                                                         <div class="time-item">
                                                             <div class="item-info">
                                                                 <div class="text-muted text-right font-10">3 Day ago</div>
@@ -264,7 +264,7 @@
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <img src="assets/images/users/user-8.jpg" alt="" class="img-activity">
+                                                        <img src="assets/images/users/user-8.webp" alt="" class="img-activity">
                                                         <div class="time-item">
                                                             <div class="item-info">
                                                                 <div class="text-muted text-right font-10">30 minutes ago</div>
@@ -284,7 +284,7 @@
                                                                 </p>
                                                             </div>
                                                         </div>
-                                                        <img src="assets/images/users/user-8.jpg" alt="" class="img-activity">
+                                                        <img src="assets/images/users/user-8.webp" alt="" class="img-activity">
                                                         <div class="time-item">
                                                             <div class="item-info">
                                                                 <div class="text-muted text-right font-10">30 minutes ago</div>
@@ -311,63 +311,63 @@
                                                     </p>
                                                     <div class="row px-3">
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-4.jpg" title="30 min ago">
-                                                                <img src="assets/images/small/img-4.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-4.webp" title="30 min ago">
+                                                                <img src="assets/images/small/img-4.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-6.jpg" title="yesterday">
-                                                                <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-6.webp" title="yesterday">
+                                                                <img src="assets/images/small/img-6.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-7.jpg" title="2 day ago">
-                                                                <img src="assets/images/small/img-7.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-7.webp" title="2 day ago">
+                                                                <img src="assets/images/small/img-7.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-3.jpg" title="last week">
-                                                                <img src="assets/images/small/img-3.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-3.webp" title="last week">
+                                                                <img src="assets/images/small/img-3.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-2.jpg" title="last month">
-                                                                <img src="assets/images/small/img-2.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-2.webp" title="last month">
+                                                                <img src="assets/images/small/img-2.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-5.jpg" title="2 month ago">
-                                                                <img src="assets/images/small/img-5.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-5.webp" title="2 month ago">
+                                                                <img src="assets/images/small/img-5.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-8.jpg" title="3 month ago">
-                                                                <img src="assets/images/small/img-8.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-8.webp" title="3 month ago">
+                                                                <img src="assets/images/small/img-8.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-1.jpg" title="6 month ago">
-                                                                <img src="assets/images/small/img-1.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-1.webp" title="6 month ago">
+                                                                <img src="assets/images/small/img-1.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-6.jpg" title="last year">
-                                                                <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-6.webp" title="last year">
+                                                                <img src="assets/images/small/img-6.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-4.jpg" title="last year">
-                                                                <img src="assets/images/small/img-4.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-4.webp" title="last year">
+                                                                <img src="assets/images/small/img-4.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-6.jpg" title="last year">
-                                                                <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-6.webp" title="last year">
+                                                                <img src="assets/images/small/img-6.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                         <div class="col-4 p-0">
-                                                            <a class="mfp-image" href="assets/images/small/img-7.jpg" title="last year">
-                                                                <img src="assets/images/small/img-7.jpg" alt="" class="img-fluid">
+                                                            <a class="mfp-image" href="assets/images/small/img-7.webp" title="last year">
+                                                                <img src="assets/images/small/img-7.webp" alt="" class="img-fluid">
                                                             </a>
                                                         </div>
                                                     </div>

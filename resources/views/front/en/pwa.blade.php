@@ -12,7 +12,7 @@
 						<figure class="about__img-holder">
 							<div class="animate">
 								<div class="animate-container">
-									<img src="{{ asset('img/about/pwa.jpg') }}" alt="pwa office">
+									<img src="{{ asset('img/about/pwa.webp') }}" alt="pwa office">
 									<a href="https://www.youtube.com/watch?v=P5mbnM4UAvw" class="play-btn icon-wave single-video-lightbox mfp-iframe" data-effect="mfp-zoom-in">
 									</a>
 								</div>

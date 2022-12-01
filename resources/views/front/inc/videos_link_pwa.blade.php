@@ -15,7 +15,7 @@
                 <article class="related-project">
                     <div class="related-project__header hover-shrink">
                         <a href="{{ route('pwa',['return' => $return]) }}" class="d-block hover-shrink--shrink">
-                            <img src="{{ asset('img/about/pwa-mini.jpg') }}" class="related-project__img hover-shrink--zoom" itemprop="image" alt="pwa android">
+                            <img src="{{ asset('img/about/pwa-mini.webp') }}" class="related-project__img hover-shrink--zoom" itemprop="image" alt="pwa android">
                         </a>
                     </div>
                     <div class="related-project__body">
@@ -30,7 +30,7 @@
                 <article class="related-project">
                     <div class="related-project__header hover-shrink">
                         <a href="{{ route('pwa.ios',['return' => $return]) }}" class="d-block hover-shrink--shrink">
-                            <img src="{{ asset('img/about/pwa-ios-mini.jpg') }}" class="related-project__img hover-shrink--zoom" itemprop="image" alt="pwa ios">
+                            <img src="{{ asset('img/about/pwa-ios-mini.webp') }}" class="related-project__img hover-shrink--zoom" itemprop="image" alt="pwa ios">
                         </a>
                     </div>
                     <div class="related-project__body">
@@ -45,7 +45,7 @@
                 <article class="related-project">
                     <div class="related-project__header hover-shrink">
                         <a href="{{ route('pwa.office',['return' => $return]) }}" class="d-block hover-shrink--shrink">
-                            <img src="{{ asset('img/about/pwa-office-mini.jpg') }}" class="related-project__img hover-shrink--zoom" itemprop="image" alt="pwa office">
+                            <img src="{{ asset('img/about/pwa-office-mini.webp') }}" class="related-project__img hover-shrink--zoom" itemprop="image" alt="pwa office">
                         </a>
                     </div>
                     <div class="related-project__body">

@@ -38,7 +38,7 @@ class StaffSeeder extends Seeder
           $staff->link_2 = null;
           $staff->link_3 = "https://www.linkedin.com/in/eric-tasca-4848a2101/";
           $staff->link_4 = null;
-          $staff->image = "eric.jpg";
+          $staff->image = "eric.webp";
           $staff->position = $staffs->count() + 1;
           $staff->save();
 
@@ -51,7 +51,7 @@ class StaffSeeder extends Seeder
           $staff->link_2 = null;
           $staff->link_3 = "https://www.linkedin.com/in/laurent-fauqueux-16235357/";
           $staff->link_4 = null;
-          $staff->image = "laurent.jpg";
+          $staff->image = "laurent.webp";
           $staff->position = $staffs->count() + 1;
           $staff->save();
 
@@ -64,7 +64,7 @@ class StaffSeeder extends Seeder
           $staff->link_2 = null;
           $staff->link_3 = "https://www.linkedin.com/in/r%C3%A9gis-poletto-54b98478/";
           $staff->link_4 = null;
-          $staff->image = "regis.jpg";
+          $staff->image = "regis.webp";
           $staff->position = $staffs->count() + 1;
           $staff->save();
 

@@ -11,7 +11,7 @@
                         <article class="entry" itemscope>
                             <div class="entry__header hover-shrink">
                                 <a class="entry__img-url hover-shrink--shrink">
-                                    <img src="{{ asset('img/ecoute.jpg') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="ecoute">
+                                    <img src="{{ asset('img/ecoute.webp') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="ecoute">
                                 </a>
                             </div>
                             <div class="entry__body">
@@ -35,7 +35,7 @@
                         <article class="entry" itemscope>
                             <div class="entry__header hover-shrink">
                                 <a class="entry__img-url hover-shrink--shrink">
-                                    <img src="{{ asset('img/inspiration.jpg') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="inspiration">
+                                    <img src="{{ asset('img/inspiration.webp') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="inspiration">
                                 </a>
                             </div>
                             <div class="entry__body">
@@ -59,7 +59,7 @@
                         <article class="entry" itemscope>
                             <div class="entry__header hover-shrink">
                                 <a class="entry__img-url hover-shrink--shrink">
-                                    <img src="{{ asset('img/qualite.jpg') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="qualite">
+                                    <img src="{{ asset('img/qualite.webp') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="qualite">
                                 </a>
                             </div>
                             <div class="entry__body">

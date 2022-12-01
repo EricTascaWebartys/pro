@@ -5,7 +5,7 @@
                 <!-- Project Hero -->
         <div class="project__hero bg-overlay bg-overlay--light">
             <figure class="project__hero-img-holder bg-website_2">
-                <img src="{{ asset("img/website_2.jpg") }}" alt="site vitrine" class="d-none">
+                <img src="{{ asset("img/website_2.webp") }}" alt="site vitrine" class="d-none">
             </figure>
             <div class="container">
                 <div class="project__hero-info">
@@ -41,7 +41,7 @@
 
                         <div class="testimonial testimonial-1">
                             <figure class="testimonial-1__img-holder">
-                                <img src="{{  asset('img/website_22.jpg') }}" class="testimonial__img testimonial-1__img" alt="site vitrine">
+                                <img src="{{  asset('img/website_22.webp') }}" class="testimonial__img testimonial-1__img" alt="site vitrine">
                             </figure>
                             <div class="testimonial__body testimonial-1__body">
                                 <p class="testimonial__text testimonial-1__text">“A website coded from A to Z benefits from better SEO”</p>

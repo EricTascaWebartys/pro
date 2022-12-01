@@ -23,7 +23,7 @@ class Demo extends Model
 
     public function image_url(){
         if($this->image === null) {
-            return asset('img/default/demo.jpg');
+            return asset('img/default/demo.webp');
         }
         return asset("". $this->image_path() . $this->image ."");
     }

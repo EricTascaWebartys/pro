@@ -33,7 +33,7 @@ class Staff extends Model
 
     public function image_url(){
         if($this->image === null) {
-            return asset('img/default/team.jpg');
+            return asset('img/default/team.webp');
         }
         return asset("". $this->image_path() . $this->image ."");
     }

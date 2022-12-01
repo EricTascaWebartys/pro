@@ -304,7 +304,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 5;"><img src="{{ asset('img/bg-contact.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 5;"><img src="{{ asset('img/bg-contact.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         {{-- <!-- IMAGE 2 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -324,7 +324,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 6;"><img src="{{ asset('img/effect/hero_6_2.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 6;"><img src="{{ asset('img/effect/hero_6_2.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- IMAGE 3 -->
                         <div class="tp-caption tp-resizeme rs-parallaxlevel-3"
@@ -344,7 +344,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 7;"><img src="{{ asset('img/effect/hero_6_3.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 7;"><img src="{{ asset('img/effect/hero_6_3.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- IMAGE 4 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -364,7 +364,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 8;"><img src="{{ asset('img/effect/hero_6_4.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 8;"><img src="{{ asset('img/effect/hero_6_4.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- IMAGE 5 -->
                         <div class="tp-caption  tp-resizeme rs-parallaxlevel-3"
@@ -384,7 +384,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 9;"><img src="{{ asset('img/effect/hero_6_5.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 9;"><img src="{{ asset('img/effect/hero_6_5.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- IMAGE 6 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -404,7 +404,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 10;"><img src="{{ asset('img/effect/hero_6_6.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 10;"><img src="{{ asset('img/effect/hero_6_6.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- IMAGE 7 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -424,7 +424,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 11;"><img src="{{ asset('img/effect/hero_6_7.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 11;"><img src="{{ asset('img/effect/hero_6_7.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- IMAGE 8 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -444,7 +444,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 12;"><img src="{{ asset('img/effect/hero_6_8.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 12;"><img src="{{ asset('img/effect/hero_6_8.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- IMAGE 9 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -464,7 +464,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 13;"><img src="{{ asset('img/effect/hero_6_9.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 13;"><img src="{{ asset('img/effect/hero_6_9.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- IMAGE 10 -->
                         <div class="tp-caption   tp-resizeme rs-parallaxlevel-3"
@@ -484,7 +484,7 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
                             data-lasttriggerstate="keep"
-                            style="z-index: 14;"><img src="{{ asset('img/effect/hero_6_10.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div> --}}
+                            style="z-index: 14;"><img src="{{ asset('img/effect/hero_6_10.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div> --}}
 
                         <!-- LAYER NR. 33 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"

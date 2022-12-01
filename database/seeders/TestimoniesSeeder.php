@@ -23,7 +23,7 @@ class TestimoniesSeeder extends Seeder
         $testimony_1->lastname ="dumas";
         $testimony_1->type = null;
         $testimony_1->text= "Très soucieux de la satisfaction des clients. Travailler avec des personnes aussi compétentes que passionnées est un réel plaisir. Je recommande !";
-        $testimony_1->image = "romain.jpg";
+        $testimony_1->image = "romain.webp";
         $testimony_1->job = "entrepreneur";
         $testimony_1->position = 1;
         $testimony_1->token = uniqid('', 60);
@@ -35,7 +35,7 @@ class TestimoniesSeeder extends Seeder
         $testimony_2->lastname ="boulloud";
         $testimony_2->type = null;
         $testimony_2->text= "J'ai apprécié de travailler de façon bienveillante et agréable. De plus, chacune de mes demandes ont trouvé une solution. Même mes idées les plus complexes.";
-        $testimony_2->image = "laetitia.jpg";
+        $testimony_2->image = "laetitia.webp";
         $testimony_2->job = "architecte / gérante";
         $testimony_2->position = 2;
         $testimony_2->token = uniqid('', 60);

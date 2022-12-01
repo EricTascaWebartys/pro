@@ -43,7 +43,7 @@
                                         <p>Installing your own <strong>Web Application</strong> without going through a <span class="color-7">Store</span> makes it easier to access. The Progressive Web App is the <span class="color-7">all-in-one</span> solution that will allow you to have your own real application while reducing the costs for future updates.</p>
 
                                         <figure class="wp-block-image">
-                                            <img src="{{ asset('img/devices.jpg') }}" alt="web artys devices">
+                                            <img src="{{ asset('img/devices.webp') }}" alt="web artys devices">
                                             <figcaption>Progressive Web App</figcaption>
                                         </figure>
 

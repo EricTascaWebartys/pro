@@ -21,7 +21,7 @@
                         <article class="entry" itemscope>
                             <div class="entry__header hover-shrink">
                                 <a href="{{ route('description_1', ['return' => $return]) }}" class="entry__img-url hover-shrink--shrink">
-                                    <img src="{{ asset('img/comp-code.jpg') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="web artys conception">
+                                    <img src="{{ asset('img/comp-code.webp') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="web artys conception">
                                 </a>
                             </div>
                             <div class="entry__body">
@@ -45,7 +45,7 @@
                         <article class="entry" itemscope>
                             <div class="entry__header hover-shrink">
                                 <a href="{{ route('description_2', ['return' => $return]) }}" class="entry__img-url hover-shrink--shrink">
-                                    <img src="{{ asset('img/comp-art.jpg') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="web artys art">
+                                    <img src="{{ asset('img/comp-art.webp') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="web artys art">
                                 </a>
                             </div>
                             <div class="entry__body">
@@ -69,7 +69,7 @@
                         <article class="entry" itemscope>
                             <div class="entry__header hover-shrink">
                                 <a href="{{ route('description_3', ['return' => $return]) }}" class="entry__img-url hover-shrink--shrink">
-                                    <img src="{{ asset('img/comp-pwa.jpg') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="web artys pwa">
+                                    <img src="{{ asset('img/comp-pwa.webp') }}" class="entry__img hover-shrink--zoom" itemprop="image" alt="web artys pwa">
                                 </a>
                             </div>
                             <div class="entry__body">

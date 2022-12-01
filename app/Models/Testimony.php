@@ -37,7 +37,7 @@ class Testimony extends Model
     public function image_url(){
         if($this->image === null) {
             if(self::user()->first()->image === null) {
-                return asset('img/default/user-testimony.jpg');
+                return asset('img/default/user-testimony.webp');
             }
             return self::user()->first()->image_url();
         }

@@ -26,7 +26,7 @@
 						{{-- <article class="grid-item project hover-shrink featured branding product">
 							<a href="{{ route('homepage') }}#blog" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/08.jpg') }}" class="project__img hover-shrink--zoom" alt="project 1">
+									<img src="{{ asset('img/products/08.webp') }}" class="project__img hover-shrink--zoom" alt="project 1">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -39,7 +39,7 @@
 						<article class="grid-item project hover-shrink featured">
 							<a href="{{ route('description_1') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/07.jpg') }}" class="project__img hover-shrink--zoom" alt="project 1">
+									<img src="{{ asset('img/products/07.webp') }}" class="project__img hover-shrink--zoom" alt="project 1">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -56,7 +56,7 @@
 						<article class="grid-item project hover-shrink featured">
 							<a href="{{ route('fluidity') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/11.jpg') }}" class="project__img hover-shrink--zoom" alt="project 2">
+									<img src="{{ asset('img/products/11.webp') }}" class="project__img hover-shrink--zoom" alt="project 2">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -73,7 +73,7 @@
 						<article class="grid-item project hover-shrink featured">
 							<a href="{{ route('seo') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/09.jpg') }}" class="project__img hover-shrink--zoom" alt="project 2">
+									<img src="{{ asset('img/products/09.webp') }}" class="project__img hover-shrink--zoom" alt="project 2">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -90,7 +90,7 @@
 						<article class="grid-item project hover-shrink product">
 							<a href="{{ route('description_2') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/05.jpg') }}" class="project__img hover-shrink--zoom" alt="project 3">
+									<img src="{{ asset('img/products/05.webp') }}" class="project__img hover-shrink--zoom" alt="project 3">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -107,7 +107,7 @@
 						<article class="grid-item project hover-shrink product">
 							<a href="{{ route('responsive') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/06.jpg') }}" class="project__img hover-shrink--zoom" alt="project 3">
+									<img src="{{ asset('img/products/06.webp') }}" class="project__img hover-shrink--zoom" alt="project 3">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -124,7 +124,7 @@
 						<article class="grid-item project hover-shrink product">
 							<a href="{{ route('visual.identity') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/10.jpg') }}" class="project__img hover-shrink--zoom" alt="project 3">
+									<img src="{{ asset('img/products/10.webp') }}" class="project__img hover-shrink--zoom" alt="project 3">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -141,7 +141,7 @@
 						<article class="grid-item project hover-shrink branding">
 							<a href="{{ route('description_3') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/03.jpg') }}" class="project__img hover-shrink--zoom" alt="project 4">
+									<img src="{{ asset('img/products/03.webp') }}" class="project__img hover-shrink--zoom" alt="project 4">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -158,7 +158,7 @@
 						<article class="grid-item project hover-shrink branding">
 							<a href="{{ route('pwa.office') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/02.jpg') }}" class="project__img hover-shrink--zoom" alt="project 5">
+									<img src="{{ asset('img/products/02.webp') }}" class="project__img hover-shrink--zoom" alt="project 5">
 								</figure>
 							</a>
 							<div class="project__description-wrap">
@@ -175,7 +175,7 @@
 						<article class="grid-item project hover-shrink branding">
 							<a href="{{ route('pwa') }}" class="project__url">
 								<figure class="project__img-holder hover-shrink--shrink">
-									<img src="{{ asset('img/products/04.jpg') }}" class="project__img hover-shrink--zoom" alt="project 6">
+									<img src="{{ asset('img/products/04.webp') }}" class="project__img hover-shrink--zoom" alt="project 6">
 								</figure>
 							</a>
 							<div class="project__description-wrap">

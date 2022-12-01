@@ -55,13 +55,13 @@ body{
     color:black;
 }
 .bg-product-1 {
-    background-image: url('../../img/product_11.jpg');
+    background-image: url('../../img/product_11.webp');
 }
 /* .bg-product-2 {
-    background-image: url('../../img/product_22.jpg');
+    background-image: url('../../img/product_22.webp');
 }
 .bg-product-3 {
-    background-image: url('../../img/product_33.jpg');
+    background-image: url('../../img/product_33.webp');
 } */
 .figure-product {
     background-color: rgba(0,0,0,0);
@@ -201,7 +201,7 @@ body{
 }
 
 /* .logo-intro .bg-logo {
-    background-image: url("../../img/logo.png");
+    background-image: url("../../img/logo.webp");
     background-repeat: no-repeat;
     background-size: contain;
     width: 32rem;
@@ -240,7 +240,7 @@ body{
     margin-top: -247px;
 } */
 .bg-pattern, .bg-pattern.angle:before {
-    /* background: url("../../img/texture.png"); */
+    /* background: url("../../img/texture.webp"); */
     background: none;
     /* background-color: #443e44; */
     /* background-color: #333; */
@@ -278,19 +278,19 @@ body{
 }
 
 .bg-pwa-mini {
-    background-image: url('../../img/comp-pwa-mini.jpg');
+    background-image: url('../../img/comp-pwa-mini.webp');
 }
 
 .bg-graphic-mini {
-    background-image: url('../../img/comp-art-mini.jpg');
+    background-image: url('../../img/comp-art-mini.webp');
 }
 
 .bg-code-mini {
-    background-image: url('../../img/comp-code-mini.jpg');
+    background-image: url('../../img/comp-code-mini.webp');
 }
 
 .bg-contact{
-    background-image: url('../../img/bg-contact.jpg');
+    background-image: url('../../img/bg-contact.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -395,7 +395,7 @@ body{
         top:-3rem;
     }
     .bg-logo-intro {
-        background-image: url("../../img/logo.png");
+        background-image: url("../../img/logo.webp");
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
@@ -425,7 +425,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         top:-9rem;
     }
     .bg-logo-intro {
-        background-image: url("../../img/logo.png");
+        background-image: url("../../img/logo.webp");
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
@@ -490,7 +490,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .bg-results {
-        background-image: url('../../img/results-mini.jpg');
+        background-image: url('../../img/results-mini.webp');
         background-size: cover;
     }
     #A {
@@ -543,7 +543,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         top:-15rem;
     }
     .bg-logo-intro {
-        background-image: url("../../img/logo.png");
+        background-image: url("../../img/logo.webp");
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
@@ -575,7 +575,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         top:-5rem;
     }
     .bg-logo-intro {
-        background-image: url("../../img/logo.png");
+        background-image: url("../../img/logo.webp");
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
@@ -631,7 +631,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         top:-7rem;
     }
     .bg-logo-intro {
-        background-image: url("../../img/logo.png");
+        background-image: url("../../img/logo.webp");
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
@@ -663,7 +663,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         top:-2rem;
     }
     .bg-logo-intro {
-        background-image: url("../../img/logo.png");
+        background-image: url("../../img/logo.webp");
         display: inline-block;
         background-size: cover;
         background-repeat: no-repeat;
@@ -713,7 +713,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
             top:-2rem;
         }
         .bg-logo-intro {
-            background-image: url("../../img/logo.png");
+            background-image: url("../../img/logo.webp");
             display: inline-block;
             background-size: cover;
             background-repeat: no-repeat;
@@ -762,7 +762,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
             top:-1rem;
         }
         .bg-logo-intro {
-            background-image: url("../../img/logo.png");
+            background-image: url("../../img/logo.webp");
             display: inline-block;
             background-size: cover;
             background-repeat: no-repeat;
@@ -804,7 +804,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
             top:-1rem;
         }
         .bg-logo-intro {
-            background-image: url("../../img/logo.png");
+            background-image: url("../../img/logo.webp");
             display: inline-block;
             background-size: cover;
             background-repeat: no-repeat;

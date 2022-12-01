@@ -45,7 +45,7 @@
                                         permet d'y accéder plus facilement. Le <strong>Progressive Web App</strong> est la solution <span class="color-7">tout en un</span> qui vous permettra d'avoir votre véritable application en réduissant les coûts pour les futures mises à jour.</p>
 
                                         <figure class="wp-block-image">
-                                            <img src="{{ asset('img/devices.jpg') }}" alt="web artys devices">
+                                            <img src="{{ asset('img/devices.webp') }}" alt="web artys devices">
                                             <figcaption>Progressive Web App</figcaption>
                                         </figure>
 

@@ -6,8 +6,8 @@
 
 		<!-- Project Hero -->
 		<div class="project__hero bg-overlay bg-overlay--light">
-			<figure class="project__hero-img-holder" style="background-image: url({{ asset('img/responsive.jpg') }});">
-				<img src="{{ asset('img/responsive.jpg') }}" alt="responsive design" class="d-none">
+			<figure class="project__hero-img-holder" style="background-image: url({{ asset('img/responsive.webp') }});">
+				<img src="{{ asset('img/responsive.webp') }}" alt="responsive design" class="d-none">
 			</figure>
 			<div class="container">
 				<div class="project__hero-info">

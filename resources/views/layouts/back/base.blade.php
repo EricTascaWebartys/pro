@@ -12,11 +12,11 @@
         <meta name="googlebot" content="noindex">
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
+        <link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
 
-        <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
-        <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/apple-touch-icon-72x72.png') }}">
-        <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('img/apple-touch-icon-114x114.png') }}">
+        <link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.webp') }}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/apple-touch-icon-72x72.webp') }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('img/apple-touch-icon-114x114.webp') }}">
 
         <!--Morris Chart CSS -->
         <link rel="stylesheet" href="{{ asset('assets/back/plugins/morris/morris.css')}}">
@@ -46,10 +46,10 @@
             <div class="topbar-left">
                 <a href="{{ route('dashboard') }}" class="logo">
                     {{-- <span>
-                        <img src="{{ asset('img/logo-web-artys-mini.png') }}" alt="logo web artys" class="logo-sm">
+                        <img src="{{ asset('img/logo-web-artys-mini.webp') }}" alt="logo web artys" class="logo-sm">
                     </span> --}}
                     <span>
-                        <img src="{{asset('img/logo-web-artys-web-white.png')}}" alt="logo web artys" class="logo-lg">
+                        <img src="{{asset('img/logo-web-artys-web-white.webp')}}" alt="logo web artys" class="logo-lg">
                     </span>
                 </a>
             </div>
@@ -77,14 +77,14 @@
                     {{-- <li class="hidden-sm">
                         <a class="nav-link dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="javascript: void(0);" role="button"
                             aria-haspopup="false" aria-expanded="false">
-                            English <img src="{{ asset('assets/back/images/flags/us_flag.jpg') }}" class="ml-2" height="16" alt=""/> <i class="mdi mdi-chevron-down"></i>
+                            English <img src="{{ asset('assets/back/images/flags/us_flag.webp') }}" class="ml-2" height="16" alt=""/> <i class="mdi mdi-chevron-down"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="javascript: void(0);"><span> German </span><img src="assets/images/flags/germany_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
-                            <a class="dropdown-item" href="javascript: void(0);"><span> Italian </span><img src="assets/images/flags/italy_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
-                            <a class="dropdown-item" href="javascript: void(0);"><span> French </span><img src="assets/images/flags/french_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
-                            <a class="dropdown-item" href="javascript: void(0);"><span> Spanish </span><img src="assets/images/flags/spain_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
-                            <a class="dropdown-item" href="javascript: void(0);"><span> Russian </span><img src="assets/images/flags/russia_flag.jpg" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> German </span><img src="assets/images/flags/germany_flag.webp" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> Italian </span><img src="assets/images/flags/italy_flag.webp" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> French </span><img src="assets/images/flags/french_flag.webp" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> Spanish </span><img src="assets/images/flags/spain_flag.webp" alt="" class="ml-2 float-right" height="14"/></a>
+                            <a class="dropdown-item" href="javascript: void(0);"><span> Russian </span><img src="assets/images/flags/russia_flag.webp" alt="" class="ml-2 float-right" height="14"/></a>
                         </div>
                     </li> --}}
 

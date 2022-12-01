@@ -30,7 +30,7 @@
                     <div class="card profile">
                         <div class="card-body">
                             <div class="text-center">
-                                <img src="{{ asset('img/default/erict.jpg') }}" alt="eric tasca" class="rounded-circle img-thumbnail thumb-xl">
+                                <img src="{{ asset('img/default/erict.webp') }}" alt="eric tasca" class="rounded-circle img-thumbnail thumb-xl">
                                 <div class="online-circle">
                                     <i class="fa fa-circle text-success"></i>
                                 </div>

@@ -15,10 +15,10 @@
     	<link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'>
     	<link rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	<link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" />
-    	<link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
-    	<link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.png') }}">
-    	<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/apple-touch-icon-72x72.png') }}">
-        <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('img/apple-touch-icon-114x114.png') }}">
+    	<link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
+    	<link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.webp') }}">
+    	<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/apple-touch-icon-72x72.webp') }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('img/apple-touch-icon-114x114.webp') }}">
     	<link rel="stylesheet" href="{{ asset('libs/fontawesome/css/fontawesome.min.css') }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
         <link rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
@@ -42,7 +42,7 @@
     					<div class="nav__header clearfix">
     						<div class="logo-wrap local-scroll">
     							<a href="{{ route('homepage') }}" class="logo__url">
-    								<img class="logo" src="{{ asset('/img/logo-mini.png') }}" alt="logo web artys" itemscope>
+    								<img class="logo" src="{{ asset('/img/logo-mini.webp') }}" alt="logo web artys" itemscope>
     							</a>
     						</div>
     						<button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -83,11 +83,11 @@
                                 <li>
                                     @if(app()->getLocale() == "en")
                                         <a class="nav-link" href="{{ route('lang',['locale' => "fr"]) }}">
-                                            <img src="{{ asset('img/flag/fr.png') }}" alt="Fr" width="30px" height="20px">
+                                            <img src="{{ asset('img/flag/fr.webp') }}" alt="Fr" width="30px" height="20px">
                                         </a>
                                     @else
                                         <a class="nav-link" href="{{ route('lang',['locale' => "en"]) }}">
-                                            <img src="{{ asset('img/flag/en.png') }}" alt="Fr" width="30px" height="20px">
+                                            <img src="{{ asset('img/flag/en.webp') }}" alt="Fr" width="30px" height="20px">
                                         </a>
                                     @endif
                                 </li>
@@ -192,7 +192,7 @@
             window.tarteaucitronForceLanguage = currentLanguage;
         </script>
         <script type="text/javascript">
-            let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.png') }}" alt="cookies" />';
+            let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.webp') }}" alt="cookies" />';
         </script>
         <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
         <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>

@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div style="background-image:url('img/bg-space.jpg');background-size:cover;background-repeat:no-repeat">
+    <div style="background-image:url('img/bg-space.webp');background-size:cover;background-repeat:no-repeat">
         <div class="col-md-6 col-12 mx-auto border border-dark" style="width:100%; height:100%; background-color:rgba(0, 0, 0, 0.8)">
             <p class="text-center text-light pt-4" style="font-size:24px">TOP 5 PLAYERS</p>
             <?php foreach ($datas as $key => $data) { ?>

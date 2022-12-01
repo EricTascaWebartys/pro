@@ -25,7 +25,7 @@
                                         <div class="blocks-gallery-item col-md-4 col-12">
                                             <a href="{{ route('website_1', ['return' => "1"]) }}">
                                                 <figure class="figure-product">
-                                                    <img src="{{ asset('img/product_1.jpg') }}" alt="site vitrine" width="100%" loading="lazy">
+                                                    <img src="{{ asset('img/product_1.webp') }}" alt="site vitrine" width="100%" loading="lazy">
                                                     <figcaption style="position:relative; bottom:35px; color:#fff;margin:0 auto">Site Vitrine</figcaption>
                                                 </figure>
                                             </a>
@@ -33,7 +33,7 @@
                                         <div class="blocks-gallery-item col-md-4 col-12">
                                             <a href="{{ route('website_2', ['return' => "2"]) }}">
                                                 <figure class="figure-product">
-                                                    <img src="{{ asset('img/product_2.jpg') }}" alt="site dynamique" width="100%" loading="lazy">
+                                                    <img src="{{ asset('img/product_2.webp') }}" alt="site dynamique" width="100%" loading="lazy">
                                                     <figcaption style="position:relative; bottom:35px; color:#fff;margin:0 auto" >Site Dynamique</figcaption>
                                                 </figure>
                                             </a>
@@ -41,7 +41,7 @@
                                         <div class="blocks-gallery-item col-md-4 col-12">
                                             <a href="{{ route('website_3', ['return' => "3"]) }}">
                                                 <figure class="figure-product">
-                                                    <img src="{{ asset('img/product_3.jpg') }}" alt="site ecommerce" width="100%" loading="lazy">
+                                                    <img src="{{ asset('img/product_3.webp') }}" alt="site ecommerce" width="100%" loading="lazy">
                                                     <figcaption style="position:relative; bottom:35px; color:#fff;margin:0 auto">E-Commerce</figcaption>
                                                 </figure>
                                             </a>

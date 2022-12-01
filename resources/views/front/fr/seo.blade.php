@@ -10,7 +10,7 @@
 					<figure class="about__img-holder">
 						<div class="animate">
 							<div class="animate-container">
-								<img src="{{ asset('img/about/seo.jpg') }}" alt="responsive design">
+								<img src="{{ asset('img/about/seo.webp') }}" alt="responsive design">
 								{{-- <a href="https://www.youtube.com/watch?v=P5mbnM4UAvw" class="play-btn icon-wave single-video-lightbox mfp-iframe" data-effect="mfp-zoom-in">
 								</a> --}}
 							</div>

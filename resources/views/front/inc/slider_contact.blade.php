@@ -304,7 +304,7 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]"
-                            style="z-index: 5;"><img src="{{ asset('img/bg-slider.jpg') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
+                            style="z-index: 5;"><img src="{{ asset('img/bg-slider.webp') }}" alt="" data-ww="['103%','103%','103%','103%']" data-hh="" width="1920" height="300" data-no-retina> </div>
 
                         <!-- LAYER NR. 33 -->
                         <div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme"
