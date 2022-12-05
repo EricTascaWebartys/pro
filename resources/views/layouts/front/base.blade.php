@@ -167,7 +167,6 @@
          </main>
          <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
 
-         <script async src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
 
          @include('libs.settings.settings')
 
@@ -176,7 +175,25 @@
              let Url_contact = "contact.php";
          </script>
         @yield('settings_options')
-        <script type="text/javascript">
+
+        {{-- <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script> --}}
+
+        {{-- @include('libs.tarteaucitron.script') --}}
+
+        <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
+        <script defer src="{{ asset('libs/settings/js/script.js') }}"></script>
+     	<script defer type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
+     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+        <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
+        <script defer type="text/javascript">
             $(document).click(function(event) {
                 if(!$(event.target).closest('.navbar').length){
                     $('.navbar-collapse').collapse('hide');
@@ -186,7 +203,6 @@
                     $('.navbar-collapse').collapse('hide');
             }, true);
         </script>
-        {{-- <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script> --}}
         <script type="text/javascript">
             var currentLanguage = "{{ app()->getLocale() }}";
             window.tarteaucitronForceLanguage = currentLanguage;
@@ -215,20 +231,5 @@
             </script>
             @yield('recaptcha')
         @endif
-        {{-- @include('libs.tarteaucitron.script') --}}
-        <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
-        <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
-        <script defer src="{{ asset('libs/settings/js/script.js') }}"></script>
-     	<script defer type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.video.min.js') }}"></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.carousel.min.js') }}"></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.slideanims.min.js') }}"></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.actions.min.js') }}"></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.layeranimation.min.js') }}"></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.kenburn.min.js') }}"></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
-     	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
-
     </body>
 </html>
