@@ -2,12 +2,10 @@
     font-family: 'Azonix';
     src: url("../../libs/fonts/azonix/Azonix.otf") format("opentype");
 }
-
 @font-face {
     font-family: 'Roboto';
     src: url("https://fonts.googleapis.com/css?family=Roboto:100") format("opentype");
 }
-
 body{
     font-family: 'Roboto';
     font-style: normal;
