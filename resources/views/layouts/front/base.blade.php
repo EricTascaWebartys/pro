@@ -186,7 +186,7 @@
                     $('.navbar-collapse').collapse('hide');
             }, true);
         </script>
-        <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
+        {{-- <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script> --}}
         <script type="text/javascript">
             var currentLanguage = "{{ app()->getLocale() }}";
             window.tarteaucitronForceLanguage = currentLanguage;
