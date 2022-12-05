@@ -194,14 +194,14 @@
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
         <script type="text/javascript">
-            // $(document).click(function(event) {
-            //     if(!$(event.target).closest('.navbar').length){
-            //         $('.navbar-collapse').collapse('hide');
-            //         }
-            //     });
-            //     document.addEventListener('scroll', function (event) {
-            //         $('.navbar-collapse').collapse('hide');
-            // }, true);
+            $(document).click(function(event) {
+                if(!$(event.target).closest('.navbar').length){
+                    $('.navbar-collapse').collapse('hide');
+                    }
+                });
+                document.addEventListener('scroll', function (event) {
+                    $('.navbar-collapse').collapse('hide');
+            }, true);
         </script>
         <script type="text/javascript">
             var currentLanguage = "{{ app()->getLocale() }}";
