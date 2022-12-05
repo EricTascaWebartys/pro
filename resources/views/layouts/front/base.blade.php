@@ -13,7 +13,7 @@
              <meta name="googlebot" content="noindex">
          @endisset
     	{{-- <link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'> --}}
-    	<link rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
+    	<link rel="stylesheet" href="{{ asset('assets/front/css/style.css') }}" />
     	{{-- <link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" /> --}}
     	<link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
     	<link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.webp') }}">
@@ -193,7 +193,7 @@
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
-        <script defer type="text/javascript">
+        <script type="text/javascript">
             $(document).click(function(event) {
                 if(!$(event.target).closest('.navbar').length){
                     $('.navbar-collapse').collapse('hide');
@@ -215,7 +215,7 @@
         @if(Config::get('app.env') == "production")
             <!-- Google tag (gtag.js) -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
-            <script async>
+            <script >
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
@@ -223,7 +223,7 @@
               gtag('config', 'GT-P35NMVR');
             </script>
 
-            <script defer type="text/javascript">
+            <script type="text/javascript">
                 tarteaucitron.user.gtagUa = 'GT-P35NMVR';
                 // tarteaucitron.user.gtagCrossdomain = ['example.com', 'example2.com'];
                 tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
