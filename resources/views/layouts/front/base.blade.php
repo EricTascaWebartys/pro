@@ -194,14 +194,14 @@
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
         <script type="text/javascript">
-            $(document).click(function(event) {
-                if(!$(event.target).closest('.navbar').length){
-                    $('.navbar-collapse').collapse('hide');
-                    }
-                });
-                document.addEventListener('scroll', function (event) {
-                    $('.navbar-collapse').collapse('hide');
-            }, true);
+            // $(document).click(function(event) {
+            //     if(!$(event.target).closest('.navbar').length){
+            //         $('.navbar-collapse').collapse('hide');
+            //         }
+            //     });
+            //     document.addEventListener('scroll', function (event) {
+            //         $('.navbar-collapse').collapse('hide');
+            // }, true);
         </script>
         <script type="text/javascript">
             var currentLanguage = "{{ app()->getLocale() }}";
@@ -212,22 +212,20 @@
         </script>
         <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
         <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
-        @if(Config::get('app.env') == "production")
+        @if(Config::get('app.env') === "production")
             <!-- Google tag (gtag.js) -->
-            <script src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
             <script >
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
 
-              gtag('config', 'GT-P35NMVR');
-            </script>
+                  gtag('config', 'GT-P35NMVR');
 
-            <script type="text/javascript">
-                tarteaucitron.user.gtagUa = 'GT-P35NMVR';
-                // tarteaucitron.user.gtagCrossdomain = ['example.com', 'example2.com'];
-                tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
-                (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
+                  tarteaucitron.user.gtagUa = 'GT-P35NMVR';
+                  // tarteaucitron.user.gtagCrossdomain = ['example.com', 'example2.com'];
+                  tarteaucitron.user.gtagMore = function () { /* add here your optionnal gtag() */ };
+                  (tarteaucitron.job = tarteaucitron.job || []).push('gtag');
             </script>
             @yield('recaptcha')
         @endif
