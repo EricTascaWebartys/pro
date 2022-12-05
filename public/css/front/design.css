@@ -4,17 +4,13 @@
 }
 
 @font-face {
-    font-family: 'Myriad Web Pro';
-    src: url("../../libs/fonts/Myriad-Web-Pro/Myriad-Web-Pro-Regular.ttf") format("opentype");
-}
-
-@font-face {
-    font-family: 'Lemon Milk';
-    src: url("../../libs/fonts/lemon-milk/LEMONMILK-Light.otf") format("opentype");
+    font-family: 'Roboto';
+    src: url("https://fonts.googleapis.com/css?family=Roboto:100") format("opentype");
 }
 
 body{
-    font-family: "Myriad Web Pro";
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 .logo-homepage {
