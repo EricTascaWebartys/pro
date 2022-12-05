@@ -214,7 +214,7 @@
         <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>
         @if(Config::get('app.env') == "production")
             <!-- Google tag (gtag.js) -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
+            <script src="https://www.googletagmanager.com/gtag/js?id=GT-P35NMVR"></script>
             <script >
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
