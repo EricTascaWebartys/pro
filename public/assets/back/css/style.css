@@ -942,7 +942,7 @@ input.search-input:-ms-input-placeholder {
 
 .message-list .checkbox-wrapper-mail label:before {
   content: "\F12C";
-  font-family: "Material Design Icons";
+  /* font-family: "Material Design Icons"; */
   top: 0;
   height: 20px;
   color: #272e37;
@@ -1118,7 +1118,7 @@ dt {
       ====== */
 .btn {
   border-radius: 3px;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   font-size: 13px;
   line-height: 24px;
 }
@@ -2234,7 +2234,7 @@ a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-prima
   padding: 0 5px;
   color: #adb5bd !important;
   content: "\f105" !important;
-  font-family: 'Font Awesome 5 Free' !important;
+  /* font-family: 'Font Awesome 5 Free' !important; */
   font-weight: 600;
 }
 
@@ -2397,7 +2397,7 @@ code {
 
 #accordionExample .card-header h5 button::before {
   content: "\f068";
-  font-family: 'Font Awesome 5 Free' !important;
+  /* font-family: 'Font Awesome 5 Free' !important; */
   font-weight: 600;
   position: absolute;
   top: 10px;
@@ -2419,7 +2419,7 @@ code {
 
 #accordionExample2 .card-header h5 button::before {
   content: '\f106';
-  font-family: 'Font Awesome 5 Free' !important;
+  /* font-family: 'Font Awesome 5 Free' !important; */
   font-weight: 600;
   position: absolute;
   top: 10px;
@@ -3008,7 +3008,7 @@ input[switch] + label {
   display: inline-block;
   text-align: center;
   position: relative;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   font-weight: 500;
   -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
@@ -3355,7 +3355,7 @@ input[switch="purple"]:checked + label {
 
 /* Morris chart */
 .morris-chart text {
-  font-family: "Rubik", sans-serif !important;
+  /* font-family: "Rubik", sans-serif !important; */
 }
 
 .morris-hover.morris-default-style {
@@ -3363,7 +3363,7 @@ input[switch="purple"]:checked + label {
   padding: 10px 12px;
   background: #ffffff;
   border: none;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
   -webkit-box-shadow: 0 5px 25px 5px rgba(49, 58, 70, 0.14);
           box-shadow: 0 5px 25px 5px rgba(49, 58, 70, 0.14);
 }
@@ -3672,7 +3672,7 @@ input[switch="purple"]:checked + label {
 
 #accordionExample-faq .card .card-header h5 button::before {
   content: "\f106";
-  font-family: 'Font Awesome 5 Free' !important;
+  /* font-family: 'Font Awesome 5 Free' !important; */
   font-weight: 600;
   position: absolute;
   top: 14px;
