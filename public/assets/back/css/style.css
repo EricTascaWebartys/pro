@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
   font-size: 14px;
   background-color: #f2f5f7;
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
