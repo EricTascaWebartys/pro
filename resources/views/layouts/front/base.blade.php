@@ -12,6 +12,7 @@
              <meta name="robots" content="noindex" />
              <meta name="googlebot" content="noindex">
          @endisset
+    	{{-- <link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'> --}}
     	<link defer rel="stylesheet" href="{{ asset('assets/front/css/style.css') }}" />
     	{{-- <link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" /> --}}
     	<link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
