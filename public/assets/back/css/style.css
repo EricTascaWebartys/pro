@@ -1,66 +1,4 @@
-/*
-Template Name: Amezia - Responsive Bootstrap 4 Admin Dashboard
-Author: Themesbrand
-File: Main Css File
-*/
-/*
-1. Google Font
-2. General
-3. Utilities
-4. Topbar
-5. Left-sidenav
-6. Footer
-7. Waves
-8. Email
-9. Form
-10. Summernote
-11. Buttons
-12. Alerts
-13. Card
-14. Dropdown
-15. Progress
-16. Background-color
-17. Bboeder-color
-18. Text-color
-19. Badge-color
-20. Breadcrumb
-21. Pagination
-22. Tabs
-23. Tooltip
-24. Popover
-25. List
-26. Table
-27. Rangeslider
-28. Blockquote
-29. Calendar
-30. Sweet-alert
-31. Nestable
-32. Session-timeout
-33. Form-advance
-34. Form-validation
-35. Form-wizard
-36. Form-editor
-37. Form-upload
-38. Chart
-39. demo-only
-40. Tour
-41. Treeview
-42. Pricing
-43. FAQ
-44. Timeline
-45. Print
-46. Profile
-47. Account-pages
-48. Widgets
-49. Dashboard
-*/
-/* ======
-1. Google Font
-   ====== */
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
-/* ======
-   2. General
-      ====== */
+
 html {
   position: relative;
   min-height: 100%;
@@ -688,10 +626,10 @@ input.search-input:-ms-input-placeholder {
       ====== */
 /*!
  * Waves v0.7.6
- * http://fian.my.id/Waves 
- * 
- * Copyright 2014-2018 Alfiana E. Sibuea and other contributors 
- * Released under the MIT license 
+ * http://fian.my.id/Waves
+ *
+ * Copyright 2014-2018 Alfiana E. Sibuea and other contributors
+ * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE */
 .waves-effect {
   position: relative;
