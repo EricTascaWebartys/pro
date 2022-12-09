@@ -166,16 +166,11 @@
              </div>
          </main>
          <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-
-
          @include('libs.settings.settings')
-
          <script type="text/javascript">
              let Url_mentions = "{{ route('mentions') }}";
              let Url_contact = "contact.php";
          </script>
-
-
         {{-- <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script> --}}
 
         {{-- @include('libs.tarteaucitron.script') --}}
