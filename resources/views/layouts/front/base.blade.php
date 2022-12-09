@@ -13,6 +13,9 @@
              <meta name="googlebot" content="noindex">
          @endisset
     	{{-- <link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'> --}}
+        libs/fonts/azonix/Azonix.otf
+        <link async rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100" />
+        <link async rel="stylesheet" href="{{ asset('libs/fonts/azonix/Azonix.otf') }}" />
     	<link async rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	{{-- <link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" /> --}}
     	<link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
