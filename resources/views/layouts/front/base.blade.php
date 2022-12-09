@@ -13,7 +13,7 @@
              <meta name="googlebot" content="noindex">
          @endisset
     	{{-- <link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'> --}}
-    	<link async rel="stylesheet" href="{{ asset('assets/front/css/style.css') }}" />
+    	<link async rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	{{-- <link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" /> --}}
     	<link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
     	<link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.webp') }}">
@@ -165,7 +165,7 @@
                  <a href="#top"><i class="ui-arrow-up"></i></a>
              </div>
          </main>
-         <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+         <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
 
          @include('libs.settings.settings')
@@ -174,7 +174,7 @@
              let Url_mentions = "{{ route('mentions') }}";
              let Url_contact = "contact.php";
          </script>
-        @yield('settings_options')
+
 
         {{-- <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script> --}}
 
@@ -193,7 +193,7 @@
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
-        <script type="text/javascript">
+        <script defer type="text/javascript">
             $(document).click(function(event) {
                 if(!$(event.target).closest('.navbar').length){
                     $('.navbar-collapse').collapse('hide');
