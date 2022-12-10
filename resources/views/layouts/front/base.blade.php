@@ -13,9 +13,7 @@
              <meta name="googlebot" content="noindex">
          @endisset
     	{{-- <link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'> --}}
-        libs/fonts/azonix/Azonix.otf
-        <link async rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100" />
-        <link async rel="stylesheet" href="{{ asset('libs/fonts/azonix/Azonix.otf') }}" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     	<link async rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	{{-- <link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" /> --}}
     	<link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
@@ -26,8 +24,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"> --}}
         <link async rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
         <link rel="stylesheet" href="{{ asset("css/front/design.css") }}">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
+        {{-- <link rel="preconnect" href="https://fonts.gstatic.com"> --}}
         {{-- <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Cabin+Condensed&family=NTR&family=Text+Me+One&family=Tomorrow:wght@100;200;300;400&display=swap" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}">
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
