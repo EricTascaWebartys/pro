@@ -23,7 +23,7 @@
     	{{-- <link rel="stylesheet" href="{{ asset('libs/fontawesome/css/fontawesome.min.css') }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"> --}}
         <link async rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
-        <link rel="stylesheet" href="{{ asset("css/front/design.css") }}">
+        <link async rel="stylesheet" href="{{ asset("css/front/design.css") }}">
         {{-- <link rel="preconnect" href="https://fonts.gstatic.com"> --}}
         {{-- <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Cabin+Condensed&family=NTR&family=Text+Me+One&family=Tomorrow:wght@100;200;300;400&display=swap" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}">
@@ -174,6 +174,23 @@
         {{-- <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script> --}}
 
         {{-- @include('libs.tarteaucitron.script') --}}
+        <script>
+        anime.timeline({loop: false})
+  .add({
+    targets: '.ml15 .word',
+    scale: [14,1],
+    opacity: [0,1],
+    easing: "easeOutCirc",
+    duration: 800,
+    delay: (el, i) => 800 * i
+  }).add({
+    targets: '.ml15',
+    opacity: ,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+        </script>
 
         <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
         <script defer src="{{ asset('libs/settings/js/script.js') }}"></script>
@@ -187,6 +204,7 @@
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
+
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
         <script defer type="text/javascript">
             $(document).click(function(event) {
