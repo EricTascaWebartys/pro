@@ -10,7 +10,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="blog-page-title__holder">
-                                <span class="entry__meta-category color-5">
+                                <span class="entry__meta-category text-gold">
                                     <span class="entry__meta-category-url ">Création Graphique</span>
                                 </span>
                                 <h1 class="blog-page-title__title">Construisons ensemble votre identité visuelle</h1>
@@ -58,11 +58,11 @@
                                             <li>Respect de la charte graphique.</li>
                                             <li>
                                                 Identité visuelle.
-                                                <a href="{{ route('visual.identity',['return' => $return]) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i> En savoir plus </a>
+                                                <a href="{{ route('visual.identity',['return' => $return]) }}" class="color-7"><i class="fas fa-long-arrow-alt-right color-7" style="margin: 0 5px"></i> En savoir plus </a>
                                             </li>
                                             <li>
                                                 Responsive Design.
-                                                <a href="{{ route('responsive',['return' => $return]) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i> En savoir plus </a>
+                                                <a href="{{ route('responsive',['return' => $return]) }}" class="color-7"><i class="fas fa-long-arrow-alt-right color-7" style="margin: 0 5px"></i> En savoir plus </a>
                                             </li>
                                         </ul>
                                         <hr class="wp-block-separator is-style-dots">
@@ -73,7 +73,7 @@
                                 </div>
                             </article>
 
-                            @include('front.inc.btn_avantage')
+                            {{-- @include('front.inc.btn_avantage') --}}
 
                         </div> <!-- end blog content -->
 

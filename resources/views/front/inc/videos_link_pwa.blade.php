@@ -22,7 +22,7 @@
                         <h4 class="related-project__title title-underline">
                             <a href="{{ route('pwa',['return' => $return]) }}" itemprop="headline" style="color:#000">Android</a>
                         </h4>
-                        <a href="{{ route('pwa',['return' => $return]) }}" class="related-project__category" style="color:#03b7fb">{{ __('navigation.Watch Video') }}</a>
+                        <a href="{{ route('pwa',['return' => $return]) }}" class="related-project__category" style="color:#a252a3">{{ __('navigation.Watch Video') }}</a>
                     </div>
                 </article>
             </div>
@@ -37,7 +37,7 @@
                         <h4 class="related-project__title title-underline">
                             <a href="{{ route('pwa.ios',['return' => $return]) }}" itemprop="headline" style="color:#000">iPhone & iPad</a>
                         </h4>
-                        <a href="{{ route('pwa.ios',['return' => $return]) }}" class="related-project__category" style="color:#03b7fb">{{ __('navigation.Watch Video') }}</a>
+                        <a href="{{ route('pwa.ios',['return' => $return]) }}" class="related-project__category" style="color:#a252a3">{{ __('navigation.Watch Video') }}</a>
                     </div>
                 </article>
             </div>
@@ -52,7 +52,7 @@
                         <h4 class="related-project__title title-underline">
                             <a href="{{ route('pwa.office',['return' => $return]) }}" itemprop="headline" style="color:#000">PC & Mac</a>
                         </h4>
-                        <a href="{{ route('pwa.office',['return' => $return]) }}" class="related-project__category" style="color:#03b7fb">{{ __('navigation.Watch Video') }}</a>
+                        <a href="{{ route('pwa.office',['return' => $return]) }}" class="related-project__category" style="color:#a252a3">{{ __('navigation.Watch Video') }}</a>
                     </div>
                 </article>
             </div>

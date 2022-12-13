@@ -1,17 +1,17 @@
 <!-- Blog -->
         {{-- <section class="section-blog-single angle angle--top pb-0"> --}}
-        <section class="section-blog-single bg-light">
+        <section class="section-blog-single bg-white">
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <div class="col-lg-8 blog__content mb-0">
+                    <div class="col-lg-10 blog__content mb-0">
                         <article class="entry single-post__entry">
                             <div class="entry__article-wrap" id="blog">
 
                                 @include('front.inc.description_social')
 
                                 <div class="entry__article">
-                                    <p><span class="dropcap">B</span>uilding a customised <strong>website</strong> means ensuring that the <a href="{{ route('description_2') }}"><strong class="no-strong">graphic design</strong></a> is adapted to your business</p>
+                                    <p><span class="dropcap">B</span>uilding a customised <strong>website</strong> means ensuring that the <a href="{{ route('description_2') }}"><strong class="no-strong color-7">graphic design</strong></a> is adapted to your business</p>
 
 
                                     <blockquote style="text-align:center" class="wp-block-quote is-style-default">

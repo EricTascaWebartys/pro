@@ -10,7 +10,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="blog-page-title__holder">
-                                <span class="entry__meta-category color-5">
+                                <span class="entry__meta-category text-gold">
                                     <span class="entry__meta-category-url ">Web Design</span>
                                 </span>
                                 <h1 class="blog-page-title__title">Let's build your visual identity together</h1>
@@ -56,11 +56,11 @@
                                             <li>Respect of the graphic charter.</li>
                                             <li>
                                                 Visual identity.
-                                                <a href="{{ route('visual.identity',['return' => $return]) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i> {{ __('navigation.More') }} </a>
+                                                <a href="{{ route('visual.identity',['return' => $return]) }}" class="color-7"><i class="fas fa-long-arrow-alt-right color-7" style="margin: 0 5px"></i> {{ __('navigation.More') }} </a>
                                             </li>
                                             <li>
                                                 Responsive Design.
-                                                <a href="{{ route('responsive',['return' => $return]) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i> {{ __('navigation.More') }} </a>
+                                                <a href="{{ route('responsive',['return' => $return]) }}" class="color-7"><i class="fas fa-long-arrow-alt-right color-7" style="margin: 0 5px"></i> {{ __('navigation.More') }} </a>
                                             </li>
                                         </ul>
                                         <hr class="wp-block-separator is-style-dots">

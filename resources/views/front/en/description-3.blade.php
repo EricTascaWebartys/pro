@@ -10,7 +10,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="blog-page-title__holder">
-                                <span class="entry__meta-category color-5">
+                                <span class="entry__meta-category text-gold">
                                     <span class="entry__meta-category-url ">Progressive Web App</span>
                                 </span>
                                 <h1 class="blog-page-title__title">Opt for the Progressive Web App</h1>
@@ -66,7 +66,7 @@
                                 </div>
                             </article>
 
-                            @include('front.inc.btn_avantage')
+                            {{-- @include('front.inc.btn_avantage') --}}
 
                         </div> <!-- end blog content -->
 

@@ -9,7 +9,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="blog-page-title__holder">
-                                <span class="entry__meta-category color-5">
+                                <span class="entry__meta-category text-gold">
                                     <span class="entry__meta-category-url ">Perfect Coding</span>
                                 </span>
                                 <h1 class="blog-page-title__title">Why choose a custom website ?</h1>
@@ -61,11 +61,11 @@
                                             <li>Features tailored to your needs.</li>
                                             <li>
                                                 A best <strong>Search Engine Optimization</strong> :
-                                                <a href="{{ route('seo',['return' => $return]) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i> {{ __('navigation.More') }} </a>
+                                                <a href="{{ route('seo',['return' => $return]) }}"><i class="fas fa-long-arrow-alt-right" style="margin: 0 5px"></i> {{ __('navigation.More') }} </a>
                                             </li>
                                             <li>
                                                 Une navigation intuitive grâce au Design UX/UI.
-                                                <a href="{{ route('fluidity',['return' => $return]) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i> {{ __('navigation.More') }} </a>
+                                                <a href="{{ route('fluidity',['return' => $return]) }}"><i class="fas fa-long-arrow-alt-right" style="margin: 0 5px"></i> {{ __('navigation.More') }} </a>
 
                                             </li>
                                         </ul>
@@ -80,7 +80,7 @@
                                 </div>
                             </article>
 
-                            @include('front.inc.btn_avantage')
+                            {{-- @include('front.inc.btn_avantage') --}}
 
                         </div> <!-- end blog content -->
 

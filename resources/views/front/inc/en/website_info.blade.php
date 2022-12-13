@@ -17,8 +17,8 @@
             <span class="project__info-list-label">Social Networks</span>
             <div class="socials">
                 {{-- <a href="#" class="social social-behance" aria-label="behance" title="behance" target="_blank"><i class="ui-behance"></i></a> --}}
-                <a href="https://www.facebook.com/WEB-ARTYS-102099831981729" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i class="ui-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/webartys/?viewAsMember=true" class="social social-linkedin" aria-label="linkedin" title="linkedin" target="_blank"><i class="ui-linkedin"></i></a>
+                <a href="https://www.facebook.com/WEB-ARTYS-102099831981729" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank"><i class="ui-facebook color-7"></i></a>
+                <a href="https://www.linkedin.com/company/webartys/?viewAsMember=true" class="social social-linkedin" aria-label="linkedin" title="linkedin" target="_blank"><i class="ui-linkedin color-7"></i></a>
             </div>
         </li>
     </ul>

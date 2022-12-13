@@ -45,7 +45,7 @@
                             </figure>
                             <div class="testimonial__body testimonial-1__body">
                                 <p class="testimonial__text testimonial-1__text">“Un site internet codé de A à Z bénéficie d'un meilleur référencement naturel (SEO)”</p>
-                                <a href="{{ route('seo', ["return" => '5']) }}" class="testimonial__name testimonial-1__name">{{ __('navigation.More') }}</a>
+                                <a href="{{ route('seo', ["return" => '5']) }}" class="testimonial__name testimonial-1__name color-7">{{ __('navigation.More') }}</a>
                             </div>
                         </div>
 
@@ -54,7 +54,7 @@
             </div>
         </section>
         @include('front.inc.' . app()->getLocale() . '.avantages')
-        @include('front.inc.btn_return_products')
+        {{-- @include('front.inc.btn_return_products') --}}
         @include('front.inc.' . app()->getLocale() . '.webartys')
 
     </div>

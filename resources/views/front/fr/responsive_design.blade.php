@@ -41,7 +41,7 @@
 
 		<div class="text-center pt-40 mb-40">
 
-			<a href="{{ url()->previous() }}" class="btn btn--lg btn--stroke mb-40"><span>{{ __('navigation.Return') }}</span></a>
+			<a href="{{ url()->previous() }}" class="btn btn--lg btn--stroke btn--black mb-40"><span>{{ __('navigation.Return') }}</span></a>
 		</div>
 	</div>
 

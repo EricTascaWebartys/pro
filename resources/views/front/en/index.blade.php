@@ -1,111 +1,122 @@
 @extends('layouts.front.base')
-
 @section('front.content')
     <div class="content-wrap">
         <section class="p-0">
-            <div class="rev_slider_wrapper">
-                <div class="rev_slider" id="slider1" data-version="5.0">
-                    <ul>
-                        <li data-fstransition="fade"
-                            data-transition="parallaxtoright"
-                            data-easein="default"
-                            data-easeout="default"
-                            data-slotamount="1"
-                            data-masterspeed="1200"
-                            data-delay="8000"
-                            data-title="The Art of Design"
-                            >
-
-                            <img src="{{ asset('img/introduction.webp') }}"
-                                alt=""
-                                data-bgrepeat="no-repeat"
-                                data-bgfit="cover"
-                                data-bgparallax="7"
-                                class="rev-slidebg"
-                                width="100%"
-                                >
-                            <div id="anim-title" class="tp-caption hero-title rs-parallaxlevel-7 color-5"
-                                data-x="center"
-                                data-y="center"
-                                data-voffset="[-30, -30, -60, -80]"
-                                data-textAlign="center"
-                                data-width="[100%, 100%, 100%, 300px]"
-                                data-whitespace="[nowrap, nowrap, nowrap, normal]"
-                                data-fontsize="[42, 40, 38, 30]"
-                                data-frames='[{
-                                    "delay":300,
-                                    "split":"chars",
-                                    "splitdelay":0.05,
-                                    "speed":1000,
-                                    "split_direction":"forward",
-                                    "frame":"0",
-                                    "from":"x:50px;opacity:0;fb:20px;",
-                                    "ease":"Power3.easeInOut",
-                                    "to":"o:1;fb:0;"
-                                    },{
-                                    "delay":"wait",
-                                    "split":"chars",
-                                    "splitdelay":0.02,
-                                    "speed":900,
-                                    "split_direction":"backward",
-                                    "frame":"999",
-                                    "to":"opacity:0;","ease":"Power3.easeInOut"
-                                }]'
-                                style="font-family: 'Myriad Web Pro', sans-serif;font-weight:200;color:#333;z-index:2;"
-                            >
-                                <div class="text-center w-100">
-                                  <img src="{{ asset('img/logo.png') }}" alt="logo" class="d-inline-block logo-homepage w-100">
-                                </div>
-                                <p style="font-family: 'Azonix';letter-spacing: 0.5px;" class="mt-text-anim"><span style="font-family: 'Azonix'">Web</span> Cre<span class="color-7">a</span>tion</p>
-                            </div>
-                            <div id="fade-title" class="tp-caption hero-video-play rs-parallaxlevel-7"
-                                data-x="center"
-                                data-y="center"
-                                data-voffset="[60, 60, 20, 30]"
-                                data-fontsize="[24]"
-                                data-textAlign="center"
-                                data-frames='[{
-                                    "delay":1200,
-                                    "speed":1000,
-                                    "frame":"0",
-                                    "from":"o:0;",
-                                    "to":"o:1;","ease":"Power3.easeInOut"
-                                },{
-                                    "delay":"wait",
-                                    "speed":900,
-                                    "frame":"999",
-                                    "to":"opacity:0;",
-                                    "ease":"Power3.easeInOut"
-                                }]'
-                                >
-                                <a href="#about">
-                                    <h1 class="hero-video-play__text color-black">Professional Website</h1>
-                                </a>
-                            </div>
-
-                        </li>
-                    </ul>
-
+            <div class="bg-introduction bg-particles">
+                    <div class="text-center img-logo-intro">
+                        <img src="{{ asset('img/logo_gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
+                    </div>
+                    <p id='head1' class='header font-weight-bold'>Awesome designs</p>
+                    <p id='head2' class='header font-weight-bold'>Just</p>
+                    <p id='head3' class='header font-weight-bold'>For you</p>
+                    <p id='head4' class='header font-weight-bold'>simple and awesome all the time</p>
+                    <p id='head5' class='header font-weight-bold mb-3'>Welcome to Web Artys</p>
                     <div class="local-scroll">
-                        <a href="#intro" class="scroll-down">
-                            <i class="ui-arrow-scroll-down"></i>
+                        <a href="#intro" class="scroll-down btn-introduction" style="font-size:4rem">
+                            <i class="ui-arrow-scroll-down text-gold-light"></i>
                         </a>
                     </div>
-
-                </div>
+                  <div class='light x1'></div>
+                  <div class='light x2'></div>
+                  <div class='light x3'></div>
+                  <div class='light x4'></div>
+                  <div class='light x5'></div>
+                  <div class='light x6'></div>
+                  <div class='light x7'></div>
+                  <div class='light x8'></div>
+                  <div class='light x9'></div>
             </div>
         </section>
-        <section id="intro" class="intro bg-dark bg-pattern angle angle--top angle--dark angle-mask">
+        <section id="intro" class="bg-introduction-bottom-2">
+            <div class="bg-introduction-bottom-1"></div>
             <div class="container">
                 <div class="animate">
                     <div class="animate-container">
-                        <p class="intro__text text-center">Evolved <span class="color-5">Digital</span> Emotions</p>
+                        <p class="intro__text text-center">Evolved <span class="text-gold">Digital</span> Emotions</p>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="section-works bg-white pt-72" id="works">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="title-row text-center">
+                            <h2 class="section-title">Digital Works</h2>
+                            <p class="section-description">Discover our creations and works.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-slider">
+                @if($demos->count() >0)
+                    @foreach ($demos as $key => $demo)
+                        <div class="flickity-slide">
+                            <article class="project project-slide hover-shrink">
+                                <a href="{{ $demo->link }}" class="project__url" @if($demo->target !== null) target="_blank" @endif>
+                                    <figure class="project__img-holder hover-shrink--shrink">
+                                        <img src="{{ $demo->image_url() }}" class="project__img hover-shrink--zoom" alt="project 1" width="100%" loading="lazy">
+                                    </figure>
+                                </a>
+                                <div class="project__description-wrap">
+                                    <div class="project__description">
+                                        <h3 class="project__title"><a href="{{ $demo->link }}" @if($demo->target !== null) target="_blank" @endif>{{ $demo->text_en }}</a></h3>
+                                        <span class="project__category">{{ $demo->category_en }}</span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    @endforeach
+                @endif
+            </div>
+            <div class="text-center mt-40">
+                <a href="{{ route('contact') }}" class="btn btn--lg btn--stroke btn--black"><span>Contact</span></a>
+            </div>
+        </section>
+        @include('front.inc.'. app()->getLocale() .'.about')
         @include('front.inc.'. app()->getLocale() .'.products')
         @include('front.inc.'. app()->getLocale() .'.services')
+        @if($avis !== null)
+        <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="" id="avis">
+            <div class="container">
+                <div class="row justify-content-center mb-40">
+                    <div class="col-lg-7">
+                        <div class="title-row text-center">
+                            <p class="title-home text-light">Testimonies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-80">
+                    @foreach ($avis as $key => $testimony)
+                        <div class="col-lg-6">
+                            <div class="animate">
+                                <div class="animate-container">
+                                    <div class="testimonial mb-md-40">
+                                        <img src="{{ $testimony->image_url() }}" class="testimonial__img" alt="{{ $testimony->full_name()}}" width="100%" loading="lazy">
+                                        <div class="testimonial__body">
+                                            <p class="testimonial__text">
+                                                “{{ $testimony->text }}”
+                                            </p>
+                                            <span class="testimonial__name text-gold">{{ $testimony->full_name() }}</span>
+                                            <span class="testimonial__company">{{ $testimony->job}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                    @if($avis_active->count() > 0)
+                        <div style="text-align:center; margin:0 auto;padding-top:40px;">
+                            <a href="{{ route('testimonies.show') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--gold">
+                                <span>Read More</span>
+                            </a>
+                        </div>
+                    @endif
+                </div>
+            </div>
+        </section>
+        @endif
+        @include('front.inc.'. app()->getLocale() .'.avantages')
         <section class="section-results bg-gradient-bottom bg-results">
             <div class="container-fluid">
                 <div class="row">
@@ -148,44 +159,7 @@
                 </div>
             </div>
         </section>
-        @include('front.inc.'. app()->getLocale() .'.about')
-        <section class="section-works bg-light pt-72" id="works">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="title-row text-center">
-                            <h2 class="section-title">Digital Works</h2>
-                            <p class="section-description">Discover our creations and works.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="projects-slider">
-                @if($demos->count() >0)
-                    @foreach ($demos as $key => $demo)
-                        <div class="flickity-slide">
-                            <article class="project project-slide hover-shrink">
-                                <a href="{{ $demo->link }}" class="project__url" @if($demo->target !== null) target="_blank" @endif>
-                                    <figure class="project__img-holder hover-shrink--shrink">
-                                        <img src="{{ $demo->image_url() }}" class="project__img hover-shrink--zoom" alt="project 1" width="100%" loading="lazy">
-                                    </figure>
-                                </a>
-                                <div class="project__description-wrap">
-                                    <div class="project__description">
-                                        <h3 class="project__title"><a href="{{ $demo->link }}" @if($demo->target !== null) target="_blank" @endif>{{ $demo->text_en }}</a></h3>
-                                        <span class="project__category">{{ $demo->category_en }}</span>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    @endforeach
-                @endif
-            </div>
-            <div class="text-center mt-40">
-                <a href="{{ route('contact') }}" class="btn btn--lg btn--stroke"><span>Contact</span></a>
-            </div>
-        </section>
-        <section class="section-team">
+        <section class="section-team bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -230,47 +204,5 @@
                 @endif
             </div>
         </section>
-        @if($avis !== null)
-        <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="" id="avis">
-            <div class="container">
-                <div class="row justify-content-center mb-40">
-                    <div class="col-lg-7">
-                        <div class="title-row text-center">
-                            <p class="title-home text-light">Testimonies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-80">
-                    @foreach ($avis as $key => $testimony)
-                        <div class="col-lg-6">
-                            <div class="animate">
-                                <div class="animate-container">
-                                    <div class="testimonial mb-md-40">
-                                        <img src="{{ $testimony->image_url() }}" class="testimonial__img" alt="{{ $testimony->full_name()}}" width="100%" loading="lazy">
-                                        <div class="testimonial__body">
-                                            <p class="testimonial__text">
-                                                “{{ $testimony->text }}”
-                                            </p>
-                                            <span class="testimonial__name">{{ $testimony->full_name() }}</span>
-                                            <span class="testimonial__company">{{ $testimony->job}}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                    @if($avis_active->count() > 0)
-                        <div style="text-align:center; margin:0 auto;padding-top:40px;">
-                            <a href="{{ route('testimonies.show') }}" class="btn btn--lg btn--stroke contact-form-trigger">
-                                <span>Read More</span>
-                            </a>
-                        </div>
-                    @endif
-                </div>
-
-            </div>
-        </section>
-        @endif
-        @include('front.inc.'. app()->getLocale() .'.avantages')
     </div>
 @endsection

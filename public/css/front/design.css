@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'Azonix';
     src: url("../../libs/fonts/azonix/Azonix.otf") format("opentype");
-}
+} */
 /* @font-face {
     font-family: 'Roboto';
     src: url("https://fonts.googleapis.com/css?family=Roboto:100") format("opentype");
@@ -11,6 +11,77 @@
     font-style: normal;
 }
 
+.text-gold {
+color: #fbcd13;
+}
+.text-gold-light {
+    color: #dcdcdd;
+}
+
+.bg-dark-light {
+    background-color: #222222;
+}
+
+.bg-introduction {
+    /* background-image: url("../../img/intro_hd.webp"); */
+    width: 100%;
+    display: block;
+    height: 900px;
+    /* padding-top: 15rem !important; */
+}
+
+.text-anim-intro {
+    position: absolute;
+    bottom:0;
+    display: block;
+}
+
+.btn-introduction {
+    position: absolute;
+
+}
+
+.bg-introduction-bottom-1 {
+    background-color: #131313;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:-70px;
+    /* bottom: -100px; */
+    display: block;
+    transform: rotate(-3deg)
+}
+.bg-introduction-bottom-2 {
+    background-color: #131313;
+}
+
+.btn--gold {
+    border: 2px solid #fbcd13;
+    background-color: transparent;
+    color: #fbcd13;
+}
+.btn--gold:hover {
+    border: 2px solid #fbcd13 !important;
+    background-color: #fbcd13 !important;
+    color: #222222 !important;
+}
+
+.btn--black {
+    border: 2px solid #222222;
+    background-color: transparent;
+    color: #222222;
+}
+.btn--black:hover {
+    border: 2px solid #222222;
+    background-color: #222222;
+    color: #fbcd13;
+}
+.widget-address__url:after{
+    background-color: #fbcd13;
+}
+.entry__article a:not(.wp-block-button__link){
+    color: #a252a3;
+}
 .ml15 {
   font-weight: 800;
   font-size: 1.5em;
@@ -35,7 +106,7 @@
 
 .title-home {
     font-size: 3rem;
-    color:#000;
+    color: #131313;
     font-weight: bold;
 }
 
@@ -88,7 +159,7 @@
 }
 .figure-product img:hover {
     /* opacity: 0.8; */
-    border: solid 2px #a252a3;
+    border: solid 2px #222222;
     transition: all 0.5s ease-out;
     /* transform: scale(1.5); */
 }
@@ -190,11 +261,6 @@
     min-height: 100%;
 }
 
-/* #anim-title{
-    top: 4rem;
-} */
-
-
 
 #A {
     position: relative;
@@ -206,14 +272,6 @@
     font-size: 107px !important;
 }
 
-/* .logo-intro .bg-logo {
-    background-image: url("../../img/logo.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 32rem;
-    height: 20rem;
-    margin: 0 auto;
-} */
 
 .color-5 {
     color: #03b7fb;
@@ -246,16 +304,13 @@
     margin-top: -247px;
 } */
 .bg-pattern, .bg-pattern.angle:before {
-    /* background: url("../../img/texture.webp"); */
     background: none;
-    /* background-color: #443e44; */
-    /* background-color: #333; */
-    background-color: #191919;
+    background-color: #222222;
 }
 
 .bg-overlay {
     /* background-color: #333; */
-    background-color: #191919;
+    background-color: #131313;
 }
 
 .footer__bottom {
@@ -265,11 +320,11 @@
 
 
 .bg-results {
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../img/results-hd.webp');
-    /* background-color: #191919 */
+    /* background-color: #131313 */
 }
 .bg-pwa {
     background-image: url('../../img/bg-pwa.webp');
@@ -304,13 +359,13 @@
 }
 
 .nav__menu>li>a {
-    color:#222222;
+    color: rgba(255,255,255,0.8);
     /* font-family: "Myriad Web Pro"; */
 }
 
 .nav--sticky.sticky {
     box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-    background-color: #fff;
+    background-color: #131313;
     /* background-color: #323232; */
     z-index: 120;
     height: 60px;
@@ -323,7 +378,7 @@
 } */
 
 .nav-color-resp {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: #131313;
 }
 
 /* .container-semi-fluid {
@@ -331,20 +386,38 @@
 } */
 
 .nav__menu>li>.home_active, .nav__menu>li>a:hover {
-    color: #03b7fb;
+    color: rgba(255,255,255,0.8);
 }
 
 .nav__icon-toggle-bar {
-    background-color:#03b7fb;
+    background-color:#dcdcdd;
+
+}
+
+.nav__icon-perso {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top:0;
+    left: 88%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+.nav__icon-perso:hover {
+    background-color: transparent;
+    border: none;
+    color: #fff;
 }
 
 .nav__socials a {
-    color: #222222;
+    color: rgba(255,255,255,0.8);
 }
 
 .cc-window{
     display: none;
 }
+
 
 .text-h1 {
     color: #686868;
@@ -362,8 +435,8 @@
 }
 
 .btn-return-white:hover {
-    border: 2px solid #03b7fb;
-    background-color: #03b7fb;
+    border: 2px solid #fbcd13;
+    background-color: #fbcd13;
     color: #fff;
 }
 
@@ -378,8 +451,57 @@
     display: block;
 }
 
+.animate {
+	position: relative;
+	overflow: hidden; }
+	.animate-container {
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transition: 0.2s ease-in-out 0.8s;
+		transition: 0.2s ease-in-out 0.8s; }
+	.animate:before {
+		content: "";
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0; }
+	.animate:before {
+		background-color: #F6F6F6;
+		z-index: 1;
+		-webkit-transform: translateX(-101%);
+		transform: translateX(-101%); }
+	.animate--animated:before {
+		-webkit-animation: deothemes-appearing-animation 1s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+		        animation: deothemes-appearing-animation 1s cubic-bezier(0.86, 0, 0.07, 1) forwards; }
+	.animate--animated .animate-container {
+		opacity: 1;
+		visibility: visible; }
 
+@-webkit-keyframes deothemes-appearing-animation {
+	0% {
+		-webkit-transform: translateX(-101%);
+		transform: translateX(-101%); }
+	50% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0); }
+	100% {
+		-webkit-transform: translateX(101%);
+		transform: translateX(101%); }
+}
 
+@keyframes deothemes-appearing-animation {
+	0% {
+		-webkit-transform: translateX(-101%);
+		transform: translateX(-101%); }
+	50% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0); }
+	100% {
+		-webkit-transform: translateX(101%);
+		transform: translateX(101%); }
+}
 
 
 @media (max-width: 1280px) {
@@ -492,7 +614,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-color: #fff;
     }
     .nav-color-resp {
-        background-color: rgba(255, 255, 255, 1);
+        background-color: #131313;
     }
 
     .bg-results {

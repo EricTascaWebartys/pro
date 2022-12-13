@@ -1,17 +1,17 @@
 <!-- Blog -->
         {{-- <section class="section-blog-single angle angle--top pb-0"> --}}
-        <section class="section-blog-single bg-light">
+        <section class="section-blog-single bg-white">
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <div class="col-lg-8 blog__content mb-0">
+                    <div class="col-lg-10 blog__content mb-0">
                         <article class="entry single-post__entry">
                             <div class="entry__article-wrap" id="blog">
 
                                 @include('front.inc.description_social')
 
                                 <div class="entry__article">
-                                    <p><span class="dropcap">C</span>onstuire un <strong>site internet sur mesure</strong>, c'est s'assurer d'avoir une <a href="{{ route('description_2') }}"><strong class="no-strong">conception graphique</strong></a> adaptée à votre business.</p>
+                                    <p><span class="dropcap">C</span>onstuire un <strong>site internet sur mesure</strong>, c'est s'assurer d'avoir une <a href="{{ route('description_2') }}"><strong class="no-strong color-7">conception graphique</strong></a> adaptée à votre business.</p>
 
 
                                     <blockquote style="text-align:center" class="wp-block-quote is-style-default">

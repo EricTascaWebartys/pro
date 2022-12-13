@@ -1,4 +1,4 @@
-<section class="section-project-process bg-dark bg-pattern pb-96" style="border-bottom: 1px solid #323232;">
+<section class="section-project-process bg-dark bg-pattern pb-96" style="border-bottom: 1px solid #fbcd13; background-color:#131313">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">

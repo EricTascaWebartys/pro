@@ -3,7 +3,7 @@
    <div class="settings-inner">
       <div class="settings-ctrl settings-zone">{{ __('navigation.PRO AREA') }}</div>
       <div class="settings-content settings-zone">
-         <p class="text-center">{{ __('navigation.Customer Area') }}</p>
+         <p class="text-center text-gold-light">{{ __('navigation.Customer Area') }}</p>
          <div class="setting-colors">
             {{-- <div class="setting-color bg-info checked" data-load-css="{{ asset('assets/front/frontend/site/css/theme-a.css') }}"><em class="fa fa-check"></em></div>
             <div class="setting-color bg-success" data-load-css="{{ asset('assets/front/frontend/site/css/theme-b.css') }}"><em class="fa fa-check"></em></div>
@@ -19,7 +19,7 @@
          </div>
 
          <div class="text-center">
-             <p class="text-center" style="margin:0 0 7px">{{ __('navigation.Call') }}</p>
+             <p class="text-center text-gold-light" style="margin:0 0 7px">{{ __('navigation.Call') }}</p>
              <a href="tel:0665469516" class="phone-number">06 65 46 95 16</a>
          </div>
       </div>

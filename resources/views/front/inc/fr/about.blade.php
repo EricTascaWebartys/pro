@@ -1,5 +1,5 @@
 <!-- About -->
-<section class="section-about pb-72 bg-light" id="about">
+<section class="section-about pb-72 bg-dark-light" id="about">
     <div class="about">
         <div class="about__holder">
 

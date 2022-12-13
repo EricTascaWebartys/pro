@@ -13,7 +13,7 @@
              <meta name="googlebot" content="noindex">
          @endisset
     	{{-- <link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'> --}}
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link async href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     	<link async rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	{{-- <link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" /> --}}
     	<link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
@@ -27,6 +27,7 @@
         {{-- <link rel="preconnect" href="https://fonts.gstatic.com"> --}}
         {{-- <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Cabin+Condensed&family=NTR&family=Text+Me+One&family=Tomorrow:wght@100;200;300;400&display=swap" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}">
+        <link rel="stylesheet" href="{{ asset('libs/background_particles/style.css') }}">
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
     </head>
     <body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home" itemscope>
@@ -36,16 +37,16 @@
     		</div>
     	</div>
     	<header class="nav nav--always-fixed" itemscope>
-            <div class="nav__holder nav--sticky  nav--align-center" @if(!isset($homepage)) style="background-color:#fff;color:#333" @endif>
-    			<div class="container-fluid container-semi-fluid nav-color-resp">
+            <div class="nav__holder nav--sticky  nav--align-center" @isset($homepage)) style="background-color:rgba(0,0,0,0); color:#fff" @else style="background-color:#131313; color:#fff" @endisset>
+    			<div class="container-fluid container-semi-fluid nav-bg">
     				<div class="flex-parent">
     					<div class="nav__header clearfix">
     						<div class="logo-wrap local-scroll">
     							<a href="{{ route('homepage') }}" class="logo__url">
-    								<img class="logo" src="{{ asset('/img/logo-mini.webp') }}" alt="logo web artys" itemscope>
+    								<img class="logo" src="{{ asset('/img/logo-mini.webp') }}" alt="logo web artys" itemscope="itemscope">
     							</a>
     						</div>
-    						<button type="button" class="nav__icon-toggle" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+    						<button type="button" class="nav__icon-perso d-lg-none d-inline-block" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
     							<span class="sr-only">Toggle navigation</span>
     							<span class="nav__icon-toggle-bar"></span>
     							<span class="nav__icon-toggle-bar"></span>
@@ -112,14 +113,14 @@
     	</header>
         <main class="main-wrap">
              @yield('front.content')
-     		<footer class="footer bg-dark bg-pattern responsive-footer">
+     		<footer class="footer bg-pattern responsive-footer bg-dark-light">
      			<div class="container">
      				<div class="footer__widgets">
      					<div class="row">
                             <div class="col-lg-4 col-md-6">
      							<div class="widget text-center text-md-left responsive-footer">
      								<h3 class="widget-cta__title white mb-32">{{ __('navigation.Write a message') }}</h3>
-     								<a href="{{ route('contact') }}" class="btn btn--lg btn--stroke contact-form-trigger">
+     								<a href="{{ route('contact') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--gold">
      									<span>{{ __('navigation.Contact us') }}</span>
      								</a>
      							</div>
@@ -153,7 +154,7 @@
      			<div class="footer__bottom">
      				<div class="container">
      					<div class="copyright-wrap text-center">
-     						<span class="copyright">
+     						<span class="copyright text-gold-light">
      							&copy; {{ date('Y') }} - <strong>WEB ARTYS</strong> - <a href="{{ route('mentions') }}" class="copyright">{{ __('navigation.Legal Information') }}</a>
      						</span>
      					</div>
@@ -174,24 +175,48 @@
         {{-- <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script> --}}
 
         {{-- @include('libs.tarteaucitron.script') --}}
-        <script>
-        anime.timeline({loop: false})
-  .add({
-    targets: '.ml15 .word',
-    scale: [14,1],
-    opacity: [0,1],
-    easing: "easeOutCirc",
-    duration: 800,
-    delay: (el, i) => 800 * i
-  }).add({
-    targets: '.ml15',
-    opacity: ,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-        </script>
 
+        <script type="text/javascript">
+            if(document.body.offsetWidth < 992) {
+                document.querySelector(".nav-bg").style.backgroundColor = "#131313";
+            }
+        </script>
+        @isset($homepage)
+            <script type="text/javascript">
+                let bg_intro = document.querySelector(".bg-introduction");
+                let logo_img = document.querySelector(".img-logo-intro");
+                logo_img.style.marginTop = bg_intro.offsetHeight/3 + "px";
+                let texts_anim = document.getElementsByClassName('header');
+                for(let i = 0; i < texts_anim.length; i++) {
+                    texts_anim[i].style.top = logo_img.offsetTop + logo_img.offsetHeight + 60 + "px";
+                }
+                let btn_intro =  document.querySelector(".btn-introduction");
+                btn_intro.style.top = logo_img.offsetTop + logo_img.offsetHeight + 150 + "px";
+                let nav = document.querySelector(".nav__holder");
+                if(document.body.offsetWidth >= 992) {
+                    document.addEventListener('scroll', function(e) {
+                        if(nav.classList.contains("sticky")) {
+                             nav.style.backgroundColor = "#131313";
+                        } else {
+                              nav.style.backgroundColor = "transparent";
+                        }
+                    });
+                } else {
+                     nav.style.backgroundColor = "#131313";
+                }
+            </script>
+        @else
+            <script type="text/javascript">
+                let nav = document.querySelector(".nav__holder");
+                document.addEventListener('scroll', function(e) {
+                    if(nav.classList.contains("sticky")) {
+                         nav.style.backgroundColor = "#131313";
+                    } else {
+                          nav.style.backgroundColor = "#131313";
+                    }
+                });
+            </script>
+        @endisset
         <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
         <script defer src="{{ asset('libs/settings/js/script.js') }}"></script>
      	<script defer type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
