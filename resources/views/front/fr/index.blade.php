@@ -1,7 +1,7 @@
 @extends('layouts.front.base')
 
 @section('front.content')
-    <div class="content-wrap">
+    <div class="content-wrap" id="home">
         <section class="p-0">
             <div class="bg-introduction bg-particles bg-wave">
                     <div class="text-center img-logo-intro">
