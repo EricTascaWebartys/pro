@@ -3,15 +3,15 @@
 @section('front.content')
     <div class="content-wrap">
 		{{-- @include('front.inc.slider_login') --}}
-		<section class="intro bg-dark bg-pattern angle angle--top angle--dark angle-mask" id="intro">
+		<section class="intro bg-dark bg-pattern angle angle--top angle--dark angle-mask">
 			<div class="container">
-				<div class="animate">
-					<div class="animate-container">
-						<p class="intro__text text-center" style="padding-bottom:30px;color:#fff">
-							{{ __('navigation.Pro Area') }}
-						</p>
-					</div>
-				</div>
+    				<div class="animate">
+    					<div class="animate-container">
+    						<p class="intro__text text-center" style="padding-bottom:30px;color:#fff">
+    							{{ __('navigation.Pro Area') }}
+    						</p>
+    					</div>
+    				</div>
                     <form method="POST" action="{{ route('login') }}" style="background-color:#fff; padding:40px 20px; margin:0 auto" class="col-md-8 col-12">
                         @csrf
 
@@ -57,12 +57,8 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn--lg btn--color" style="margin-bottom:30px">
-                                    {{ __('navigation.Login') }}
-                                </button>
-
+                                <input type="submit" class="btn btn--lg btn--color" value="{{ __('navigation.Login') }}">
                                 <br>
-
                                 @if (Route::has('password.request'))
                                     <a class="color-5 ml-20" href="{{ route('password.request') }}" onmouseover="this.style.color='#03b7fb';">
                                         {{ __('navigation.Forgot Your Password?') }}

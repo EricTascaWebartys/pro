@@ -10,7 +10,12 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
-
+.li-hover {
+    color: #dcdcdd !important;
+}
+.li-hover:hover {
+    color: #fbcd13 !important;
+}
 .text-gold {
 color: #fbcd13;
 }
@@ -231,12 +236,15 @@ color: #fbcd13;
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #a252a3;
+    border-top-color: #dcdcdc;
     animation: a 1.7s linear infinite;
     z-index: 11;
 }
+.loader:after,.loader:before {
+    border-top-color: #facc00;
+}
 .loader-mask {
-    background-color: #fff;
+    background-color: #131313;
 }
 .nav{
     min-height: 30px;

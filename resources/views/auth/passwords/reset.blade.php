@@ -3,7 +3,7 @@
 @section('front.content')
     <div class="content-wrap">
 		{{-- @include('front.inc.slider_login') --}}
-		<section class="intro bg-dark bg-pattern angle angle--top angle--dark angle-mask" id="intro">
+		<section class="intro bg-dark bg-pattern angle angle--top angle--dark angle-mask">
 			<div class="container">
 				<div class="animate">
 					<div class="animate-container">

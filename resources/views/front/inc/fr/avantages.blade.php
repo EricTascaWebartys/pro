@@ -50,7 +50,7 @@
                             </div>
                             <div class="entry__body">
                                 <h4 class="entry__title title-underline">
-                                    <a href="{{ route('description_2', ['return' => $return]) }}" itemprop="headline" @if(!isset($homepage)) style="color:#dcdcdd" @endif>Création Graphique</a>
+                                    <a href="{{ route('description_2', ['return' => $return]) }}" itemprop="headline" @if(!isset($homepage)) style="color:#dcdcdd" @endif>Web Design</a>
                                 </h4>
                                 <div class="entry__meta">
                                     <span class="entry__meta-item entry__meta-author" @if(!isset($homepage)) style="color:#fff" @endif>

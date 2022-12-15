@@ -2,7 +2,7 @@
 @section('front.content')
     <div class="content-wrap">
         <section class="p-0">
-            <div class="bg-introduction bg-particles">
+            <div class="bg-introduction bg-particles bg-wave3">
                     <div class="text-center img-logo-intro">
                         <img src="{{ asset('img/logo_gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
                     </div>
@@ -16,7 +16,7 @@
                             <i class="ui-arrow-scroll-down text-gold-light"></i>
                         </a>
                     </div>
-                  <div class='light x1'></div>
+                  {{-- <div class='light x1'></div>
                   <div class='light x2'></div>
                   <div class='light x3'></div>
                   <div class='light x4'></div>
@@ -24,7 +24,7 @@
                   <div class='light x6'></div>
                   <div class='light x7'></div>
                   <div class='light x8'></div>
-                  <div class='light x9'></div>
+                  <div class='light x9'></div> --}}
             </div>
         </section>
         <section id="intro" class="bg-introduction-bottom-2">

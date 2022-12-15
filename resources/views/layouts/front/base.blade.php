@@ -57,20 +57,40 @@
     						<ul class="nav__menu local-scroll" id="onepage-nav">
     							<li class="nav__dropdown">
     								<a href="@if(isset($homepage)) #home @else {{ route('homepage') }}#home @endif" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true">{{ __('navigation.Home') }}</a>
-    								<i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,0)"></i>
+    								{{-- <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,0)"></i> --}}
+    							</li>
+
+                                <li class="nav__dropdown">
+                                    <a href="#" class="nav-link">Description</a>
+                                    <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
+                                    <ul  class="nav__dropdown-menu">
+                                        <li><a href="{{ route('description_1') }}" class="li-hover">{{ __('navigation.Perfect Coding') }}</a></li>
+                                        <li><a href="{{ route('description_2') }}" class="li-hover">Web Design</a></li>
+                                        <li><a href="{{ route('description_3') }}" class="li-hover">Progressive Web App</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav__dropdown">
+                                    <a href="#" class="nav-link  @if(isset($products)) home_active @endif products-hover">{{ __('navigation.Website') }}</a>
+                                    <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
+                                    <ul  class="nav__dropdown-menu">
+                                        <li><a href="{{ route('website_1') }}" class="li-hover">{{ __('navigation.Showcase Website') }}</a></li>
+                                        <li><a href="{{ route('website_2') }}" class="li-hover">{{ __('navigation.Dynamic Website') }}</a></li>
+                                        <li><a href="{{ route('website_3') }}" class="li-hover">E-commerce</a></li>
+                                    </ul>
+                                </li>
+    							<li  class="nav__dropdown">
+    								<a href="#" class="nav-link">{{ __('navigation.Services') }}</a>
+                                    <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
+                                    <ul  class="nav__dropdown-menu">
+                                        <li><a href="{{ route('fluidity') }}" class="li-hover">Design UX/UI</a></li>
+                                        <li><a href="{{ route('seo') }}" class="li-hover">{{ __('navigation.Search Engine Optimization') }}</a></li>
+                                        <li><a href="{{ route('contact') }}" class="li-hover">{{ __('navigation.Contact') }}</a></li>
+                                    </ul>
     							</li>
                                 <li>
-                                    <a href="@if(isset($homepage)) #blog @else {{ route('homepage') }}#blog @endif" class="nav-link  @if(isset($products)) home_active @endif">{{ __('navigation.Products') }}</a>
+                                    <a href="@if(isset($homepage)) #works @else {{ route('homepage') }}#works @endif" class="nav-link">{{ __('navigation.Works') }}</a>
                                 </li>
-    							<li>
-    								<a href="@if(isset($homepage)) #services @else {{ route('homepage') }}#services @endif" class="nav-link">{{ __('navigation.Services') }}</a>
-    							</li>
-    							<li>
-    								<a href="@if(isset($homepage)) #about @else {{ route('homepage') }}#about @endif" class="nav-link">{{ __('navigation.About') }}</a>
-    							</li>
-    							<li>
-    								<a href="@if(isset($homepage)) #works @else {{ route('homepage') }}#works @endif" class="nav-link">{{ __('navigation.Works') }}</a>
-    							</li>
+
                                 <li>
                                     <a href="@if(isset($homepage)) #avis @else {{ route('homepage') }}#avis @endif" class="nav-link  @if(isset($avis_page)) home_active @endif">{{ __('navigation.Testimonies') }}</a>
                                 </li>
@@ -185,13 +205,13 @@
             <script type="text/javascript">
                 let bg_intro = document.querySelector(".bg-introduction");
                 let logo_img = document.querySelector(".img-logo-intro");
-                logo_img.style.marginTop = bg_intro.offsetHeight/3 + "px";
+                logo_img.style.marginTop = bg_intro.offsetHeight/4 + "px";
                 let texts_anim = document.getElementsByClassName('header');
                 for(let i = 0; i < texts_anim.length; i++) {
-                    texts_anim[i].style.top = logo_img.offsetTop + logo_img.offsetHeight + 60 + "px";
+                    texts_anim[i].style.top = logo_img.offsetTop + logo_img.offsetHeight + 70 + "px";
                 }
                 let btn_intro =  document.querySelector(".btn-introduction");
-                btn_intro.style.top = logo_img.offsetTop + logo_img.offsetHeight + 150 + "px";
+                btn_intro.style.top = logo_img.offsetTop + logo_img.offsetHeight + 160 + "px";
                 let nav = document.querySelector(".nav__holder");
                 if(document.body.offsetWidth >= 992) {
                     document.addEventListener('scroll', function(e) {
@@ -231,16 +251,16 @@
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
 
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
-        <script defer type="text/javascript">
+        {{-- <script defer type="text/javascript">
             $(document).click(function(event) {
                 if(!$(event.target).closest('.navbar').length){
                     $('.navbar-collapse').collapse('hide');
-                    }
-                });
-                document.addEventListener('scroll', function (event) {
-                    $('.navbar-collapse').collapse('hide');
+                }
+            });
+            document.addEventListener('scroll', function (event) {
+                $('.navbar-collapse').collapse('hide');
             }, true);
-        </script>
+        </script> --}}
         <script type="text/javascript">
             var currentLanguage = "{{ app()->getLocale() }}";
             window.tarteaucitronForceLanguage = currentLanguage;

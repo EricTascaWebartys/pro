@@ -3,21 +3,21 @@
 @section('front.content')
     <div class="content-wrap">
         <section class="p-0">
-            <div class="bg-introduction bg-particles">
+            <div class="bg-introduction bg-particles bg-wave">
                     <div class="text-center img-logo-intro">
                         <img src="{{ asset('img/logo_gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
                     </div>
-                    <p id='head1' class='header font-weight-bold'>Awesome designs</p>
-                    <p id='head2' class='header font-weight-bold'>Just</p>
-                    <p id='head3' class='header font-weight-bold'>For you</p>
-                    <p id='head4' class='header font-weight-bold'>simple and awesome all the time</p>
-                    <p id='head5' class='header font-weight-bold mb-3'>Welcome to Web Artys</p>
+                    <p id='head1' class='header font-weight-bold'>Site internet</p>
+                    <p id='head2' class='header font-weight-bold'>Conçu pour vous</p>
+                    <p id='head3' class='header font-weight-bold'>Responsive Design</p>
+                    <p id='head4' class='header font-weight-bold'>Simple et personnalisé</p>
+                    <p id='head5' class='header font-weight-bold mb-3'>Bienvenue chez Web Artys</p>
                     <div class="local-scroll">
                         <a href="#intro" class="scroll-down btn-introduction" style="font-size:4rem">
                             <i class="ui-arrow-scroll-down text-gold-light"></i>
                         </a>
                     </div>
-                  <div class='light x1'></div>
+                  {{-- <div class='light x1'></div>
                   <div class='light x2'></div>
                   <div class='light x3'></div>
                   <div class='light x4'></div>
@@ -25,7 +25,7 @@
                   <div class='light x6'></div>
                   <div class='light x7'></div>
                   <div class='light x8'></div>
-                  <div class='light x9'></div>
+                  <div class='light x9'></div> --}}
             </div>
         </section>
         <section id="intro" class="bg-introduction-bottom-2">
@@ -44,7 +44,7 @@
                     <div class="col-lg-6">
                         <div class="title-row text-center">
                             <p class="section-title title-home">Créations Digitales</p>
-                            <p class="section-description">Découvrez nos créations et travaux.</p>
+                            <p class="section-description">Découvrez quelques réalisations.</p>
                         </div>
                     </div>
                 </div>
