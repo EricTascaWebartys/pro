@@ -13,7 +13,7 @@
                     <p id='head4' class='header font-weight-bold'>Responsive Design</p>
                     <p id='head5' class='header font-weight-bold mb-3'>Bienvenue chez Web Artys</p>
                     <div class="local-scroll">
-                        <a href="#intro" class="scroll-down btn-introduction" style="font-size:4rem">
+                        <a href="#about" class="scroll-down btn-introduction" style="font-size:4rem">
                             <i class="ui-arrow-scroll-down text-gold-light"></i>
                         </a>
                     </div>
@@ -38,6 +38,9 @@
                 </div>
             </div>
         </section>
+        @include('front.inc.'. app()->getLocale() .'.about')
+        @include('front.inc.'. app()->getLocale() .'.products')
+        @include('front.inc.'. app()->getLocale() .'.services')
         <section class="section-works bg-white pt-72" id="works">
             <div class="container">
                 <div class="row justify-content-center">
@@ -74,9 +77,6 @@
                 <a href="{{ route('contact') }}" class="btn btn--lg btn--stroke btn--black"><span>Contacter</span></a>
             </div>
         </section>
-        @include('front.inc.'. app()->getLocale() .'.about')
-        @include('front.inc.'. app()->getLocale() .'.products')
-        @include('front.inc.'. app()->getLocale() .'.services')
         @if($avis !== null)
         <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="" id="avis">
             <div class="container">

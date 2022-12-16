@@ -10,6 +10,25 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
+.flickity-prev-next-button.previous {
+	left: 10px !important;
+}
+
+.flickity-prev-next-button.next {
+	right: 10px !important;
+}
+
+.flickity-rtl .flickity-prev-next-button.previous {
+	left: auto;
+    position: fixed;
+    right: 90% !important;
+}
+
+.flickity-rtl .flickity-prev-next-button.next {
+	left: 10px !important;
+    position: fixed;
+    right: -90% !important;
+}
 .li-hover {
     color: #dcdcdd !important;
 }
