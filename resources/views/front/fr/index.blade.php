@@ -5,7 +5,7 @@
         <section class="p-0">
             <div class="bg-introduction bg-particles bg-wave">
                     <div class="text-center img-logo-intro">
-                        <img src="{{ asset('img/logo-2023.png') }}" alt="web artys" class="d-inline-block " width="505rem">
+                        <img src="{{ asset('img/logo-gold.png') }}" alt="web artys" class="d-inline-block " width="505rem">
                     </div>
                     <p id='head1' class='header font-weight-bold'>Votre site internet</p>
                     <p id='head2' class='header font-weight-bold'>Conçu pour vous</p>

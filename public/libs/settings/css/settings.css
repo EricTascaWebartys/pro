@@ -6,7 +6,7 @@
     width: 215px;
     background-color: #131313;
     backface-visibility: hidden;
-    border: 1px solid #fbcd13;
+    border: 1px solid #ffd700;
     margin-right: -215px;
     z-index: 9999;
     transition: margin 0.3s cubic-bezier(1, 0, 0, 1);
@@ -25,7 +25,7 @@
     width: 105px;
     height: 50px;
     background-color: #131313;
-    border: 1px solid #fbcd13;
+    border: 1px solid #ffd700;
     border-right: 0;
     text-align: center;
     cursor: pointer;
@@ -37,7 +37,7 @@
 .settings-inner .settings-ctrl > em {
     line-height: 49px;
     font-size: 20px;
-    color: #fbcd13;
+    color: #ffd700;
 }
 
 .settings-content {
@@ -74,7 +74,7 @@
 
 .btn-settings{
     padding: 10px 10px;
-    border: 1px solid #fbcd13;
+    border: 1px solid #ffd700;
     background-color: #131313;
     color: #dcdcdd;
     font-size: 1.125rem;
@@ -82,12 +82,12 @@
 }
 
 .btn-settings:hover{
-    background-color: #fbcd13;
+    background-color: #ffd700;
     color: #222222;
 
 }
 
 .phone-number{
-    color: #fbcd13;
+    color: #ffd700;
     font-size: 1.2rem;
 }

@@ -2866,7 +2866,7 @@ header .flex-child.flex-right {
 		font-size: 0.9375rem;
 		padding: 12px 32px; }
 	.btn--color {
-		background-color: #fbcd13; }
+		background-color: #ffd700; }
 		.btn--color:hover {
 			opacity: .92; }
 	.btn--stroke {
@@ -2884,7 +2884,7 @@ header .flex-child.flex-right {
 	.btn--wide {
 		width: 100%; }
 	.btn--stroke:hover, .btn--stroke:focus, .btn--dark:hover, .btn--dark:focus, .btn--white:hover, .btn--white:focus, .btn--light:hover, .btn--light:focus {
-		background-color: #fbcd13;
+		background-color: #ffd700;
 		border-color: transparent; }
 	.btn i {
 		font-size: .75rem;

@@ -33,10 +33,10 @@
     color: #dcdcdd !important;
 }
 .li-hover:hover {
-    color: #fbcd13 !important;
+    color: #ffd700 !important;
 }
 .text-gold {
-color: #fbcd13;
+color: #ffd700;
 }
 .text-gold-light {
     color: #dcdcdd;
@@ -80,13 +80,13 @@ color: #fbcd13;
 }
 
 .btn--gold {
-    border: 2px solid #fbcd13;
+    border: 2px solid #ffd700;
     background-color: transparent;
-    color: #fbcd13;
+    color: #ffd700;
 }
 .btn--gold:hover {
-    border: 2px solid #fbcd13 !important;
-    background-color: #fbcd13 !important;
+    border: 2px solid #ffd700 !important;
+    background-color: #ffd700 !important;
     color: #222222 !important;
 }
 
@@ -98,10 +98,10 @@ color: #fbcd13;
 .btn--black:hover {
     border: 2px solid #222222;
     background-color: #222222;
-    color: #fbcd13;
+    color: #ffd700;
 }
 .widget-address__url:after{
-    background-color: #fbcd13;
+    background-color: #ffd700;
 }
 .entry__article a:not(.wp-block-button__link){
     color: #a252a3;
@@ -462,8 +462,8 @@ color: #fbcd13;
 }
 
 .btn-return-white:hover {
-    border: 2px solid #fbcd13;
-    background-color: #fbcd13;
+    border: 2px solid #ffd700;
+    background-color: #ffd700;
     color: #fff;
 }
 
