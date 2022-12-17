@@ -202,7 +202,7 @@
             }
         </script>
         @isset($homepage)
-            <script async type="text/javascript">
+            <script defer type="text/javascript">
                 let bg_intro = document.querySelector(".bg-introduction");
                 let logo_img = document.querySelector(".img-logo-intro");
                 logo_img.style.marginTop = bg_intro.offsetHeight/4 + "px";
