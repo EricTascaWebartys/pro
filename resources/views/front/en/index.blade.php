@@ -6,10 +6,10 @@
                     <div class="text-center img-logo-intro">
                         <img src="{{ asset('img/logo_gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
                     </div>
-                    <p id='head1' class='header font-weight-bold'>Awesome designs</p>
-                    <p id='head2' class='header font-weight-bold'>Just for you</p>
-                    <p id='head3' class='header font-weight-bold'>Simple and awesome all the time</p>
-                    <p id='head4' class='header font-weight-bold'>Welcome to Web Artys</p>
+                    <p id='head1' class='header font-weight-bold' style="width:100%;text-align:center">Awesome designs</p>
+                    <p id='head2' class='header font-weight-bold' style="width:100%;text-align:center">Just for you</p>
+                    <p id='head3' class='header font-weight-bold' style="width:100%;text-align:center">Simple and awesome all the time</p>
+                    <p id='head4' class='header font-weight-bold' style="width:100%;text-align:center">Welcome to Web Artys</p>
                     {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}
                     <div class="local-scroll">
                         <a href="#about" class="scroll-down btn-introduction" style="font-size:4rem">
