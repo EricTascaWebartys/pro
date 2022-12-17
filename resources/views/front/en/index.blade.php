@@ -7,10 +7,10 @@
                         <img src="{{ asset('img/logo_gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
                     </div>
                     <p id='head1' class='header font-weight-bold'>Awesome designs</p>
-                    <p id='head2' class='header font-weight-bold'>Just</p>
-                    <p id='head3' class='header font-weight-bold'>For you</p>
-                    <p id='head4' class='header font-weight-bold'>simple and awesome all the time</p>
-                    <p id='head5' class='header font-weight-bold mb-3'>Welcome to Web Artys</p>
+                    <p id='head2' class='header font-weight-bold'>Just for you</p>
+                    <p id='head3' class='header font-weight-bold'>Simple and awesome all the time</p>
+                    <p id='head4' class='header font-weight-bold'>Welcome to Web Artys</p>
+                    {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}
                     <div class="local-scroll">
                         <a href="#about" class="scroll-down btn-introduction" style="font-size:4rem">
                             <i class="ui-arrow-scroll-down text-gold-light"></i>
@@ -72,9 +72,9 @@
                     @endforeach
                 @endif
             </div>
-            <div class="text-center mt-40">
+            {{-- <div class="text-center mt-40">
                 <a href="{{ route('contact') }}" class="btn btn--lg btn--stroke btn--black"><span>Contact</span></a>
-            </div>
+            </div> --}}
         </section>
         @if($avis !== null)
         <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="" id="avis">

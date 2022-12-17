@@ -43,7 +43,7 @@
     					<div class="nav__header clearfix">
     						<div class="logo-wrap local-scroll">
     							<a href="{{ route('homepage') }}" class="logo__url">
-    								<img class="logo" src="{{ asset('/img/logo-mini.png') }}" alt="logo web artys" itemscope="itemscope">
+    								<img class="logo" src="{{ asset('/img/logo-mini.webp') }}" alt="logo web artys" itemscope="itemscope">
     							</a>
     						</div>
     						<button type="button" class="nav__icon-perso d-lg-none d-inline-block" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">

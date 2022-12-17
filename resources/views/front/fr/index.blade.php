@@ -5,13 +5,13 @@
         <section class="p-0">
             <div class="bg-introduction bg-particles bg-wave">
                     <div class="text-center img-logo-intro">
-                        <img src="{{ asset('img/logo-gold.png') }}" alt="web artys" class="d-inline-block " width="505rem">
+                        <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
                     </div>
                     <p id='head1' class='header font-weight-bold'>Votre site internet</p>
                     <p id='head2' class='header font-weight-bold'>Conçu pour vous</p>
                     <p id='head3' class='header font-weight-bold'>Simple et personnalisé</p>
-                    <p id='head4' class='header font-weight-bold'>Responsive Design</p>
-                    <p id='head5' class='header font-weight-bold mb-3'>Bienvenue chez Web Artys</p>
+                    <p id='head4' class='header font-weight-bold'>Bienvenue chez Web Artys</p>
+                    {{-- <p id='head5' class='header font-weight-bold mb-3'>Bienvenue chez Web Artys</p> --}}
                     <div class="local-scroll">
                         <a href="#about" class="scroll-down btn-introduction" style="font-size:4rem">
                             <i class="ui-arrow-scroll-down text-gold-light"></i>
@@ -73,9 +73,9 @@
                     @endforeach
                 @endif
             </div>
-            <div class="text-center mt-40">
+            {{-- <div class="text-center mt-40">
                 <a href="{{ route('contact') }}" class="btn btn--lg btn--stroke btn--black"><span>Contacter</span></a>
-            </div>
+            </div> --}}
         </section>
         @if($avis !== null)
         <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="" id="avis">
