@@ -14,7 +14,7 @@
                     {{-- <p id='head5' class='header font-weight-bold mb-3'>Bienvenue chez Web Artys</p> --}}
                     <div class="local-scroll">
                         <a href="#about" class="scroll-down btn-introduction" style="font-size:4rem">
-                            <i class="ui-arrow-scroll-down text-gold-light"></i>
+                            <i class="ui-arrow-scroll-down text-gold"></i>
                         </a>
                     </div>
                   {{-- <div class='light x1'></div>
