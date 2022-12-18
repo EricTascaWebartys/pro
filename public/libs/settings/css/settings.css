@@ -4,9 +4,9 @@
     right: -1px;
     left: auto;
     width: 215px;
-    background-color: #3c3c3c;
+    background-color: #2e2e2e;
     backface-visibility: hidden;
-    border: 1px solid #ffd700;
+    border: 1px solid #fff;
     margin-right: -215px;
     z-index: 9999;
     transition: margin 0.3s cubic-bezier(1, 0, 0, 1);
@@ -24,8 +24,8 @@
     left: -105px;
     width: 105px;
     height: 50px;
-    background-color: #3c3c3c;
-    border: 1px solid #ffd700;
+    background-color: #2e2e2e;
+    border: 1px solid #fff;
     border-right: 0;
     text-align: center;
     cursor: pointer;
@@ -73,18 +73,18 @@
 }
 
 .btn-settings{
-    padding: 10px 10px;
-    border: 1px solid #ffd700;
-    background-color: #3c3c3c;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background-color: #2e2e2e;
     color: #dcdcdd;
     font-size: 1.125rem;
     font-family: "Myriad Web Pro";
 }
 
 .btn-settings:hover{
-    background-color: #ffd700;
-    color: #222222;
-
+    background-color: #000;
+    color: #ffd700;
+    border-color: #000;
 }
 
 .phone-number{

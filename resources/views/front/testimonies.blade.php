@@ -46,7 +46,7 @@
 						<div class="text-center">
 							{{ $testimonies->links() }}
 						</div>
-						<p class="text-center" style="margin-top:8rem"><a href="{{ route('homepage') }}#avis" class="btn btn--lg btn--stroke"> {{ __('navigation.Return')}}</a> </p>
+						<p class="text-center" style="margin-top:8rem"><a href="{{ route('homepage') }}#avis" class="btn btn--lg btn--stroke btn--black"> {{ __('navigation.Return')}}</a> </p>
 
 				</div>
 
