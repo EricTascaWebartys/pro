@@ -66,7 +66,7 @@ color: #ffd700;
 }
 
 .bg-introduction-bottom-1 {
-    background-color: #131313;
+    background-color: #3c3c3c;
     width: 105%;
     height: 300px;
     position: absolute;
@@ -76,7 +76,7 @@ color: #ffd700;
     transform: rotate(-3deg)
 }
 .bg-introduction-bottom-2 {
-    background-color: #131313;
+    background-color: #3c3c3c;
 }
 
 .btn--gold {
@@ -130,7 +130,7 @@ color: #ffd700;
 
 .title-home {
     font-size: 3rem;
-    color: #131313;
+    color: #3c3c3c;
     font-weight: bold;
 }
 
@@ -263,7 +263,7 @@ color: #ffd700;
     border-top-color: #facc00;
 }
 .loader-mask {
-    background-color: #131313;
+    background-color: #3c3c3c;
 }
 .nav{
     min-height: 30px;
@@ -337,7 +337,7 @@ color: #ffd700;
 
 .bg-overlay {
     /* background-color: #333; */
-    background-color: #131313;
+    background-color: #3c3c3c;
 }
 
 .footer__bottom {
@@ -351,7 +351,7 @@ color: #ffd700;
     background-position: center;
     background-repeat: no-repeat;
     background-image: url('../../img/results-hd.webp');
-    /* background-color: #131313 */
+    /* background-color: #3c3c3c */
 }
 .bg-pwa {
     background-image: url('../../img/bg-pwa.webp');
@@ -392,7 +392,7 @@ color: #ffd700;
 
 .nav--sticky.sticky {
     box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-    background-color: #131313;
+    background-color: #3c3c3c;
     /* background-color: #323232; */
     z-index: 120;
     height: 60px;
@@ -405,7 +405,7 @@ color: #ffd700;
 } */
 
 .nav-color-resp {
-    background-color: #131313;
+    background-color: #3c3c3c;
 }
 
 /* .container-semi-fluid {
@@ -641,7 +641,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-color: #fff;
     }
     .nav-color-resp {
-        background-color: #131313;
+        background-color: #3c3c3c;
     }
 
     .bg-results {

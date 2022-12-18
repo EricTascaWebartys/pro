@@ -4,7 +4,7 @@
     right: -1px;
     left: auto;
     width: 215px;
-    background-color: #131313;
+    background-color: #3c3c3c;
     backface-visibility: hidden;
     border: 1px solid #ffd700;
     margin-right: -215px;
@@ -24,7 +24,7 @@
     left: -105px;
     width: 105px;
     height: 50px;
-    background-color: #131313;
+    background-color: #3c3c3c;
     border: 1px solid #ffd700;
     border-right: 0;
     text-align: center;
@@ -75,7 +75,7 @@
 .btn-settings{
     padding: 10px 10px;
     border: 1px solid #ffd700;
-    background-color: #131313;
+    background-color: #3c3c3c;
     color: #dcdcdd;
     font-size: 1.125rem;
     font-family: "Myriad Web Pro";

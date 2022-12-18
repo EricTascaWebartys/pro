@@ -336,7 +336,7 @@
   transform: translate(95vw,90vh);
 }
 .bg-wave {
-    background-color: #000000;
+    background-color: #3c3c3c;
     opacity: 1;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 10px ), repeating-linear-gradient( #0f0f0f, #171717 );
     z-index: 1;
