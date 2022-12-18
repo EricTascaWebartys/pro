@@ -4,7 +4,7 @@
         <section class="p-0">
             <div class="bg-introduction bg-particles bg-wave">
                     <div class="text-center img-logo-intro">
-                        <img src="{{ asset('img/logo_gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
+                        <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
                     </div>
                     <p id='head1' class='header font-weight-bold' style="width:100%;text-align:center">Awesome designs</p>
                     <p id='head2' class='header font-weight-bold' style="width:100%;text-align:center">Just for you</p>
@@ -97,7 +97,7 @@
                                             <p class="testimonial__text">
                                                 “{{ $testimony->text }}”
                                             </p>
-                                            <span class="testimonial__name text-gold">{{ $testimony->full_name() }}</span>
+                                            <span class="testimonial__name">{{ $testimony->full_name() }}</span>
                                             <span class="testimonial__company">{{ $testimony->job}}</span>
                                         </div>
                                     </div>
@@ -107,7 +107,7 @@
                     @endforeach
                     @if($avis_active->count() > 0)
                         <div style="text-align:center; margin:0 auto;padding-top:40px;">
-                            <a href="{{ route('testimonies.show') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--gold">
+                            <a href="{{ route('testimonies.show') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--light-border">
                                 <span>Read More</span>
                             </a>
                         </div>

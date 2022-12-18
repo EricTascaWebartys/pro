@@ -140,7 +140,7 @@
                             <div class="col-lg-4 col-md-6">
      							<div class="widget text-center text-md-left responsive-footer">
      								<h3 class="widget-cta__title white mb-32">{{ __('navigation.Write a message') }}</h3>
-     								<a href="{{ route('contact') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--gold">
+     								<a href="{{ route('contact') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--light-border">
      									<span>{{ __('navigation.Contact us') }}</span>
      								</a>
      							</div>

@@ -99,7 +99,7 @@
                                             <p class="testimonial__text">
                                                 “{{ $testimony->text }}”
                                             </p>
-                                            <span class="testimonial__name text-gold">{{ $testimony->full_name() }}</span>
+                                            <span class="testimonial__name">{{ $testimony->full_name() }}</span>
                                             <span class="testimonial__company">{{ $testimony->job}}</span>
                                         </div>
                                     </div>
@@ -109,7 +109,7 @@
                     @endforeach
                     @if($avis_active->count() > 0)
                         <div style="text-align:center; margin:0 auto;padding-top:40px;">
-                            <a href="{{ route('testimonies.show') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--gold">
+                            <a href="{{ route('testimonies.show') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--light-border">
                                 <span>Voir les avis</span>
                             </a>
                         </div>

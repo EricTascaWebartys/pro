@@ -10,6 +10,11 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
+.btn--light-border {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
 .flickity-prev-next-button.previous {
 	left: 10px !important;
 }
@@ -100,9 +105,9 @@ color: #ffd700;
     background-color: #222222;
     color: #ffd700;
 }
-.widget-address__url:after{
+/* .widget-address__url:after{
     background-color: #ffd700;
-}
+} */
 .entry__article a:not(.wp-block-button__link){
     color: #a252a3;
 }
