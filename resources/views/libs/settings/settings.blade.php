@@ -1,14 +1,10 @@
 <!-- START SETTINGS-->
 <div class="settings hide-down">
    <div class="settings-inner">
-      <div class="settings-ctrl settings-zone">{{ __('navigation.PRO AREA') }}</div>
+      <div class="settings-ctrl settings-zone">{{ __('navigation.Pro Area') }}</div>
       <div class="settings-content settings-zone">
          <p class="text-center text-gold-light">{{ __('navigation.Customer Area') }}</p>
          <div class="setting-colors">
-            {{-- <div class="setting-color bg-info checked" data-load-css="{{ asset('assets/front/frontend/site/css/theme-a.css') }}"><em class="fa fa-check"></em></div>
-            <div class="setting-color bg-success" data-load-css="{{ asset('assets/front/frontend/site/css/theme-b.css') }}"><em class="fa fa-check"></em></div>
-            <div class="setting-color bg-purple" data-load-css="{{ asset('assets/front/frontend/site/css/theme-c.css') }}"><em class="fa fa-check"></em></div>
-            <div class="setting-color bg-primary" data-load-css="{{ asset('assets/front/frontend/site/css/theme-d.css') }}"><em class="fa fa-check"></em></div> --}}
             <div class="text-center">
                 @if(Auth::user())
                     <a href="{{ route('dashboard') }}" class="btn-settings">{{ __('navigation.Access') }}</a>
