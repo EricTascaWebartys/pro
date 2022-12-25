@@ -186,7 +186,49 @@
                  <a href="#top"><i class="ui-arrow-up"></i></a>
              </div>
          </main>
-         <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+         <script type="text/javascript">
+             if(document.body.offsetWidth < 992) {
+                 document.querySelector(".nav-bg").style.backgroundColor = "#3c3c3c";
+             }
+         </script>
+         @isset($homepage)
+             <script type="text/javascript">
+                 let bg_intro = document.querySelector(".bg-introduction");
+                 let logo_img = document.querySelector(".img-logo-intro");
+                 logo_img.style.marginTop = bg_intro.offsetHeight/4 + "px";
+                 let texts_anim = document.getElementsByClassName('header');
+                 for(let i = 0; i < texts_anim.length; i++) {
+                     texts_anim[i].style.top = logo_img.offsetTop + logo_img.offsetHeight + 70 + "px";
+                 }
+                 let btn_intro =  document.querySelector(".btn-introduction");
+                 btn_intro.style.top = logo_img.offsetTop + logo_img.offsetHeight + 160 + "px";
+                 let nav = document.querySelector(".nav__holder");
+                 if(document.body.offsetWidth >= 992) {
+                     document.addEventListener('scroll', function(e) {
+                         if(nav.classList.contains("sticky")) {
+                              nav.style.backgroundColor = "#3c3c3c";
+                         } else {
+                               nav.style.backgroundColor = "transparent";
+                               if(window.pageYOffset > 0) nav.style.backgroundColor = "#3c3c3c";
+                         }
+                     });
+                 } else {
+                      nav.style.backgroundColor = "#3c3c3c";
+                 }
+             </script>
+         @else
+             <script type="text/javascript">
+                 let nav = document.querySelector(".nav__holder");
+                 document.addEventListener('scroll', function(e) {
+                     if(nav.classList.contains("sticky")) {
+                          nav.style.backgroundColor = "#3c3c3c";
+                     } else {
+                           nav.style.backgroundColor = "#3c3c3c";
+                     }
+                 });
+             </script>
+         @endisset
+         <script defer src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
          @include('libs.settings.settings')
          <script type="text/javascript">
              let Url_mentions = "{{ route('mentions') }}";
@@ -196,48 +238,6 @@
 
         {{-- @include('libs.tarteaucitron.script') --}}
 
-        <script type="text/javascript">
-            if(document.body.offsetWidth < 992) {
-                document.querySelector(".nav-bg").style.backgroundColor = "#3c3c3c";
-            }
-        </script>
-        @isset($homepage)
-            <script defer type="text/javascript">
-                let bg_intro = document.querySelector(".bg-introduction");
-                let logo_img = document.querySelector(".img-logo-intro");
-                logo_img.style.marginTop = bg_intro.offsetHeight/4 + "px";
-                let texts_anim = document.getElementsByClassName('header');
-                for(let i = 0; i < texts_anim.length; i++) {
-                    texts_anim[i].style.top = logo_img.offsetTop + logo_img.offsetHeight + 70 + "px";
-                }
-                let btn_intro =  document.querySelector(".btn-introduction");
-                btn_intro.style.top = logo_img.offsetTop + logo_img.offsetHeight + 160 + "px";
-                let nav = document.querySelector(".nav__holder");
-                if(document.body.offsetWidth >= 992) {
-                    document.addEventListener('scroll', function(e) {
-                        if(nav.classList.contains("sticky")) {
-                             nav.style.backgroundColor = "#3c3c3c";
-                        } else {
-                              nav.style.backgroundColor = "transparent";
-                              if(window.pageYOffset > 0) nav.style.backgroundColor = "#3c3c3c";
-                        }
-                    });
-                } else {
-                     nav.style.backgroundColor = "#3c3c3c";
-                }
-            </script>
-        @else
-            <script type="text/javascript">
-                let nav = document.querySelector(".nav__holder");
-                document.addEventListener('scroll', function(e) {
-                    if(nav.classList.contains("sticky")) {
-                         nav.style.backgroundColor = "#3c3c3c";
-                    } else {
-                          nav.style.backgroundColor = "#3c3c3c";
-                    }
-                });
-            </script>
-        @endisset
         <script defer src="{{ asset('assets/front/js/scripts.min.js') }}"></script>
         <script defer src="{{ asset('libs/settings/js/script.js') }}"></script>
      	<script defer type='text/javascript' src='{{ asset('assets/front/revolution-addons/distortion/js/revolution.addon.distortion.min.js') }}'></script>
