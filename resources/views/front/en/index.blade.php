@@ -12,7 +12,7 @@
                     <p id='head4' class='header font-weight-bold' style="width:100%;text-align:center">Welcome to Web Artys</p>
                     {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}
                     <div class="local-scroll">
-                        <a href="#about" class="scroll-down btn-introduction" style="font-size:4rem">
+                        <a href="#about" class="scroll-down btn-introduction" style="font-size: 2rem">
                             <i class="ui-arrow-scroll-down text-gold"></i>
                         </a>
                     </div>
