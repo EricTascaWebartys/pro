@@ -1,15 +1,17 @@
 @extends('layouts.front.base')
 @section('front.content')
     <div class="content-wrap" id="home">
-        <section class="p-0">
-            <div class="bg-introduction bg-particles bg-wave">
-                    <div class="text-center img-logo-intro">
-                        <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
-                    </div>
+        <section class="bg-particles bg-wave row">
+                <div class="col-lg-5 col-md-7 col-9" style="margin:0 auto;padding-top:5rem">
+                    <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-block mx-auto " width="100%">
+                </div>
+                <div class="col-12">
                     <p id='head1' class='header font-weight-bold' style="width:100%;text-align:center">Awesome designs</p>
                     <p id='head2' class='header font-weight-bold' style="width:100%;text-align:center">Just for you</p>
                     <p id='head3' class='header font-weight-bold' style="width:100%;text-align:center">Simple and awesome all the time</p>
                     <p id='head4' class='header font-weight-bold' style="width:100%;text-align:center">Welcome to Web Artys</p>
+                </div>
+
                     {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}
                     <div class="local-scroll">
                         <a href="#about" class="scroll-down btn-introduction" style="font-size: 2rem">
@@ -25,7 +27,6 @@
                   <div class='light x7'></div>
                   <div class='light x8'></div>
                   <div class='light x9'></div> --}}
-            </div>
         </section>
         <section id="intro" class="bg-introduction-bottom-2">
             <div class="bg-introduction-bottom-1"></div>

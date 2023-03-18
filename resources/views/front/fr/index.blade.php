@@ -2,30 +2,20 @@
 
 @section('front.content')
     <div class="content-wrap" id="home">
-        <section class="p-0">
-            <div class="bg-introduction bg-particles bg-wave">
-                    <div class="text-center img-logo-intro">
-                        <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-inline-block " width="505rem">
-                    </div>
-                    <p id='head1' class='header font-weight-bold' style="width:100%;text-align:center">Votre site internet</p>
-                    <p id='head2' class='header font-weight-bold' style="width:100%;text-align:center">Conçu pour vous</p>
-                    <p id='head3' class='header font-weight-bold' style="width:100%;text-align:center">Simple et personnalisé</p>
-                    <p id='head4' class='header font-weight-bold' style="width:100%;text-align:center">Bienvenue chez Web Artys</p>
-                    {{-- <p id='head5' class='header font-weight-bold mb-3'>Bienvenue chez Web Artys</p> --}}
-                    <div class="local-scroll">
-                        <a href="#about" class="scroll-down btn-introduction" style="font-size: 2rem">
-                            <i class="ui-arrow-scroll-down text-gold"></i>
-                        </a>
-                    </div>
-                  {{-- <div class='light x1'></div>
-                  <div class='light x2'></div>
-                  <div class='light x3'></div>
-                  <div class='light x4'></div>
-                  <div class='light x5'></div>
-                  <div class='light x6'></div>
-                  <div class='light x7'></div>
-                  <div class='light x8'></div>
-                  <div class='light x9'></div> --}}
+        <section class="bg-particles bg-wave row">
+            <div class="col-lg-5 col-md-7 col-9" style="margin:0 auto;padding-top:5rem">
+                <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-block mx-auto " width="100%">
+            </div>
+            <div class="col-12">
+                <p id='head1' class='header font-weight-bold' style="width:100%;text-align:center">Votre site internet</p>
+                <p id='head2' class='header font-weight-bold' style="width:100%;text-align:center">Conçu pour vous</p>
+                <p id='head3' class='header font-weight-bold' style="width:100%;text-align:center">Simple et personnalisé</p>
+                <p id='head4' class='header font-weight-bold' style="width:100%;text-align:center">Bienvenu chez WEB ARTYS</p>
+            </div>
+            <div class="local-scroll">
+                <a href="#about" class="scroll-down btn-introduction" style="font-size: 2rem">
+                    <i class="ui-arrow-scroll-down text-gold"></i>
+                </a>
             </div>
         </section>
         <section id="intro" class="bg-introduction-bottom-2">

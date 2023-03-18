@@ -3,6 +3,36 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
+@keyframes opacity_up {
+    0%{opacity: 0;}
+    30%{opacity: 1;}
+    80%{opacity: .9;}
+    100%{opacity: 1;}
+}
+@keyframes opacity_down {
+    0%   {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.text-intro {
+    text-align:center !important;
+    margin-top:4rem !important;
+    color:#fff !important;
+    font-size: 1.4rem !important;
+    opacity:0 !important;
+    display:none !important;
+    animation: opacity_up 1s ease  !important;
+}
+.opacity-up {
+    color:red;
+    animation: opacity_up 1s ease ;
+}
+.opacity-down {
+    animation: opacity_down 0.6s ease ;
+}
 .btn--light-border {
     border: 2px solid #fff;
     background-color: transparent;

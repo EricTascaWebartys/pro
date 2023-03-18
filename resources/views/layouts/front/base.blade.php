@@ -23,12 +23,13 @@
     	{{-- <link rel="stylesheet" href="{{ asset('libs/fontawesome/css/fontawesome.min.css') }}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"> --}}
         <link async rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
-        <link async rel="stylesheet" href="{{ asset("css/front/design.css") }}">
         {{-- <link rel="preconnect" href="https://fonts.gstatic.com"> --}}
         {{-- <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Cabin+Condensed&family=NTR&family=Text+Me+One&family=Tomorrow:wght@100;200;300;400&display=swap" rel="stylesheet"> --}}
         <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}">
         <link rel="stylesheet" href="{{ asset('libs/background_particles/style.css') }}">
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
+        <link async rel="stylesheet" href="{{ asset("css/front/design.css") }}">
+
     </head>
     <body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home" itemscope>
     	<div class="loader-mask">
@@ -193,15 +194,16 @@
          </script>
          @isset($homepage)
              <script type="text/javascript">
-                 let bg_intro = document.querySelector(".bg-introduction");
-                 let logo_img = document.querySelector(".img-logo-intro");
-                 logo_img.style.marginTop = bg_intro.offsetHeight/4 + "px";
-                 let texts_anim = document.getElementsByClassName('header');
-                 for(let i = 0; i < texts_anim.length; i++) {
-                     texts_anim[i].style.top = logo_img.offsetTop + logo_img.offsetHeight + 70 + "px";
-                 }
-                 let btn_intro =  document.querySelector(".btn-introduction");
-                 btn_intro.style.top = logo_img.offsetTop + logo_img.offsetHeight + 160 + "px";
+
+                 // let bg_intro = document.querySelector(".bg-introduction");
+                 // let logo_img = document.querySelector(".img-logo-intro");
+                 // logo_img.style.marginTop = bg_intro.offsetHeight/4 + "px";
+                 // let texts_anim = document.getElementsByClassName('header');
+                 // for(let i = 0; i < texts_anim.length; i++) {
+                 //     texts_anim[i].style.top = logo_img.offsetTop + logo_img.offsetHeight + 70 + "px";
+                 // }
+                 // let btn_intro =  document.querySelector(".btn-introduction");
+                 // btn_intro.style.top = logo_img.offsetTop + logo_img.offsetHeight + 160 + "px";
                  let nav = document.querySelector(".nav__holder");
                  if(document.body.offsetWidth >= 992) {
                      document.addEventListener('scroll', function(e) {
