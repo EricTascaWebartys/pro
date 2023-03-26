@@ -13,7 +13,7 @@
 					</div>
 				</div>
 
-				<form method="POST" action="{{ route('password.email') }}" style="background-color:#fff; padding:40px 20px; margin:0 auto" class="col-md-8 col-12">
+				<form method="POST" action="{{ route('password.email') }}" style="background-color:#191b22; padding:40px 20px; margin:0 auto" class="col-md-8 col-12">
                         @if (session('status'))
                             <div class="alert alert-success color-7 text-center" role="alert">
                                 {{ session('status') }}
@@ -38,7 +38,6 @@
                         </div>
                     </form>
                 </div>
-                @include("front.inc.btn_return")
 
             </section>
         </div>

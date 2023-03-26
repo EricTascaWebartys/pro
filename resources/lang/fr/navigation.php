@@ -664,7 +664,7 @@ return [
     "Wallis And Futuna" => "Wallis et Futuna",
     "Watch video" => "Voir la vidéo",
     "Watch Video" => "Voir la vidéo",
-    "Website" => "Site internet",
+    "Website" => "Produits",
     "We were unable to find a registered user with this email address." => "Nous n'avons pas pu trouver un utilisateur enregistré avec cette adresse e-mail.",
     "We won't ask for your password again for a few hours." => "Nous ne vous demanderons plus votre mot de passe pour quelques heures",
     "We're lost in space. The page you were trying to view does not exist." => "Nous sommes perdus dans l'espce. La page que vous essayez de voir n'existe pas.",

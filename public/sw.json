@@ -7,8 +7,8 @@
         "sizes": "72x72 96x96 128x128 256x256 512x512",
         "type": "image\/png"
     }],
-    "background_color": "#fff",
-    "theme_color": "#fff",
+    "background_color": "#191b22",
+    "theme_color": "#191b22",
     "display": "standalone",
     "orientation": "portrait",
     "start_url": "http://localhost/pro/public/"

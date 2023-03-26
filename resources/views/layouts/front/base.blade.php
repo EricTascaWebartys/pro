@@ -25,10 +25,10 @@
         <link async rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
         {{-- <link rel="preconnect" href="https://fonts.gstatic.com"> --}}
         {{-- <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Cabin+Condensed&family=NTR&family=Text+Me+One&family=Tomorrow:wght@100;200;300;400&display=swap" rel="stylesheet"> --}}
-        <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}">
-        <link rel="stylesheet" href="{{ asset('libs/background_particles/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}">
-        <link async rel="stylesheet" href="{{ asset("css/front/design.css") }}">
+        <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}?={{ strtotime(date('Y-m')) }}">
+        <link rel="stylesheet" href="{{ asset('libs/background_particles/style.css') }}?={{ strtotime(date('Y-m')) }}">
+        <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}?={{ strtotime(date('Y-m')) }}">
+        <link async rel="stylesheet" href="{{ asset("css/front/design.css") }}?={{ strtotime(date('Y-m')) }}">
 
     </head>
     <body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home" itemscope>
@@ -38,7 +38,7 @@
     		</div>
     	</div>
     	<header class="nav nav--always-fixed" itemscope>
-            <div class="nav__holder nav--sticky  nav--align-center" @isset($homepage)) style="background-color:rgba(0,0,0,0); color:#fff" @else style="background-color:#3c3c3c; color:#fff" @endisset>
+            <div class="nav__holder nav--sticky  nav--align-center" @isset($homepage)) style="background-color:rgba(0,0,0,0); color:#fff" @else style="background-color:#191b22; color:#fff" @endisset>
     			<div class="container-fluid container-semi-fluid nav-bg">
     				<div class="flex-parent">
     					<div class="nav__header clearfix">
@@ -189,7 +189,7 @@
          </main>
          <script type="text/javascript">
              if(document.body.offsetWidth < 992) {
-                 document.querySelector(".nav-bg").style.backgroundColor = "#3c3c3c";
+                 document.querySelector(".nav-bg").style.backgroundColor = "#191b22";
              }
          </script>
          @isset($homepage)
@@ -208,14 +208,14 @@
                  if(document.body.offsetWidth >= 992) {
                      document.addEventListener('scroll', function(e) {
                          if(nav.classList.contains("sticky")) {
-                              nav.style.backgroundColor = "#3c3c3c";
+                              nav.style.backgroundColor = "#191b22";
                          } else {
                                nav.style.backgroundColor = "transparent";
-                               if(window.pageYOffset > 0) nav.style.backgroundColor = "#3c3c3c";
+                               if(window.pageYOffset > 0) nav.style.backgroundColor = "#191b22";
                          }
                      });
                  } else {
-                      nav.style.backgroundColor = "#3c3c3c";
+                      nav.style.backgroundColor = "#191b22";
                  }
              </script>
          @else
@@ -223,9 +223,9 @@
                  let nav = document.querySelector(".nav__holder");
                  document.addEventListener('scroll', function(e) {
                      if(nav.classList.contains("sticky")) {
-                          nav.style.backgroundColor = "#3c3c3c";
+                          nav.style.backgroundColor = "#191b22";
                      } else {
-                           nav.style.backgroundColor = "#3c3c3c";
+                           nav.style.backgroundColor = "#191b22";
                      }
                  });
              </script>

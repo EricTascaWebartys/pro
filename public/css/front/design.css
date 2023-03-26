@@ -71,7 +71,7 @@ color: #ffd700;
 }
 
 .bg-dark-light {
-    background-color: #222222;
+    background-color: #191b22;
 }
 
 .bg-introduction {
@@ -94,7 +94,7 @@ color: #ffd700;
 }
 
 .bg-introduction-bottom-1 {
-    background-color: #222222;
+    background-color: #191b22;
     width: 105%;
     height: 300px;
     position: absolute;
@@ -104,7 +104,7 @@ color: #ffd700;
     transform: rotate(-3deg)
 }
 .bg-introduction-bottom-2 {
-    background-color: #222222;
+    background-color: #191b22;
 }
 
 .btn--gold {
@@ -291,7 +291,7 @@ color: #ffd700;
     border-top-color: #facc00;
 }
 .loader-mask {
-    background-color: #222222;
+    background-color: #191b22;
 }
 .nav{
     min-height: 30px;
@@ -360,7 +360,7 @@ color: #ffd700;
 } */
 .bg-pattern, .bg-pattern.angle:before {
     background: none;
-    background-color: #222222;
+    background-color: #191b22;
 }
 
 .bg-overlay {
@@ -369,7 +369,7 @@ color: #ffd700;
 }
 
 .footer__bottom {
-    background-color: #1c1c1c;
+    background-color: #191b22;
     border-top: 1px solid #323232;
 }
 
@@ -420,7 +420,7 @@ color: #ffd700;
 
 .nav--sticky.sticky {
     box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-    background-color: #3c3c3c;
+    background-color: #191b22;
     /* background-color: #323232; */
     z-index: 120;
     height: 60px;
@@ -433,7 +433,7 @@ color: #ffd700;
 } */
 
 .nav-color-resp {
-    background-color: #3c3c3c;
+    background-color: #191b22;
 }
 
 /* .container-semi-fluid {
@@ -669,7 +669,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-color: #fff;
     }
     .nav-color-resp {
-        background-color: #3c3c3c;
+        background-color: #191b22;
     }
 
     .bg-results {
