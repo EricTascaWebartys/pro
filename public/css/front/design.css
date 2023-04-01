@@ -94,6 +94,7 @@ color: #ffd700;
 }
 
 .bg-introduction-bottom-1 {
+    border-top: solid 1px rgba(255, 255, 255, 0.2);
     background-color: #191b22;
     width: 105%;
     height: 300px;
