@@ -38,7 +38,7 @@
     		</div>
     	</div>
     	<header class="nav nav--always-fixed" itemscope>
-            <div class="nav__holder nav--sticky  nav--align-center" @isset($homepage)) style="background-color:rgba(0,0,0,0); color:#fff" @else style="background-color:#0f285e; color:#fff" @endisset>
+            <div class="nav__holder nav--sticky  nav--align-center" @isset($homepage)) style="background-color:#0f285e; color:#fff" @else style="background-color:#0f285e; color:#fff" @endisset>
     			<div class="container-fluid container-semi-fluid nav-bg">
     				<div class="flex-parent">
     					<div class="nav__header clearfix">
@@ -189,7 +189,7 @@
          </main>
          <script type="text/javascript">
              if(document.body.offsetWidth < 992) {
-                 document.querySelector(".nav-bg").style.backgroundColor = "#142035";
+                 document.querySelector(".nav-bg").style.backgroundColor = "#0f285e";
              }
          </script>
          @isset($homepage)
