@@ -892,6 +892,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
         letter-spacing: 5px !important;
         font-size: 40px !important;
     }
+    .header {
+        position: absolute;
+        /* bottom: 6rem; */
+        left: 50%;
+        transform: translate(-50%, -200%);
+        color: white;
+    }
 }
 
     @media (max-width: 375px) {
