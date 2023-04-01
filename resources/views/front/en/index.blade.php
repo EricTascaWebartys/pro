@@ -1,7 +1,7 @@
 @extends('layouts.front.base')
 @section('front.content')
     <div class="content-wrap" id="home">
-        <section class="bg-particles bg-wave row">
+        <section class="bg-particles bg-techno row">
                 <div class="col-lg-5 col-md-7 col-12" style="margin:0 auto;padding-top:5rem">
                     <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-block mx-auto " width="100%">
                 </div>

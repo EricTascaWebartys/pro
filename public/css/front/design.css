@@ -71,7 +71,7 @@ color: #ffd700;
 }
 
 .bg-dark-light {
-    background-color: #191b22;
+    background-color: #0f285e;
 }
 
 .bg-introduction {
@@ -95,7 +95,7 @@ color: #ffd700;
 
 .bg-introduction-bottom-1 {
     border-top: solid 1px rgba(255, 255, 255, 0.2);
-    background-color: #191b22;
+    background-color: #0f285e;
     width: 105%;
     height: 300px;
     position: absolute;
@@ -105,7 +105,12 @@ color: #ffd700;
     transform: rotate(-3deg)
 }
 .bg-introduction-bottom-2 {
-    background-color: #191b22;
+    background-color: #0f285e;
+    padding: 20px 0;
+}
+
+.bg-first {
+    padding: 50px 0;
 }
 
 .btn--gold {
@@ -292,10 +297,14 @@ color: #ffd700;
     border-top-color: #facc00;
 }
 .loader-mask {
-    background-color: #191b22;
+    background-color: #0f285e;
 }
 .nav{
     min-height: 30px;
+}
+
+.bg-blue-dark {
+    background-color: #0d1423;
 }
 
 .section-subtitle--line:before {
@@ -361,7 +370,7 @@ color: #ffd700;
 } */
 .bg-pattern, .bg-pattern.angle:before {
     background: none;
-    background-color: #191b22;
+    background-color: #0f285e;
 }
 
 .bg-overlay {
@@ -370,8 +379,12 @@ color: #ffd700;
 }
 
 .footer__bottom {
-    background-color: #191b22;
+    background-color: #0d1423;
     border-top: 1px solid #323232;
+}
+
+.bg-techno {
+    background-image: url('../../img/techno.webp');
 }
 
 
@@ -421,7 +434,7 @@ color: #ffd700;
 
 .nav--sticky.sticky {
     box-shadow: 0 0 5px rgb(0 0 0 / 10%);
-    background-color: #191b22;
+    background-color: #0f285e;
     /* background-color: #323232; */
     z-index: 120;
     height: 60px;
@@ -434,7 +447,7 @@ color: #ffd700;
 } */
 
 .nav-color-resp {
-    background-color: #191b22;
+    background-color: #0f285e;
 }
 
 /* .container-semi-fluid {
@@ -670,7 +683,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         background-color: #fff;
     }
     .nav-color-resp {
-        background-color: #191b22;
+        background-color: #0f285e;
     }
 
     .bg-results {
