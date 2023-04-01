@@ -1,6 +1,6 @@
 <!-- Blog -->
         {{-- <section class="section-blog-single angle angle--top pb-0"> --}}
-        <section class="section-blog-single bg-white">
+        <section class="section-blog-single bg-light">
             <div class="container">
                 <div class="row justify-content-center">
 

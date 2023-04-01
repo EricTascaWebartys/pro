@@ -31,7 +31,7 @@
         @include('front.inc.'. app()->getLocale() .'.about')
         @include('front.inc.'. app()->getLocale() .'.products')
         @include('front.inc.'. app()->getLocale() .'.services')
-        <section class="section-works bg-white pt-72" id="works">
+        <section class="section-works bg-light pt-72" id="works">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">

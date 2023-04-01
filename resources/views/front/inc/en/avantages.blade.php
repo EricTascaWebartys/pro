@@ -1,5 +1,5 @@
 @isset($homepage)
-    <section class="section-from-blog pb-96 angle angle--top angle-mask">
+    <section class="section-from-blog pb-96 angle angle--top angle-mask bg-light">
 @else
     <section class="section-from-blog pb-96 pt-40 bg-dark-light">
 @endisset

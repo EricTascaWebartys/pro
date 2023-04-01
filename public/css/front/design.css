@@ -373,6 +373,10 @@ color: #ffd700;
     background-color: #0f285e;
 }
 
+.angle:before {
+    background-color: #f6f6f6;
+}
+
 .bg-overlay {
     /* background-color: #333; */
     background-color: #3c3c3c;

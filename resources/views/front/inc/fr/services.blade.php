@@ -1,5 +1,5 @@
 <!-- Service Boxes -->
-<section id="services" class="pb-72 bg-light">
+<section id="services" class="pb-72 bg-white">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
