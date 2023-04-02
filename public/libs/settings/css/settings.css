@@ -33,6 +33,7 @@
     padding-top: 0.8rem;
     color: #dcdcdd;
     font-family: "Myriad Web Pro";
+    text-transform: uppercase;
 }
 .settings-inner .settings-ctrl > em {
     line-height: 49px;
@@ -79,6 +80,8 @@
     color: #dcdcdd;
     font-size: 1.125rem;
     font-family: "Myriad Web Pro";
+    text-transform: uppercase;
+
 }
 
 .btn-settings:hover{

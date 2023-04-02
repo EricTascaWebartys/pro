@@ -52,7 +52,7 @@
                                             <span class="color-7">conçu de A à Z</span> est indispensable avant de se lancer. Il faut prendre en compte la possibilité d'évolution sur le long terme. <br>
                                         </p>
                                         <figure class="wp-block-image">
-                                            <img src="{{ asset('img/business-lady.webp') }}" alt="business lady">
+                                            <img src="{{ asset('img/business-lady.webp') }}" alt="business lady" class="bg-shadow-box">
                                             <figcaption>Choisissez la sérénité</figcaption>
                                         </figure>
                                         <p>Un <strong>site internet sur mesure</strong> c'est garantir :</p>

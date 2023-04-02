@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="animate">
                     <div class="animate-container">
-                        <p class="intro__text text-center">Création <span class="text-gold">Digitale</span> au bénéfice de l'entreprise</p>
+                        <p class="intro__text text-center">Creation <span class="text-gold">Digitale</span> au benefice de l'entreprise</p>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="title-row text-center">
-                            <p class="section-title title-home">Créations Digitales</p>
+                            <p class="section-title title-home">Creations Digitales</p>
                             <p class="section-description">Découvrez quelques réalisations.</p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                 <div class="row justify-content-center mb-40">
                     <div class="col-lg-7">
                         <div class="title-row text-center">
-                            <p class="section-title title-home text-light" style="color: #fff">Témoignages</p>
+                            <p class="section-title title-home text-light" style="color: #fff">Temoignages</p>
                         </div>
                     </div>
                 </div>

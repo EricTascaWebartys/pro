@@ -43,7 +43,7 @@
                                         <p>Your <strong>website</strong> adapted to smartphones and tablets thanks to <span class="color-7">responsive design</span>. The respect of your graphic charter and our knowledge to serve the company. </p>
 
                                         <figure class="wp-block-image">
-                                            <img src="{{ asset('img/ame.webp') }}" alt="web artys graphic">
+                                            <img src="{{ asset('img/ame.webp') }}" alt="web artys graphic" class="bg-shadow-box">
                                             <figcaption>Graphic Design</figcaption>
                                         </figure>
 

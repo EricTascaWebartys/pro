@@ -17,6 +17,9 @@
         opacity: 0;
     }
 }
+.intro__text {
+    text-transform: uppercase;
+}
 .text-intro {
     text-align:center !important;
     margin-top:4rem !important;
@@ -58,16 +61,18 @@
     right: -90% !important;
 }
 .li-hover {
-    color: #dcdcdd !important;
+    color: rgba(255,255,255) !important;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .li-hover:hover {
-    color: #ffd700 !important;
+    color: rgba(255,255,255, 0.8) !important;
 }
 .text-gold {
 color: #ffd700;
 }
 .text-gold-light {
-    color: #dcdcdd;
+    color: #686868;
 }
 
 .bg-dark-light {
@@ -91,6 +96,9 @@ color: #ffd700;
 .btn-introduction {
     position: absolute;
 
+}
+.btn {
+    text-transform: uppercase;
 }
 
 .bg-introduction-bottom-1 {
@@ -163,9 +171,10 @@ color: #ffd700;
 }
 
 .title-home {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #3c3c3c;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .bg-shadow-box {
@@ -211,13 +220,13 @@ color: #ffd700;
 }
 .figure-product img {
     /* opacity: 1; */
-    border: solid 2px rgba(0,0,0,0);
+    border: solid 1px rgba(0,0,0,0);
     transition: all 0.2s ease-out;
     /* transition: scale 1s; */
 }
 .figure-product img:hover {
     /* opacity: 0.8; */
-    border: solid 2px #222222;
+    border: solid 1px #a252a3;
     transition: all 0.5s ease-out;
     /* transform: scale(1.5); */
 }
@@ -365,6 +374,9 @@ color: #ffd700;
 .angle-mask:before{
     padding-bottom: 12rem;
 }
+.angle-mask {
+    background-color: #f6f6f6;
+}
 /* .angle--top:before {
     margin-top: -247px;
 } */
@@ -432,7 +444,8 @@ color: #ffd700;
 }
 
 .nav__menu>li>a {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255);
+    text-transform: uppercase;
     /* font-family: "Myriad Web Pro"; */
 }
 
@@ -463,7 +476,7 @@ color: #ffd700;
 }
 
 .nav__icon-toggle-bar {
-    background-color:#dcdcdd;
+    background-color:#686868;
 
 }
 
@@ -902,6 +915,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         left: 50%;
         transform: translate(-50%, -200%);
         color: white;
+    }
+    .about__holder {
+        padding: 44px 15px;
+        margin: 0.5rem;
     }
 }
 

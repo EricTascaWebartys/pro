@@ -1,15 +1,15 @@
 @isset($homepage)
     <section class="section-from-blog pb-96 angle angle--top angle-mask bg-light">
 @else
-    <section class="section-from-blog pb-96 pt-40 bg-dark-light">
+    <section class="section-from-blog pb-96 pt-40 bg-light">
 @endisset
     <div class="container bg-light">
 
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="title-row text-center">
-                    <p class="section-title title-home" id="avantage" @if(!isset($homepage)) style="color:#dcdcdd" @endif>Avantages</p>
-                    <p class="section-description" @if(!isset($homepage)) style="color:#fff" @endif>Pourquoi choisir Web Artys ?</p>
+                    <p class="section-title title-home" id="avantage" @if(!isset($homepage)) style="color:#686868" @endif>Avantages</p>
+                    <p class="section-description">Pourquoi choisir Web Artys ?</p>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                             </div>
                             <div class="entry__body">
                                 <h4 class="entry__title title-underline">
-                                    <a itemprop="headline" href="{{ route('description_1', ['return' => $return]) }}" @if(!isset($homepage)) style="color:#dcdcdd" @endif>Conception de A à Z</a>
+                                    <a itemprop="headline" href="{{ route('description_1', ['return' => $return]) }}" @if(!isset($homepage)) style="color:#686868" @endif>Conception de A à Z</a>
                                 </h4>
                                 <div class="entry__meta">
                                     <span class="entry__meta-item entry__meta-author" @if(!isset($homepage)) style="color:#fff" @endif>
@@ -50,7 +50,7 @@
                             </div>
                             <div class="entry__body">
                                 <h4 class="entry__title title-underline">
-                                    <a href="{{ route('description_2', ['return' => $return]) }}" itemprop="headline" @if(!isset($homepage)) style="color:#dcdcdd" @endif>Web Design</a>
+                                    <a href="{{ route('description_2', ['return' => $return]) }}" itemprop="headline" @if(!isset($homepage)) style="color:#686868" @endif>Web Design</a>
                                 </h4>
                                 <div class="entry__meta">
                                     <span class="entry__meta-item entry__meta-author" @if(!isset($homepage)) style="color:#fff" @endif>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="entry__body">
                                 <h4 class="entry__title title-underline">
-                                    <a itemprop="headline" href="{{ route('description_3', ['return' => $return]) }}" @if(!isset($homepage)) style="color:#dcdcdd" @endif>Progressive Web App</a>
+                                    <a itemprop="headline" href="{{ route('description_3', ['return' => $return]) }}" @if(!isset($homepage)) style="color:#686868" @endif>Progressive Web App</a>
                                 </h4>
                                 <div class="entry__meta">
                                     <span class="entry__meta-item entry__meta-author" @if(!isset($homepage)) style="color:#fff" @endif>

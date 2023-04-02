@@ -16,7 +16,7 @@
         </div> <!-- end project hero -->
 
         <!-- Project Info -->
-        <section class="section-project-info pb-96">
+        <section class="section-project-info pb-96 bg-light">
             <div class="container">
                 <div class="row">
 
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </section> <!-- end project info -->
-        <section class="section-testimonials bg-light" id="more">
+        <section class="section-testimonials bg-white" id="more">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">

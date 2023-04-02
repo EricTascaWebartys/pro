@@ -84,16 +84,16 @@
                                     <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
                                     <ul  class="nav__dropdown-menu">
                                         <li><a href="{{ route('fluidity') }}" class="li-hover">Design UX/UI</a></li>
-                                        <li><a href="{{ route('seo') }}" class="li-hover">{{ __('navigation.Search Engine Optimization') }}</a></li>
+                                        <li><a href="{{ route('seo') }}" class="li-hover">{{ str_replace("é","e", __('navigation.Search Engine Optimization')) }}</a></li>
                                         <li><a href="{{ route('contact') }}" class="li-hover">{{ __('navigation.Contact') }}</a></li>
                                     </ul>
     							</li>
                                 <li>
-                                    <a href="@if(isset($homepage)) #works @else {{ route('homepage') }}#works @endif" class="nav-link">{{ __('navigation.Works') }}</a>
+                                    <a href="@if(isset($homepage)) #works @else {{ route('homepage') }}#works @endif" class="nav-link">{{ str_replace("é","e", __('navigation.Works')) }}</a>
                                 </li>
 
                                 <li>
-                                    <a href="@if(isset($homepage)) #avis @else {{ route('homepage') }}#avis @endif" class="nav-link  @if(isset($avis_page)) home_active @endif">{{ __('navigation.Testimonies') }}</a>
+                                    <a href="@if(isset($homepage)) #avis @else {{ route('homepage') }}#avis @endif" class="nav-link  @if(isset($avis_page)) home_active @endif">{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
                                 </li>
     							<li>
     								<a href="{{ route('contact', ['devis' => 'devis']) }}" class="nav-link @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
