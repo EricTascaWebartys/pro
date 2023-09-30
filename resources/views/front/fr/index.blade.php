@@ -7,10 +7,10 @@
                 <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-block mx-auto " width="100%">
             </div>
             <div class="col-12">
-                <p id='head1' class='header font-weight-bold' style="width:100%;text-align:center">Votre site internet</p>
-                <p id='head2' class='header font-weight-bold' style="width:100%;text-align:center">Conçu pour vous</p>
-                <p id='head3' class='header font-weight-bold' style="width:100%;text-align:center">Simple et personnalisé</p>
-                <p id='head4' class='header font-weight-bold' style="width:100%;text-align:center">Bienvenue chez WEB ARTYS</p>
+                <p id='head1' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Votre site internet</p>
+                <p id='head2' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Conçu pour vous</p>
+                <p id='head3' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Simple et personnalisé</p>
+                <p id='head4' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Bienvenue chez WEB ARTYS</p>
             </div>
             <div class="local-scroll">
                 <a href="#about" class="scroll-down btn-introduction" style="font-size: 2rem">

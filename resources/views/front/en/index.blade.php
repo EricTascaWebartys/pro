@@ -6,10 +6,10 @@
                     <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-block mx-auto " width="100%">
                 </div>
                 <div class="col-12">
-                    <p id='head1' class='header font-weight-bold' style="width:100%;text-align:center">Awesome designs</p>
-                    <p id='head2' class='header font-weight-bold' style="width:100%;text-align:center">Just for you</p>
-                    <p id='head3' class='header font-weight-bold' style="width:100%;text-align:center">Simple and awesome all the time</p>
-                    <p id='head4' class='header font-weight-bold' style="width:100%;text-align:center">Welcome to Web Artys</p>
+                    <p id='head1' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Awesome designs</p>
+                    <p id='head2' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Just for you</p>
+                    <p id='head3' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Simple and awesome all the time</p>
+                    <p id='head4' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Welcome to Web Artys</p>
                 </div>
 
                     {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}

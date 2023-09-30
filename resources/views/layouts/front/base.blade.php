@@ -38,7 +38,7 @@
     		</div>
     	</div>
     	<header class="nav nav--always-fixed" itemscope>
-            <div class="nav__holder nav--sticky  nav--align-center" @isset($homepage)) style="background-color:#0f285e; color:#fff" @else style="background-color:#0f285e; color:#fff" @endisset>
+            <div class="nav__holder nav--sticky  nav--align-center" @isset($homepage)) style="background-color:#333333; color:#fff" @else style="background-color:#333333; color:#fff" @endisset>
     			<div class="container-fluid container-semi-fluid nav-bg">
     				<div class="flex-parent">
     					<div class="nav__header clearfix">
@@ -189,7 +189,7 @@
          </main>
          <script type="text/javascript">
              if(document.body.offsetWidth < 992) {
-                 document.querySelector(".nav-bg").style.backgroundColor = "#0f285e";
+                 document.querySelector(".nav-bg").style.backgroundColor = "#333333";
              }
          </script>
          @isset($homepage)
@@ -206,16 +206,17 @@
                  // btn_intro.style.top = logo_img.offsetTop + logo_img.offsetHeight + 160 + "px";
                  let nav = document.querySelector(".nav__holder");
                  if(document.body.offsetWidth >= 992) {
+                     nav.style.backgroundColor = "transparent";
                      document.addEventListener('scroll', function(e) {
                          if(nav.classList.contains("sticky")) {
-                              nav.style.backgroundColor = "#0f285e";
+                              nav.style.backgroundColor = "#333333";
                          } else {
                                nav.style.backgroundColor = "transparent";
-                               if(window.pageYOffset > 0) nav.style.backgroundColor = "#0f285e";
+                               if(window.pageYOffset > 0) nav.style.backgroundColor = "#333333";
                          }
                      });
                  } else {
-                      nav.style.backgroundColor = "#0f285e";
+                      nav.style.backgroundColor = "#333333";
                  }
              </script>
          @else
@@ -223,9 +224,9 @@
                  let nav = document.querySelector(".nav__holder");
                  document.addEventListener('scroll', function(e) {
                      if(nav.classList.contains("sticky")) {
-                          nav.style.backgroundColor = "#0f285e";
+                          nav.style.backgroundColor = "#333333";
                      } else {
-                           nav.style.backgroundColor = "#0f285e";
+                           nav.style.backgroundColor = "#333333";
                      }
                  });
              </script>
