@@ -66,7 +66,7 @@
                                     <i class="cible_1 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
                                     <ul  class="cible_1_bis nav__dropdown-menu text-uppercase bg-menu-ul">
                                         <li>
-                                            <a href="@if(isset($homepage)) #about @else {{ route('homepage') }}#about @endif" class="nav-hover">{{ str_replace("é","e", __('navigation.Who we are')) }}</a>
+                                            <a href="@if(isset($homepage)) #about @else {{ route('homepage') }}#about @endif" class="nav-hover">{{ str_replace("é","e", __('navigation.Who we are')) }} ?</a>
                                         </li>
                                         <li>
                                             <a href="@if(isset($homepage)) #works @else {{ route('homepage') }}#works @endif" class="nav-hover">{{ str_replace("é","e", __('navigation.Works')) }}</a>
