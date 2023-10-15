@@ -674,6 +674,8 @@ return [
     "Whoops" => "Oups",
     "Whoops!" => "Oups !",
     "Whoops! Something went wrong." => "Oups ! Un problème est survenu.",
+    "Who we are" => "Qui sommes-nous",
+    "Who I am" => "Qui suis-je",
     "With Trashed" => "Avec ceux mis à la corbeille",
     "Works" => "Réalisations",
     "Write" => "Ecrire",

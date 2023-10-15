@@ -17,6 +17,13 @@
         opacity: 0;
     }
 }
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+.nav__dropdown-menu {
+    border: solid #4a4a4a 1px;
+    background-color: #4a4a4a;
+}
 .intro__text {
     text-transform: uppercase;
 }
@@ -671,6 +678,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .article-responsive {
         opacity: 1;
+    }
+    .nav__dropdown-menu {
+        border: none;
     }
 }
 

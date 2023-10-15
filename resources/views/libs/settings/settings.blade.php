@@ -1,5 +1,5 @@
 <!-- START SETTINGS-->
-<div class="settings hide-down">
+<div class="settings d-lg-inline-block d-none">
    <div class="settings-inner">
       <div class="settings-ctrl settings-zone">{{ __('navigation.Pro Area') }}</div>
       <div class="settings-content settings-zone">

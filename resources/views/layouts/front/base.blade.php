@@ -55,51 +55,56 @@
     						</button>
     					</div>
     					<nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse" itemscope="itemscope">
-    						<ul class="nav__menu local-scroll" id="onepage-nav">
+    						<ul class="nav__menu local-scroll">
     							<li>
     								<a href="@if(isset($homepage)) #home @else {{ route('homepage') }}#home @endif" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true">{{ __('navigation.Home') }}</a>
     								{{-- <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,0)"></i> --}}
     							</li>
 
                                 <li class="nav__dropdown">
-                                    <a href="#" class="nav-link">Description</a>
-                                    <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
-                                    <ul  class="nav__dropdown-menu">
-                                        <li><a href="{{ route('description_1') }}" class="li-hover">{{ __('navigation.Perfect Coding') }}</a></li>
-                                        <li><a href="{{ route('description_2') }}" class="li-hover">Web Design</a></li>
-                                        <li><a href="{{ route('description_3') }}" class="li-hover">Progressive Web App</a></li>
+                                    <a href="#" class="nav-link" onclick="open_menu(this)" data-trigger="cible_1">{{ __('navigation.About') }}</a>
+                                    <i class="cible_1 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
+                                    <ul  class="cible_1_bis nav__dropdown-menu text-uppercase bg-menu-ul">
+                                        <li>
+                                            <a href="@if(isset($homepage)) #about @else {{ route('homepage') }}#about @endif" class="nav-hover">{{ str_replace("é","e", __('navigation.Who we are')) }}</a>
+                                        </li>
+                                        <li>
+                                            <a href="@if(isset($homepage)) #works @else {{ route('homepage') }}#works @endif" class="nav-hover">{{ str_replace("é","e", __('navigation.Works')) }}</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="@if(isset($homepage)) #avis @else {{ route('homepage') }}#avis @endif" class="nav-hover  @if(isset($avis_page)) home_active @endif">{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
+                                        </li>
+
                                     </ul>
                                 </li>
-                                <li class="nav__dropdown">
-                                    <a href="#" class="nav-link  @if(isset($products)) home_active @endif products-hover">{{ __('navigation.Website') }}</a>
-                                    <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
-                                    <ul  class="nav__dropdown-menu">
+                                <li class="nav__dropdown text-uppercase">
+                                    <a href="#" onclick="open_menu(this)" data-trigger="cible_2" class="nav-link  @if(isset($products)) home_active @endif products-hover">{{ __('navigation.Website') }}</a>
+                                    <i class="cible_2 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
+                                    <ul  class="cible_2_bis nav__dropdown-menu">
                                         <li><a href="{{ route('website_1') }}" class="li-hover">{{ __('navigation.Showcase Website') }}</a></li>
                                         <li><a href="{{ route('website_2') }}" class="li-hover">{{ __('navigation.Dynamic Website') }}</a></li>
                                         <li><a href="{{ route('website_3') }}" class="li-hover">E-commerce</a></li>
+                                        <li>
+                                            <a href="{{ route('contact', ['devis' => 'devis']) }}" class="nav-hover @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
+                                        </li>
                                     </ul>
                                 </li>
     							<li  class="nav__dropdown">
-    								<a href="#" class="nav-link">{{ __('navigation.Services') }}</a>
-                                    <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
-                                    <ul  class="nav__dropdown-menu">
+    								<a href="#" onclick="open_menu(this)" data-trigger="cible_3" class="nav-link">{{ __('navigation.Services') }}</a>
+                                    <i class="cible_3 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
+                                    <ul  class="cible_3_bis nav__dropdown-menu">
                                         <li><a href="{{ route('fluidity') }}" class="li-hover">Design UX/UI</a></li>
                                         <li><a href="{{ route('seo') }}" class="li-hover">{{ str_replace("é","e", __('navigation.Search Engine Optimization')) }}</a></li>
+                                        <li><a href="{{ route('description_1') }}" class="li-hover">{{ __('navigation.Perfect Coding') }}</a></li>
+                                        <li><a href="{{ route('description_2') }}" class="li-hover">Web Design</a></li>
+                                        <li><a href="{{ route('description_3') }}" class="li-hover">Progressive Web App</a></li>
                                         <li><a href="{{ route('contact') }}" class="li-hover">{{ __('navigation.Contact') }}</a></li>
                                     </ul>
     							</li>
-                                <li>
-                                    <a href="@if(isset($homepage)) #works @else {{ route('homepage') }}#works @endif" class="nav-link">{{ str_replace("é","e", __('navigation.Works')) }}</a>
-                                </li>
 
-                                <li>
-                                    <a href="@if(isset($homepage)) #avis @else {{ route('homepage') }}#avis @endif" class="nav-link  @if(isset($avis_page)) home_active @endif">{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
-                                </li>
-    							<li>
-    								<a href="{{ route('contact', ['devis' => 'devis']) }}" class="nav-link @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
-    							</li>
 
-                                <li class="hide-up">
+                                <li class="d-lg-none d-inline-block">
                                     <a href="@if(Auth::user()) {{ route('dashboard') }} @else {{ route('login') }} @endif" class="nav-link">{{ __('navigation.Pro Area') }}</a>
                                 </li>
                                 <li>
@@ -253,7 +258,22 @@
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.navigation.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.migration.min.js') }}"></script>
      	<script defer type="text/javascript" src="{{ asset('assets/front/revolution/js/extensions/revolution.extension.parallax.min.js') }}"></script>
-
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        @yield('settings_options')
+        <script type="text/javascript">
+            function open_menu(e) {
+                let element = document.querySelector('.'+ e.getAttribute("data-trigger"));
+                let element_2 = $('.'+ e.getAttribute("data-trigger")+'_bis');
+                if(element.classList.contains("nav__dropdown-trigger--is-open")) {
+                    element.classList.remove("nav__dropdown-trigger--is-open");
+                    element_2.slideUp(400);
+                } else {
+                    element.classList.add("nav__dropdown-trigger--is-open");
+                    element_2.slideDown(400);
+                    element_2.style.display = "block";
+                }
+            }
+        </script>
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
         {{-- <script defer type="text/javascript">
             $(document).click(function(event) {
