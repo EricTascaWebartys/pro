@@ -62,7 +62,7 @@
     							</li>
 
                                 <li class="nav__dropdown">
-                                    <a href="#" class="nav-link" onclick="open_menu(this)" data-trigger="cible_1">{{ __('navigation.About') }}</a>
+                                    <a href="#" class="nav-link add-open-menu" data-trigger="cible_1">{{ __('navigation.About') }}</a>
                                     <i class="cible_1 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
                                     <ul  class="cible_1_bis nav__dropdown-menu text-uppercase bg-menu-ul">
                                         <li>
@@ -79,7 +79,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav__dropdown text-uppercase">
-                                    <a href="#" onclick="open_menu(this)" data-trigger="cible_2" class="nav-link  @if(isset($products)) home_active @endif products-hover">{{ __('navigation.Website') }}</a>
+                                    <a href="#" data-trigger="cible_2" class="nav-link add-open-menu  @if(isset($products)) home_active @endif products-hover">{{ __('navigation.Website') }}</a>
                                     <i class="cible_2 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
                                     <ul  class="cible_2_bis nav__dropdown-menu">
                                         <li><a href="{{ route('website_1') }}" class="li-hover">{{ __('navigation.Showcase Website') }}</a></li>
@@ -91,7 +91,7 @@
                                     </ul>
                                 </li>
     							<li  class="nav__dropdown">
-    								<a href="#" onclick="open_menu(this)" data-trigger="cible_3" class="nav-link">{{ __('navigation.Services') }}</a>
+    								<a href="#" data-trigger="cible_3" class="nav-link add-open-menu">{{ __('navigation.Services') }}</a>
                                     <i class="cible_3 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
                                     <ul  class="cible_3_bis nav__dropdown-menu">
                                         <li><a href="{{ route('fluidity') }}" class="li-hover">Design UX/UI</a></li>
@@ -270,7 +270,14 @@
                 } else {
                     element.classList.add("nav__dropdown-trigger--is-open");
                     element_2.slideDown(400);
-                    element_2.style.display = "block";
+                }
+            }
+            if(window.screen.width < 1024) {
+                let elements = document.getElementsByClassName('add-open-menu');
+                if(typeof(elements) != "undefined" && elements.length > 0) {
+                    for (var i = 0; i < elements.length; i++) {
+                        elements[i].setAttribute("onclick", "open_menu(this)")
+                    }
                 }
             }
         </script>
