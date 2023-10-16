@@ -57,7 +57,7 @@
     					<nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse" itemscope="itemscope">
     						<ul class="nav__menu local-scroll">
     							<li>
-    								<a href="@if(isset($homepage)) #home @else {{ route('homepage') }}#home @endif" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true">{{ __('navigation.Home') }}</a>
+    								<a href="{{ route('homepage') }}#home" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true">{{ __('navigation.Home') }}</a>
     								{{-- <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,0)"></i> --}}
     							</li>
 
