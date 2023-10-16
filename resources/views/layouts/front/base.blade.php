@@ -86,7 +86,7 @@
                                         <li><a href="{{ route('website_2') }}" class="li-hover">{{ __('navigation.Dynamic Website') }}</a></li>
                                         <li><a href="{{ route('website_3') }}" class="li-hover">E-commerce</a></li>
                                         <li>
-                                            <a href="{{ route('contact', ['devis' => 'devis']) }}" class="nav-hover @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
+                                            <a href="{{ route('contact', ['devis' => 'devis']) }}" class="li-hover @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
                                         </li>
                                     </ul>
                                 </li>
