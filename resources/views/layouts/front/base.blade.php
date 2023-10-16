@@ -66,14 +66,14 @@
                                     <i class="cible_1 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
                                     <ul  class="cible_1_bis nav__dropdown-menu text-uppercase bg-menu-ul">
                                         <li>
-                                            <a href="@if(isset($homepage)) #about @else {{ route('homepage') }}#about @endif" class="li-hover">{{ str_replace("é","e", __('navigation.Who we are')) }} ?</a>
+                                            <a href="{{ route('homepage') }}#about" class="li-hover">{{ str_replace("é","e", __('navigation.Who we are')) }} ?</a>
                                         </li>
                                         <li>
-                                            <a href="@if(isset($homepage)) #works @else {{ route('homepage') }}#works @endif" class="li-hover">{{ str_replace("é","e", __('navigation.Works')) }}</a>
+                                            <a href="{{ route('homepage') }}#works" class="li-hover">{{ str_replace("é","e", __('navigation.Works')) }}</a>
                                         </li>
 
                                         <li>
-                                            <a href="@if(isset($homepage)) #avis @else {{ route('homepage') }}#avis @endif" class="li-hover  @if(isset($avis_page)) home_active @endif">{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
+                                            <a href="{{ route('homepage') }}#avis" class="li-hover  @if(isset($avis_page)) home_active @endif">{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
                                         </li>
 
                                     </ul>
