@@ -103,7 +103,6 @@
                                     </ul>
     							</li>
 
-
                                 <li class="d-lg-none d-inline-block">
                                     <a href="@if(Auth::user()) {{ route('dashboard') }} @else {{ route('login') }} @endif" class="nav-link">{{ __('navigation.Pro Area') }}</a>
                                 </li>
