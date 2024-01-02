@@ -60,7 +60,6 @@
     								<a href="{{ route('homepage') }}#home" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true">{{ __('navigation.Home') }}</a>
     								{{-- <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,0)"></i> --}}
     							</li>
-
                                 <li class="nav__dropdown">
                                     <a href="#" class="nav-link add-open-menu" data-trigger="cible_1">{{ __('navigation.About') }}</a>
                                     <i class="cible_1 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
