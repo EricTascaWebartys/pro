@@ -67,7 +67,7 @@
                 <a href="{{ route('contact') }}" class="btn btn--lg btn--stroke btn--black"><span>Contacter</span></a>
             </div> --}}
         </section>
-        @if($avis !== null)
+        {{-- @if($avis !== null)
         <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="">
             <div class="container">
 
@@ -107,7 +107,7 @@
                 </div>
             </div>
         </section>
-        @endif
+        @endif --}}
         @include('front.inc.'. app()->getLocale() .'.avantages')
         <section class="section-results bg-gradient-bottom bg-results">
             <div class="container-fluid">

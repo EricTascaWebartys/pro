@@ -71,9 +71,9 @@
                                             <a href="@isset($homepage) #works @else {{ route('homepage') }}#works @endif" class="li-hover" @isset($homepage) data-toggle="collapse" data-target="#navbar-collapse" @endif>{{ str_replace("é","e", __('navigation.Works')) }}</a>
                                         </li>
 
-                                        <li>
+                                        {{-- <li>
                                             <a href="@isset($homepage) #avis @else {{ route('homepage') }}#avis @endif" class="li-hover  @if(isset($avis_page)) home_active @endif" @isset($homepage) data-toggle="collapse" data-target="#navbar-collapse" @endif>{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
-                                        </li>
+                                        </li> --}}
 
                                     </ul>
                                 </li>
