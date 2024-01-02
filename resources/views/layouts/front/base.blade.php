@@ -70,6 +70,7 @@
                                         <li>
                                             <a href="@isset($homepage) #works @else {{ route('homepage') }}#works @endif" class="li-hover" @isset($homepage) data-toggle="collapse" data-target="#navbar-collapse" @endif>{{ str_replace("é","e", __('navigation.Works')) }}</a>
                                         </li>
+                                        <li><a href="{{ route('contact') }}" class="li-hover">{{ __('navigation.Contact') }}</a></li>
 
                                         {{-- <li>
                                             <a href="@isset($homepage) #avis @else {{ route('homepage') }}#avis @endif" class="li-hover  @if(isset($avis_page)) home_active @endif" @isset($homepage) data-toggle="collapse" data-target="#navbar-collapse" @endif>{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
@@ -98,7 +99,6 @@
                                         <li><a href="{{ route('description_1') }}" class="li-hover">{{ __('navigation.Perfect Coding') }}</a></li>
                                         <li><a href="{{ route('description_2') }}" class="li-hover">Web Design</a></li>
                                         <li><a href="{{ route('description_3') }}" class="li-hover">Progressive Web App</a></li>
-                                        <li><a href="{{ route('contact') }}" class="li-hover">{{ __('navigation.Contact') }}</a></li>
                                     </ul>
     							</li>
 
