@@ -57,7 +57,7 @@
     					<nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse" itemscope="itemscope">
     						<ul class="nav__menu local-scroll">
     							<li>
-    								<a href="{{ route('homepage') }}#home" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true">{{ __('navigation.Home') }}</a>
+    								<a href="{{ route('homepage') }}#home" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true" data-toggle="collapse" data-target="#navbar-collapse">{{ __('navigation.Home') }}</a>
     								{{-- <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,0)"></i> --}}
     							</li>
                                 <li class="nav__dropdown">
@@ -65,14 +65,14 @@
                                     <i class="cible_1 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
                                     <ul  class="cible_1_bis nav__dropdown-menu text-uppercase bg-menu-ul">
                                         <li>
-                                            <a href="{{ route('homepage') }}#about" class="li-hover">{{ str_replace("é","e", __('navigation.Who we are')) }} ?</a>
+                                            <a href="{{ route('homepage') }}#about" class="li-hover" data-toggle="collapse" data-target="#navbar-collapse">{{ str_replace("é","e", __('navigation.Who we are')) }} ?</a>
                                         </li>
                                         <li>
-                                            <a href="{{ route('homepage') }}#works" class="li-hover">{{ str_replace("é","e", __('navigation.Works')) }}</a>
+                                            <a href="{{ route('homepage') }}#works" class="li-hover" data-toggle="collapse" data-target="#navbar-collapse">{{ str_replace("é","e", __('navigation.Works')) }}</a>
                                         </li>
 
                                         <li>
-                                            <a href="{{ route('homepage') }}#avis" class="li-hover  @if(isset($avis_page)) home_active @endif">{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
+                                            <a href="{{ route('homepage') }}#avis" class="li-hover  @if(isset($avis_page)) home_active @endif" data-toggle="collapse" data-target="#navbar-collapse">{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
                                         </li>
 
                                     </ul>
