@@ -71,7 +71,9 @@
                                             <a href="@isset($homepage) #works @else {{ route('homepage') }}#works @endif" class="li-hover" @isset($homepage) data-toggle="collapse" data-target="#navbar-collapse" @endif>{{ str_replace("é","e", __('navigation.Works')) }}</a>
                                         </li>
                                         <li><a href="{{ route('contact') }}" class="li-hover">{{ __('navigation.Contact') }}</a></li>
-
+                                        <li>
+                                            <a href="{{ route('contact', ['devis' => 'devis']) }}" class="li-hover @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
+                                        </li>
                                         {{-- <li>
                                             <a href="@isset($homepage) #avis @else {{ route('homepage') }}#avis @endif" class="li-hover  @if(isset($avis_page)) home_active @endif" @isset($homepage) data-toggle="collapse" data-target="#navbar-collapse" @endif>{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
                                         </li> --}}
@@ -85,9 +87,7 @@
                                         <li><a href="{{ route('website_1') }}" class="li-hover">{{ __('navigation.Showcase Website') }}</a></li>
                                         <li><a href="{{ route('website_2') }}" class="li-hover">{{ __('navigation.Dynamic Website') }}</a></li>
                                         <li><a href="{{ route('website_3') }}" class="li-hover">E-commerce</a></li>
-                                        <li>
-                                            <a href="{{ route('contact', ['devis' => 'devis']) }}" class="li-hover @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
-                                        </li>
+
                                     </ul>
                                 </li>
     							<li  class="nav__dropdown">
