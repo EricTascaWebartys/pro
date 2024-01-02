@@ -68,13 +68,13 @@
             </div> --}}
         </section>
         @if($avis !== null)
-        <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="" id="avis">
+        <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="">
             <div class="container">
 
                 <div class="row justify-content-center mb-40">
                     <div class="col-lg-7">
                         <div class="title-row text-center">
-                            <p class="section-title title-home text-light" style="color: #fff">Temoignages</p>
+                            <p class="section-title title-home text-light" style="color: #fff" >Temoignages</p>
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                                             <p class="testimonial__text">
                                                 “{{ $testimony->text }}”
                                             </p>
-                                            <span class="testimonial__name">{{ $testimony->full_name() }}</span>
+                                            <span class="testimonial__name" id="avis">{{ $testimony->full_name() }}</span>
                                             <span class="testimonial__company">{{ $testimony->job}}</span>
                                         </div>
                                     </div>

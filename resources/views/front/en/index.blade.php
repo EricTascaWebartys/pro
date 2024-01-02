@@ -78,7 +78,7 @@
             </div> --}}
         </section>
         @if($avis !== null)
-        <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="" id="avis">
+        <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="">
             <div class="container">
                 <div class="row justify-content-center mb-40">
                     <div class="col-lg-7">
@@ -98,7 +98,7 @@
                                             <p class="testimonial__text">
                                                 “{{ $testimony->text }}”
                                             </p>
-                                            <span class="testimonial__name">{{ $testimony->full_name() }}</span>
+                                            <span class="testimonial__name" id="avis">{{ $testimony->full_name() }}</span>
                                             <span class="testimonial__company">{{ $testimony->job}}</span>
                                         </div>
                                     </div>
@@ -109,7 +109,7 @@
                     @if($avis_active->count() > 0)
                         <div style="text-align:center; margin:0 auto;padding-top:40px;">
                             <a href="{{ route('testimonies.show') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--light-border">
-                                <span>Read More</span>
+                                <span >Read More</span>
                             </a>
                         </div>
                     @endif
