@@ -12,23 +12,20 @@
              <meta name="robots" content="noindex" />
              <meta name="googlebot" content="noindex">
          @endisset
-    	{{-- <link href='//fonts.googleapis.com/css?family=DM+Sans:400,400i,500,700' rel='stylesheet'> --}}
-        <link defer href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link defer href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet" async>
     	<link defer rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
     	{{-- <link rel="stylesheet" href="{{ asset('assets/front/css/custom.css') }}" /> --}}
     	<link rel="shortcut icon" href="{{ asset('img/favicon.webp') }}">
     	<link rel="apple-touch-icon" href="{{ asset('img/apple-touch-icon.webp') }}">
     	<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('img/apple-touch-icon-72x72.webp') }}">
         <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('img/apple-touch-icon-114x114.webp') }}">
-    	{{-- <link rel="stylesheet" href="{{ asset('libs/fontawesome/css/fontawesome.min.css') }}">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css"> --}}
         <link async rel='stylesheet' href='{{ asset('assets/front/revolution-addons/distortion/css/distortion.css') }}' type='text/css' media='all' />
-        {{-- <link rel="preconnect" href="https://fonts.gstatic.com"> --}}
-        {{-- <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Black+Ops+One&family=Cabin+Condensed&family=NTR&family=Text+Me+One&family=Tomorrow:wght@100;200;300;400&display=swap" rel="stylesheet"> --}}
-        <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}?={{ strtotime(date('Y-m')) }}">
-        <link rel="stylesheet" href="{{ asset('libs/background_particles/style.css') }}?={{ strtotime(date('Y-m')) }}">
-        <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}?={{ strtotime(date('Y-m')) }}">
-        <link async rel="stylesheet" href="{{ asset("css/front/design.css") }}?={{ strtotime(date('Y-m')) }}">
+
+        <link rel="stylesheet" href="{{ asset('libs/settings/css/settings.css') }}?t={{ config('app.css_version') }}">
+        <link rel="stylesheet" href="{{ asset('libs/background_particles/style.css') }}?t={{ config('app.css_version') }}">
+        <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}?t={{ config('app.css_version') }}">
+        <link async rel="stylesheet" href="{{ asset("css/front/font.css") }}?t={{ config('app.css_version') }}" async>
+        <link async rel="stylesheet" href="{{ asset("css/front/design.css") }}?t={{ config('app.css_version') }}">
 
     </head>
     <body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home" itemscope>
@@ -38,13 +35,13 @@
     		</div>
     	</div>
     	<header class="nav nav--always-fixed" itemscope>
-            <div class="nav__holder nav--sticky  nav--align-center" @isset($homepage)) style="background-color:#333333; color:#fff" @else style="background-color:#333333; color:#fff" @endisset>
+            <div class="nav__holder nav--sticky nav--align-center" @isset($homepage)) style="background-color:#031321; color:#fff" @else style="background-color:#031321; color:#fff" @endisset>
     			<div class="container-fluid container-semi-fluid nav-bg">
     				<div class="flex-parent">
     					<div class="nav__header clearfix">
     						<div class="logo-wrap local-scroll">
     							<a href="{{ route('homepage') }}" class="logo__url">
-    								<img class="logo" src="{{ asset('/img/logo-mini.webp') }}" alt="logo web artys" itemscope="itemscope">
+    								<img class="logo" src="{{ asset('/img/logo/logo-t.webp') }}" alt="logo mini web artys" itemscope="itemscope">
     							</a>
     						</div>
     						<button type="button" class="nav__icon-perso d-lg-none d-inline-block" id="nav__icon-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -57,7 +54,7 @@
     					<nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse" itemscope="itemscope">
     						<ul class="nav__menu local-scroll">
     							<li>
-    								<a href="@isset($homepage) #home @else {{ route('homepage') }}#home @endif" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true" data-toggle="collapse" data-target="#navbar-collapse">{{ __('navigation.Home') }}</a>
+    								<a href="@isset($homepage) #home @else{{ route('homepage') }}@endif" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true" data-toggle="collapse" data-target="#navbar-collapse">{{ __('navigation.Home') }}</a>
     								{{-- <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,0)"></i> --}}
     							</li>
                                 <li class="nav__dropdown">
@@ -192,7 +189,7 @@
          </main>
          <script type="text/javascript">
              if(document.body.offsetWidth < 992) {
-                 document.querySelector(".nav-bg").style.backgroundColor = "#333333";
+                 document.querySelector(".nav-bg").style.backgroundColor = "#031321";
              }
          </script>
          @isset($homepage)
@@ -212,14 +209,14 @@
                      nav.style.backgroundColor = "transparent";
                      document.addEventListener('scroll', function(e) {
                          if(nav.classList.contains("sticky")) {
-                              nav.style.backgroundColor = "#333333";
+                              nav.style.backgroundColor = "#031321";
                          } else {
                                nav.style.backgroundColor = "transparent";
-                               if(window.pageYOffset > 0) nav.style.backgroundColor = "#333333";
+                               if(window.pageYOffset > 0) nav.style.backgroundColor = "#031321";
                          }
                      });
                  } else {
-                      nav.style.backgroundColor = "#333333";
+                      nav.style.backgroundColor = "#031321";
                  }
              </script>
          @else
@@ -227,9 +224,9 @@
                  let nav = document.querySelector(".nav__holder");
                  document.addEventListener('scroll', function(e) {
                      if(nav.classList.contains("sticky")) {
-                          nav.style.backgroundColor = "#333333";
+                          nav.style.backgroundColor = "#031321";
                      } else {
-                           nav.style.backgroundColor = "#333333";
+                           nav.style.backgroundColor = "#031321";
                      }
                  });
              </script>
@@ -295,7 +292,7 @@
             window.tarteaucitronForceLanguage = currentLanguage;
         </script>
         <script type="text/javascript">
-            let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option-57.webp') }}" alt="cookies" />';
+            let ImageCookiesUrl = '<img src="{{ asset('libs/tarteaucitron/img/option.webp') }}" alt="cookies" />';
         </script>
         <script type="text/javascript" src="{{ asset('libs/tarteaucitron/tarteaucitron.js') }}"></script>
         <script type="text/javascript" src="{{ asset('libs/tarteaucitron/js/script.js') }}"></script>

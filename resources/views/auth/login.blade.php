@@ -60,7 +60,7 @@
                                 <input type="submit" class="btn btn--lg btn--color" value="{{ __('navigation.Login') }}">
                                 <br>
                                 @if (Route::has('password.request'))
-                                    <a class="color-5 ml-20" href="{{ route('password.request') }}" onmouseover="this.style.color='#03b7fb';">
+                                    <a class="color-5 ml-20" href="{{ route('password.request') }}" onmouseover="this.style.color='#031321';">
                                         {{ __('navigation.Forgot Your Password?') }}
                                     </a>
                                 @endif

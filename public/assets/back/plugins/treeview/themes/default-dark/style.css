@@ -323,7 +323,7 @@
   box-shadow: none;
 }
 .jstree-default-dark .jstree-disabled.jstree-clicked {
-  background: #333333;
+  background: #031321;
 }
 .jstree-default-dark .jstree-disabled > .jstree-icon {
   opacity: 0.8;
@@ -1048,7 +1048,7 @@
   .jstree-default-dark-responsive .jstree-wholerow {
     border-top: 1px solid #666;
     border-bottom: 1px solid #000;
-    background: #333333;
+    background: #031321;
     height: 40px;
   }
   .jstree-default-dark-responsive .jstree-wholerow-hovered {

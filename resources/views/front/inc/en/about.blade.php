@@ -20,7 +20,7 @@
                     <div class="animate-container">
                         <div class="title-row mb-40">
                             <h3 class="section-subtitle section-subtitle--line">About</h3>
-                            <h2 class="section-title">WEB ARTYS</h2>
+                            <h2 class="section-title webartys-black poetsen-one">WEB ARTYS</h2>
                             <p class="section-description">
                                 Customer satisfaction is at the heart of our commitment. We accompany you in your <strong class="no-strong">website</strong> creation project in a simple and direct way.
                             </p>
@@ -40,7 +40,7 @@
                                     <div id="collapse-1" class="collapse show" data-parent="#accordion-1" role="tabpanel" aria-labelledby="heading-1">
                                         <div class="accordion__body">
                                             <p>
-                                                To accompany you in order to concretise your project and create the <strong class="no-strong color-7">website</strong> that corresponds in every way to your expectations.
+                                                To accompany you in order to concretise your project and create the <strong class="color-7">website</strong> that corresponds in every way to your expectations.
                                             </p>
                                         </div>
                                     </div>
@@ -58,8 +58,8 @@
                                     <div id="collapse-2" class="collapse" data-parent="#accordion-1" role="tabpanel" aria-labelledby="heading-2">
                                         <div class="accordion__body">
                                             <p>
-                                                Located in the <strong class="no-strong color-7">PACA</strong> region and more precisely in the <strong class="no-strong color-7">Vaucluse</strong> department.
-                                                You can make an appointment in <strong class="no-strong">Aix-en-Provence</strong>, <strong class="no-strong">Salon-de-Provence</strong>, <strong class="no-strong">Marseille</strong>, <strong class="no-strong">Nîmes</strong>, <strong class="no-strong">Avignon</strong> and also throughout <strong class="no-strong color-7">France</strong> and abroad.
+                                                Located in the <strong class="color-7">PACA</strong> region and more precisely in the <strong class="color-7">Vaucluse</strong> department.
+                                                You can make an appointment in <strong class="no-strong">Aix-en-Provence</strong>, <strong class="no-strong">Salon-de-Provence</strong>, <strong class="no-strong">Marseille</strong>, <strong class="no-strong">Nîmes</strong>, <strong class="no-strong">Avignon</strong> and also throughout <strong class="color-7">France</strong> and abroad.
 
                                             </p>
                                         </div>

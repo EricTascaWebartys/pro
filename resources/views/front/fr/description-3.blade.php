@@ -59,13 +59,13 @@
                                             <li>Une seule maintenance pour une solution tout en un.</li>
                                             <li>Installation sur PC / Mac et les appareils Android / iOS.</li>
                                             {{-- <li>Installation sur Android.
-                                                <a href="{{ route('pwa',['return' => 'description']) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i>Vidéo<i class="fab fa-youtube color-youtube" style="margin-left:5px"></i>  </a>
+                                                <a href="{{ route('pwa',['return' => 'description']) }}" style="color:#031321"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i>Vidéo<i class="fab fa-youtube color-youtube" style="margin-left:5px"></i>  </a>
                                             </li>
                                             <li>Installation sur iOS.
-                                                <a href="{{ route('pwa.ios',['return' => 'description']) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i>Vidéo<i class="fab fa-youtube color-youtube" style="margin-left:5px"></i></a>
+                                                <a href="{{ route('pwa.ios',['return' => 'description']) }}" style="color:#031321"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i>Vidéo<i class="fab fa-youtube color-youtube" style="margin-left:5px"></i></a>
                                             </li>
                                             <li>Installation sur PC / Mac.
-                                                <a href="{{ route('pwa.office',['return' => 'description']) }}" style="color:#03b7fb"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i>Vidéo <i class="fab fa-youtube color-youtube" style="margin-left:5px"></i></a>
+                                                <a href="{{ route('pwa.office',['return' => 'description']) }}" style="color:#031321"><i class="fas fa-long-arrow-alt-right color-5" style="margin: 0 5px"></i>Vidéo <i class="fab fa-youtube color-youtube" style="margin-left:5px"></i></a>
                                             </li> --}}
                                         </ul>
                                         @include('front.inc.videos_link_pwa')

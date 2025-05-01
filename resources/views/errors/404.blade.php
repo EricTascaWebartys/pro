@@ -28,7 +28,7 @@
 
         </div>
 
-        <p style="margin-top:4rem;text-align:center"><a href="{{ route('homepage') }}" style="border:solid 1px #a252a3; color:#a252a3; padding: 10px 15px;text-decoration:none "> {{ __('navigation.Return') }}</a> </p>
+        <p style="margin-top:4rem;text-align:center"><a href="{{ route('homepage') }}" style="border:solid 1px #41b6b5; color:#41b6b5; padding: 10px 15px;text-decoration:none "> {{ __('navigation.Return') }}</a> </p>
 
     </body>
 </html>

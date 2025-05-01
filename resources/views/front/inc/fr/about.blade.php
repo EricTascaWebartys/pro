@@ -20,10 +20,18 @@
                     <div class="animate-container">
                         <div class="title-row mb-40">
                             <p class="section-subtitle section-subtitle--line h3">Présentation</p>
-                            <h2 class="section-title">WEB ARTYS</h2>
+                            <h2 class="section-title webartys-black poetsen-one">WEB ARTYS</h2>
                             <p class="section-description">
-                                La satisfaction client est au coeur de notre engagement. Nous vous accompagnons dans votre projet de création de <strong class="no-strong">site internet</strong> de manière simple et direct, sans aucun intermediaire.
+                                Votre projet de <strong class="text-gold">site web</strong>, on le construit avec vous, simplement, sans détour et sans intermédiaire. Ce qui compte pour nous, c’est que vous soyez pleinement satisfait, du début à la fin.
+
                             </p>
+                            <p class="text-center">
+                                <a href="tel:0665469516" class="btn btn--lg btn--stroke contact-form-trigger btn--dark-border d-inline-block">
+                                    <i class="fa fa-phone mr-2 text-dark"></i>
+                                   <span>Appeler</span>
+                                </a>
+                            </p>
+
                         </div>
 
                         <!-- Accordion -->
@@ -40,7 +48,7 @@
                                     <div id="collapse-1" class="collapse show" data-parent="#accordion-1" role="tabpanel" aria-labelledby="heading-1">
                                         <div class="accordion__body">
                                             <p>
-                                                Vous accompagner afin de concrétiser votre projet pour créer le <strong class="no-strong color-7">site internet</strong> qui correspond en tous points à vos attentes.
+                                                Vous accompagner afin de concrétiser votre projet pour créer le <strong class="color-7">site internet</strong> qui correspond en tous points à vos attentes.
                                             </p>
                                         </div>
                                     </div>
@@ -58,9 +66,9 @@
                                     <div id="collapse-2" class="collapse" data-parent="#accordion-1" role="tabpanel" aria-labelledby="heading-2">
                                         <div class="accordion__body">
                                             <p>
-                                                Implanté dans la région <strong class="no-strong color-7">PACA</strong> et plus précisement dans le département du <strong class="no-strong color-7">Vaucluse</strong>.<br>
+                                                Implanté dans la région <strong class="color-7">PACA</strong> et plus précisement dans le département du <strong class="color-7">Vaucluse</strong>.<br>
                                                 Vous pouvez prendre rendez-vous sur <strong class="no-strong">Aix-en-Provence</strong>, <strong class="no-strong">Salon-de-Provence</strong>, <strong class="no-strong">Marseille</strong>, <strong class="no-strong">Nîmes</strong>, <strong class="no-strong">Avignon</strong>
-                                                et également dans toute la <strong class="no-strong color-7">France</strong> et à l'étranger.
+                                                et également dans toute la <strong class="color-7">France</strong> et à l'étranger.
 
                                             </p>
                                         </div>
@@ -80,7 +88,7 @@
                                         <div class="accordion__body">
                                             <p>
                                                 {{-- Etre disponible pour nos clients, c'est agir avec vertu. <br> --}}
-                                                Nous sommes facilement joingnable et nous mettons à disposition un <span class="color-7">Espace Pro</span> ainsi qu'un serveur dédié afin que vous puissiez tester votre <strong class="no-strong color-7">application web</strong>. <br>
+                                                Nous sommes facilement joingnable et nous mettons à disposition un <span class="color-7">Espace Pro</span> ainsi qu'un serveur dédié afin que vous puissiez tester votre <strong class="color-7">application web</strong>. <br>
                                                 Vous pouvez bénéficier de notre système de parrainage. <br>
                                                 Pour plus d'informations <i class="fas fa-long-arrow-alt-right" style="margin:0 0 0 5px"></i> <a href="{{ route('contact') }}"><i class="far fa-envelope color-5" style="margin-left:5px; margin-right:5px"></i>{{ __('navigation.Contact us') }}</a>
                                                 {{-- Envoyer un message : <br> <i class="fas fa-long-arrow-alt-right" style="margin:0 5px"></i> <a href="{{ route('contact') }}"><i class="far fa-envelope color-5" style="margin-left:10px; margin-right:10px"></i>Contacter</a> <br>
@@ -95,6 +103,7 @@
 
                     </div>
                 </div>
+
             </div> <!-- end about__info -->
 
         </div>

@@ -11,7 +11,7 @@
                                 @include('front.inc.description_social')
 
                                 <div class="entry__article">
-                                    <p><span class="dropcap">C</span>onstuire un <strong>site internet sur mesure</strong>, c'est s'assurer d'avoir une <a href="{{ route('description_2') }}"><strong class="no-strong color-7">conception graphique</strong></a> adaptée à votre business.</p>
+                                    <p><span class="dropcap">C</span>onstuire un <strong>site internet sur mesure</strong>, c'est s'assurer d'avoir une <a href="{{ route('description_2') }}"><strong class="color-7">conception graphique</strong></a> adaptée à votre business.</p>
 
 
                                     <blockquote style="text-align:center" class="wp-block-quote is-style-default">

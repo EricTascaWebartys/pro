@@ -11,7 +11,7 @@
                                 @include('front.inc.description_social')
 
                                 <div class="entry__article">
-                                    <p><span class="dropcap">B</span>uilding a customised <strong>website</strong> means ensuring that the <a href="{{ route('description_2') }}"><strong class="no-strong color-7">graphic design</strong></a> is adapted to your business</p>
+                                    <p><span class="dropcap">B</span>uilding a customised <strong>website</strong> means ensuring that the <a href="{{ route('description_2') }}"><strong class="color-7">graphic design</strong></a> is adapted to your business</p>
 
 
                                     <blockquote style="text-align:center" class="wp-block-quote is-style-default">

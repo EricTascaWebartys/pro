@@ -40,7 +40,7 @@
                                     <div id="collapse-1" class="collapse show" data-parent="#accordion-1" role="tabpanel" aria-labelledby="heading-1">
                                         <div class="accordion__body">
                                             <p>
-                                                Vous accompagner afin de concrétiser votre projet pour créer le <strong class="no-strong color-7">site internet</strong> qui correspond en tous points à vos attentes.
+                                                Vous accompagner afin de concrétiser votre projet pour créer le <strong class="color-7">site internet</strong> qui correspond en tous points à vos attentes.
                                             </p>
                                         </div>
                                     </div>
@@ -60,7 +60,7 @@
                                             <p>
                                                 Implanté dans la région <h3 class="font-weight-normal color-7">PACA</h3 > et plus précisement dans le département du <h3 class="font-weight-normal color-7">Vaucluse</h3>.<br>
                                                 Vous pouvez prendre rendez-vous sur <h3 class="font-weight-normal">Aix-en-Provence</h3>, <h3 class="font-weight-normal">Salon-de-Provence</h3>, <h3 class="font-weight-normal">Marseille</h3>, <h3 class="font-weight-normal">Nîmes</h3>, <h3 class="font-weight-normal">Avignon</h3>
-                                                et également dans toute la <strong class="no-strong color-7">France</strong> et à l'étranger.
+                                                et également dans toute la <strong class="color-7">France</strong> et à l'étranger.
 
                                             </p>
                                         </div>
@@ -80,7 +80,7 @@
                                         <div class="accordion__body">
                                             <p>
                                                 {{-- Etre disponible pour nos clients, c'est agir avec vertu. <br> --}}
-                                                Nous sommes facilement joingnable et nous mettons à disposition un <span class="color-7">Espace Pro</span> ainsi qu'un serveur dédié afin que vous puissiez tester votre <strong class="no-strong color-7">application web</strong>. <br>
+                                                Nous sommes facilement joingnable et nous mettons à disposition un <span class="color-7">Espace Pro</span> ainsi qu'un serveur dédié afin que vous puissiez tester votre <strong class="color-7">application web</strong>. <br>
                                                 Vous pouvez bénéficier de notre système de parrainage. <br>
                                                 Pour plus d'informations <i class="fas fa-long-arrow-alt-right" style="margin:0 0 0 5px"></i> <a href="{{ route('contact') }}"><i class="far fa-envelope color-5" style="margin-left:5px; margin-right:5px"></i>Contactez-nous</a>
                                                 {{-- Envoyer un message : <br> <i class="fas fa-long-arrow-alt-right" style="margin:0 5px"></i> <a href="{{ route('contact') }}"><i class="far fa-envelope color-5" style="margin-left:10px; margin-right:10px"></i>Contacter</a> <br>

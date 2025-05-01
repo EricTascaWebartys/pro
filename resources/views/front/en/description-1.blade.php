@@ -47,7 +47,7 @@
                                             {{-- <cite>- Matt Mullenweg, 2017</cite> --}}
                                         </blockquote>
 
-                                        <p>For a company or an entrepreneur, the design of a website is essential. Knowing the advantages of <strong class="no-strong color-7">creating a website</strong> designed from scratch is essential before taking the plunge. The possibility of long-term development must be taken into account. <br>
+                                        <p>For a company or an entrepreneur, the design of a website is essential. Knowing the advantages of <strong class="color-7">creating a website</strong> designed from scratch is essential before taking the plunge. The possibility of long-term development must be taken into account. <br>
                                         </p>
                                         <figure class="wp-block-image">
                                             <img src="{{ asset('img/business-lady.webp') }}" alt="business lady" class="bg-shadow-box">

@@ -15,7 +15,7 @@
 						@foreach ($testimonies as $key => $testimony)
 							<div class="row">
 								<div class="col-lg-1 col-md-2 text-center" >
-									<div style="width:5rem;height:5rem; border-radius:50%; border: solid 1px #03b7fb;overflow:hidden; background-color:#686868">
+									<div style="width:5rem;height:5rem; border-radius:50%; border: solid 1px #031321;overflow:hidden; background-color:#686868">
 										<img src="{{ $testimony->image_url() }}" alt="web artys avis" style="height:100%; width:auto; ">
 
 									</div>

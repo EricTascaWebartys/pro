@@ -156,7 +156,7 @@ key | option type / notes | example
 `particles.number.value` | number | `40`
 `particles.number.density.enable` | boolean | `true` / `false` 
 `particles.number.density.value_area` | number | `800`
-`particles.color.value` | HEX (string) <br /> RGB (object) <br /> HSL (object) <br /> array selection (HEX) <br /> random (string) | `"#b61924"` <br /> `{r:182, g:25, b:36}` <br />  `{h:356, s:76, l:41}` <br /> `["#b61924", "#333333", "999999"]` <br /> `"random"`
+`particles.color.value` | HEX (string) <br /> RGB (object) <br /> HSL (object) <br /> array selection (HEX) <br /> random (string) | `"#b61924"` <br /> `{r:182, g:25, b:36}` <br />  `{h:356, s:76, l:41}` <br /> `["#b61924", "#031321", "999999"]` <br /> `"random"`
 `particles.shape.type` | string <br /> array selection | `"circle"` <br /> `"edge"` <br /> `"triangle"` <br /> `"polygon"` <br /> `"star"` <br /> `"image"` <br /> `["circle", "triangle", "image"]`
 `particles.shape.stroke.width` | number | `2`
 `particles.shape.stroke.color` | HEX (string) | `"#222222"`

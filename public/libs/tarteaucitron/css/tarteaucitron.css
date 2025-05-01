@@ -263,7 +263,7 @@ div#tarteaucitronServices {
 
 #tarteaucitronAlertSmall #tarteaucitronCookiesListContainer #tarteaucitronClosePanelCookie,
 #tarteaucitron #tarteaucitronClosePanel {
-    background: #333333;
+    background: #031321;
     color: #fff;
     cursor: pointer;
     font-size: 12px;
@@ -368,7 +368,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsAllowed {
-    border-color: #03b7fb;
+    border-color: #031321;
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied {
@@ -437,7 +437,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices #tarteaucitronAllAllowed.tarteaucitronIsSelected {
-    background-color: #03b7fb;
+    background-color: #031321;
     opacity: 1;
 }
 #tarteaucitron #tarteaucitronServices #tarteaucitronAllDenied.tarteaucitronIsSelected,
@@ -447,7 +447,7 @@ div#tarteaucitronServices {
 }
 
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsAllowed .tarteaucitronAllow {
-    background-color: #03b7fb;
+    background-color: #031321;
 }
 #tarteaucitron #tarteaucitronServices .tarteaucitronLine.tarteaucitronIsDenied .tarteaucitronDeny {
     background-color: #9C1A1A;
@@ -526,7 +526,7 @@ span#tarteaucitronDisclaimerAlert {
 #tarteaucitron #tarteaucitronPrivacyUrlDialog,
 #tarteaucitronRoot .tarteaucitronDeny,
 #tarteaucitronRoot .tarteaucitronAllow {
-    background: #03b7fb;
+    background: #031321;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -687,7 +687,7 @@ span#tarteaucitronDisclaimerAlert {
 }
 
 #tarteaucitronAlertSmall #tarteaucitronManager #tarteaucitronDot #tarteaucitronDotGreen {
-    background-color: #03b7fb;
+    background-color: #031321;
 }
 
 #tarteaucitronAlertSmall #tarteaucitronManager #tarteaucitronDot #tarteaucitronDotYellow {
@@ -806,7 +806,7 @@ span#tarteaucitronDisclaimerAlert {
 }
 
 .tac_activate .tac_float .tarteaucitronAllow {
-    background-color: #03b7fb;
+    background-color: #031321;
     display: inline-block;
 }
 

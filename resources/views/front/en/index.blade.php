@@ -3,13 +3,13 @@
     <div class="content-wrap" id="home">
         <section class="bg-particles bg-techno row">
                 <div class="col-lg-5 col-md-7 col-12" style="margin:0 auto;padding-top:5rem">
-                    <img src="{{ asset('img/logo-gold.webp') }}" alt="web artys" class="d-block mx-auto " width="100%">
+                    <img src="{{ asset('img/logo/logo-t.webp') }}" alt="web artys" class="d-block mx-auto " width="100%">
                 </div>
                 <div class="col-12">
-                    <p id='head1' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Awesome designs</p>
-                    <p id='head2' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Just for you</p>
-                    <p id='head3' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Simple and awesome all the time</p>
-                    <p id='head4' class='header font-weight-bold text-shadow' style="width:100%;text-align:center">Welcome to Web Artys</p>
+                    <p id='head1' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Awesome designs</p>
+                    <p id='head2' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Just for you</p>
+                    <p id='head3' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Simple and awesome all the time</p>
+                    <h1 id='head4' class='header font-weight-bold text-shadow text-uppercase poetsen-one webartys' style="width:100%;text-align:center">Web Artys</h1>
                 </div>
 
                     {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}
@@ -33,7 +33,7 @@
             <div class="container">
                 <div class="animate">
                     <div class="animate-container">
-                        <p class="intro__text text-center">Evolved <span class="text-gold">Digital</span> Emotions</p>
+                        <p class="intro__text text-center poetsen-one">Evolved <strong class="text-gold">Digital</strong> Emotions</p>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@
                     <div class="col-lg-4">
                         <div class="title-row">
                             <h3 class="section-subtitle section-subtitle--line">LISTENING - INSPIRATION - QUALITY</h3>
-                            <h2 class="section-title">Web Artys</h2>
+                            <h2 class="section-title webartys-black text-uppercase poetsen-one title-size-bis">Web Artys</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-2">
