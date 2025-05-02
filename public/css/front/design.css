@@ -712,7 +712,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media (max-width: 1024px) {
     .logo-home {
-        margin-top: 5rem;
+        margin-top: 17rem;
     }
     #A {
     top:0.2rem;
@@ -835,6 +835,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media (max-width: 768px) {
+    .logo-home {
+        margin-top:13rem;
+    }
     #A {
     top:0.5rem;
     font-size: 65px;
@@ -870,6 +873,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media (max-width: 720px) {
+    .logo-home {
+        margin-top: 9rem;
+    }
     .logo-homepage {
         width: 19rem !important;
     }
