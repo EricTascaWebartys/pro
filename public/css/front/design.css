@@ -424,9 +424,9 @@ color: #41b6b5;
 .angle-mask {
     background-color: #f6f6f6;
 }
-/* .angle--top:before {
-    margin-top: -247px;
-} */
+.angle--top:before {
+    margin-top: -120px;
+}
 .bg-pattern, .bg-pattern.angle:before {
     background: none;
     background-color: #041322;
@@ -835,6 +835,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media (max-width: 768px) {
+    .bg-techno {
+        background-image: url('../../img/techno-mobile.webp');  
+    }
     .logo-home {
         margin-top:13rem;
     }
@@ -967,6 +970,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media (max-width: 512px) {
+    .angle--top:before {
+        margin-top: -140px;
+    }
     #A {
     top:0.2rem;
     font-size: 45px;
