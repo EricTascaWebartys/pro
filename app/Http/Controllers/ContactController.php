@@ -22,11 +22,11 @@ class ContactController extends Controller
     public function contact_post(Request $request) {
         $error_recaptcha = "Vérification du captcha incorrect";
         if(app()->getLocale() === "en") $error_recaptcha = "Checking for incorrect captcha";
+        $captcha = new Recaptcha();
         if(env("APP_ENV") === "production") {
             if($request->recaptcha_response === null || $request->recaptcha_response === "") return back()->withErrors(['message' => $error_recaptcha])->withInput();
             if($captcha->captchaverify($request->recaptcha_response === false)) return back()->withErrors(['message' => $error_recaptcha])->withInput();
         }
-        $captcha = new Recaptcha();
         $secret_key = "6LdbxSsrAAAAAOzUDWtkfOccHL8BoAxC_B6ToUQL";
 
         $validator = Validator::make(
