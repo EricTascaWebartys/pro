@@ -448,6 +448,10 @@ color: #41b6b5;
 
 .bg-techno {
     background-image: url('../../img/techno-bis.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .blog-page-title__title {
