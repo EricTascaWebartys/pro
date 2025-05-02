@@ -28,7 +28,8 @@
         <link rel="stylesheet" href="{{ asset('libs/tarteaucitron/css/custom.css') }}?t={{ config('app.css_version') }}">
         <link async rel="stylesheet" href="{{ asset("css/front/font.css") }}?t={{ config('app.css_version') }}" async>
         <link async rel="stylesheet" href="{{ asset("css/front/design.css") }}?t={{ config('app.css_version') }}">
-
+        <link async rel="stylesheet" href="{{ asset("libs/fontawesome/css/fontawesome.min.css") }}?t={{ config('app.css_version') }}" async>
+        
     </head>
     <body data-spy="scroll" data-offset="60" data-target=".nav__holder" id="home" itemscope>
     	<div class="loader-mask">
@@ -238,7 +239,8 @@
              let Url_mentions = "{{ route('mentions') }}";
              let Url_contact = "contact.php";
          </script>
-        {{-- <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script> --}}
+         
+        <script async type="text/javascript" src="{{ asset('libs/fontawesome/js/all.js') }}"></script>
 
         {{-- @include('libs.tarteaucitron.script') --}}
 
