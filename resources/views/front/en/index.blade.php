@@ -2,14 +2,13 @@
 @section('front.content')
     <div class="content-wrap" id="home">
         <section class="bg-particles bg-techno row">
-                <div class="col-lg-5 col-md-7 col-12" style="margin:0 auto;padding-top:5rem">
+                <div class="col-lg-5 col-md-7 col-12" style="margin:0 auto">
                     <img src="{{ asset('img/logo/logo-t.webp') }}" alt="web artys" class="d-block mx-auto " width="100%">
                 </div>
                 <div class="col-12">
-                    <p id='head1' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Awesome designs</p>
-                    <p id='head2' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Just for you</p>
-                    <p id='head3' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Simple and awesome all the time</p>
-                    <h1 id='head4' class='header font-weight-bold text-shadow text-uppercase poetsen-one webartys' style="width:100%;text-align:center">Web Artys</h1>
+                    <p id='head-a-1' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Awesome designs</p>
+                    <p id='head-a-2' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Just for you</p>
+                    <h1 id='head-a-3' class='header font-weight-bold text-shadow text-uppercase poetsen-one webartys' style="width:100%;text-align:center">Web Artys</h1>
                 </div>
 
                     {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}

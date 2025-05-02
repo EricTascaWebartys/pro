@@ -52,6 +52,7 @@ Route::get('/nagigation-fluide/{return?}', [FrontController::class, 'fluidity'])
 Route::get('/site-vitrine/{return?}', [FrontController::class, 'website_1'])->name('website_1');
 Route::get('/site-dynamique/{return?}', [FrontController::class, 'website_2'])->name('website_2');
 Route::get('/e-commerce/{return?}', [FrontController::class, 'website_3'])->name('website_3');
+Route::get('/purge-cache', [FrontController::class, 'purge_cache'])->name('purge.cache');
 
 Route::get('/contact/{devis?}', [ContactController::class, 'contact'])->name('contact');
 Route::post('/contact-post', [ContactController::class, 'contact_post'])->name('contact.post');

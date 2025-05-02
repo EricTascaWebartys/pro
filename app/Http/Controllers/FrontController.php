@@ -11,6 +11,8 @@ use App\Models\User;
 use App\Models\Information;
 use Illuminate\Support\Facades\Validator;
 use App\Mail\ResetPasswordMail;
+use Spatie\ResponseCache\Facades\ResponseCache;
+
 
 class FrontController extends Controller
 {
@@ -157,5 +159,11 @@ class FrontController extends Controller
             'products' => true,
             'return' => $return,
         ]);
+    }
+
+    public function purge_cache() {
+        // CMD php artisan responsecache:clear
+        ResponseCache::clear();
+        return redirect()->route(("homepage"));
     }
 }
