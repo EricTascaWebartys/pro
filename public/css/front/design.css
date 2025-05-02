@@ -707,6 +707,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media (max-width: 1024px) {
+    .logo-home {
+        margin-top: 5rem;
+    }
     #A {
     top:0.2rem;
     font-size: 45px;
