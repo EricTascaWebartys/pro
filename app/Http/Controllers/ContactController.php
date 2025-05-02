@@ -22,20 +22,13 @@ class ContactController extends Controller
     public function contact_post(Request $request) {
         $error_recaptcha = "Vérification du captcha incorrect";
         if(app()->getLocale() === "en") $error_recaptcha = "Checking for incorrect captcha";
-        
+        if(env("APP_ENV") === "production") {
+            if($request->recaptcha_response === null || $request->recaptcha_response === "") return back()->withErrors(['message' => $error_recaptcha])->withInput();
+            if($captcha->captchaverify($request->recaptcha_response === false)) return back()->withErrors(['message' => $error_recaptcha])->withInput();
+        }
         $captcha = new Recaptcha();
-        $secret_key = "6LeYIdMdAAAAADpc2uzNQ5y20esgmc7F8PGQr2PY";
+        $secret_key = "6LdbxSsrAAAAAOzUDWtkfOccHL8BoAxC_B6ToUQL";
 
-        if($request->recaptcha_response === null || $request->recaptcha_response === "") return back()->withErrors(['message' => $error_recaptcha])->withInput();
-        if($captcha->captchaverify($request->recaptcha_response === false)) return back()->withErrors(['message' => $error_recaptcha])->withInput();
-
-
-        // if($captcha->captchaverify($request->get('g-recaptcha-response'))){
-        //     $recaptcha = 'on';
-        // } else {
-        // $recaptcha = "";
-        //     return back()->withErrors(['message' => $error_recaptcha])->withInput();
-        // }
         $validator = Validator::make(
             [
                 'email' => $request->email,
@@ -43,7 +36,7 @@ class ContactController extends Controller
                 'lastname' => $request->lastname,
                 'tel' => $request->tel,
                 'message' => $request->message,
-                // 'recaptcha' => $recaptcha
+                'recaptcha' => $recaptcha
             ],
             [
                 'email' => 'required',
@@ -51,7 +44,7 @@ class ContactController extends Controller
                 'lastname' => 'required',
                 'tel' => 'required|min:11|numeric',
                 'message' => 'required',
-                // 'recaptcha' => 'required'
+                'recaptcha' => 'required'
             ]
         );
 

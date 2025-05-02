@@ -85,10 +85,10 @@
 @endsection
 
 @section('recaptcha')
-	<script src="https://www.google.com/recaptcha/api.js?render=6LeYIdMdAAAAAKmKvmx8Fn_lBBLrTOFAXy6lpmii"></script>
+	<script src="https://www.google.com/recaptcha/api.js?render=6LdbxSsrAAAAAIGUfY8oR_g3FLD0bGfUAST2Am1k"></script>
 	<script>
 		grecaptcha.ready(function() {
-			grecaptcha.execute('6LeYIdMdAAAAAKmKvmx8Fn_lBBLrTOFAXy6lpmii', {action: 'submit'}).then(function(token) {
+			grecaptcha.execute('6LdbxSsrAAAAAIGUfY8oR_g3FLD0bGfUAST2Am1k', {action: 'submit'}).then(function(token) {
 			   document.getElementById('recaptchaResponse').value = token
 			});
 		});
