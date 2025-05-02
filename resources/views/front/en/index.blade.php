@@ -3,7 +3,7 @@
     <div class="content-wrap" id="home">
         <section class="bg-particles bg-techno row">
                 <div class="col-lg-5 col-md-7 col-12" style="margin:0 auto">
-                    <img src="{{ asset('img/logo/logo-t.webp') }}" alt="web artys" class="d-block mx-auto logo-home" width="100%">
+                    <img src="{{ asset('img/logo/logo-middle.webp') }}" alt="web artys" class="d-block mx-auto logo-home" width="100%">
                 </div>
                 <div class="col-12">
                     <p id='head-a-1' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Awesome designs</p>
