@@ -164,6 +164,6 @@ class FrontController extends Controller
     public function purge_cache() {
         // CMD php artisan responsecache:clear
         ResponseCache::clear();
-        return redirect()->route(("homepage"));
+        return redirect()->to(route('homepage'), 301);
     }
 }
