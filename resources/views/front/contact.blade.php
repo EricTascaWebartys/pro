@@ -8,7 +8,7 @@
 			<div class="container">
 				<div class="animate"  id="contact">
 					<div class="animate-container">
-						<p class="intro__text text-center" style="padding-bottom:30px;color:#fff">
+						<p class="intro__text text-center" style="padding-bottom:50px;color:#fff">
 							@if($devis === "devis")
 								{{ __('navigation.Request for quotation') }}
 							@else
