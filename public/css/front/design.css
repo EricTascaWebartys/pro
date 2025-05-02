@@ -105,7 +105,7 @@ color: #41b6b5;
 
 .webartys {
     letter-spacing: 24px;
-    color: #ffd531;
+    color: #ffd531 !important;
     font-weight: 700;
 }
 
@@ -890,6 +890,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media (max-width: 600px) {
+    .webartys {
+        letter-spacing: 20px;
+        font-weight: 700;
+    }
     #A {
     top:0.3rem;
     font-size: 45px;
