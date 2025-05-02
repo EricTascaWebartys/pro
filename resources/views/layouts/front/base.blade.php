@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}" dir="ltr">
     <head>
-        <title>WEB ARTYS</title>
     	<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="description" content="web artys">
     	<meta name="cookies" content="{{ route('mentions') }}" id=mentions_url>
         <meta name="service_worker" content="{{ asset('sw.js') }}">
         <link rel="manifest" href="{{ asset('sw.json') }}">
         @if(!isset($index_page) || app()->getLocale() !== "fr")
              <meta name="robots" content="noindex" />
              <meta name="googlebot" content="noindex">
+             <title>WEB ARTYS</title>
+             <meta name="description" content="web artys">
+        @else
+            @yield('meta')
          @endisset
         <link defer href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet" async>
     	<link defer rel="stylesheet" href="{{ asset('assets/front/css/style.min.css') }}" />
@@ -54,8 +56,7 @@
     					<nav id="navbar-collapse" class="nav__wrap collapse navbar-collapse" itemscope="itemscope">
     						<ul class="nav__menu local-scroll">
     							<li>
-    								<a href="@isset($homepage) #home @else{{ route('homepage') }}@endif" class="nav-link @if(isset($homepage)) home_active @endif" aria-haspopup="true" data-toggle="collapse" data-target="#navbar-collapse">{{ __('navigation.Home') }}</a>
-    								{{-- <i class="ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,0)"></i> --}}
+    								<a href="@isset($homepage) #home @else{{ route('homepage') }}@endif" class="nav-link @if(isset($homepage)) home_active @endif">{{ __('navigation.Home') }}</a>
     							</li>
                                 <li class="nav__dropdown">
                                     <a href="#" class="nav-link add-open-menu" data-trigger="cible_1">{{ __('navigation.About') }}</a>

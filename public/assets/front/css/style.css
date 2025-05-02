@@ -1450,7 +1450,6 @@ body {
 	font-family: "DM Sans", sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
-	font-smoothing: antialiased;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 	background: #fff;

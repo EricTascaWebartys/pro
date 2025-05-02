@@ -8,7 +8,7 @@
                         <article class="entry single-post__entry">
                             <div class="entry__article-wrap" id="blog">
 
-                                @include('front.inc.description_social')
+                                {{-- @include('front.inc.description_social') --}}
 
                                 <div class="entry__article">
                                     <p><span class="dropcap">C</span>onstuire un <strong>site internet sur mesure</strong>, c'est s'assurer d'avoir une <a href="{{ route('description_2') }}"><strong class="color-7">conception graphique</strong></a> adaptée à votre business.</p>
