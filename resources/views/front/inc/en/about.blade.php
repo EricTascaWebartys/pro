@@ -19,8 +19,8 @@
                 <div class="animate">
                     <div class="animate-container">
                         <div class="title-row mb-40">
-                            <h3 class="section-subtitle section-subtitle--line">About</h3>
-                            <h2 class="section-title webartys-black poetsen-one">WEB ARTYS</h2>
+                            <p class="h3 section-subtitle section-subtitle--line">About</p>
+                            <div><img src="{{ asset('img/logo/logo-w-green.webp') }}" alt="logo web artys" class="d-block logo-w" loading="lazy"></div>
                             <p class="section-description">
                                 Customer satisfaction is at the heart of our commitment. We accompany you in your <strong class="no-strong">website</strong> creation project in a simple and direct way.
                             </p>

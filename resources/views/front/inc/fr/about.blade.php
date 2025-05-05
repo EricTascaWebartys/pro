@@ -20,7 +20,7 @@
                     <div class="animate-container">
                         <div class="title-row mb-40">
                             <p class="section-subtitle section-subtitle--line h3">Présentation</p>
-                            <h2 class="section-title webartys-black poetsen-one">WEB ARTYS</h2>
+                            <div><img src="{{ asset('img/logo/logo-w-green.webp') }}" alt="logo web artys" class="d-block logo-w" loading="lazy"></div>
                             <p class="section-description">
                                 Votre projet de <strong class="text-gold">site web</strong>, on le construit avec vous, simplement, sans détour et sans intermédiaire. Ce qui compte pour nous, c’est que vous soyez pleinement satisfait, du début à la fin.
 

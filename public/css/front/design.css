@@ -20,6 +20,9 @@
 canvas {
     display: block;
 }
+.logo-w {
+    width: 300px;
+}
 .text-uppercase {
     text-transform: uppercase !important;
 }
@@ -220,7 +223,7 @@ color: #41b6b5;
     font-weight: bold;
     text-transform: uppercase;
     font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -311,9 +314,6 @@ color: #41b6b5;
 
 .leading-5 {
     padding: 1rem;
-}
-.{
-    font-weight: normal;
 }
 
 ::selection {

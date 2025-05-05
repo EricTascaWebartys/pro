@@ -155,8 +155,8 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="title-row">
-                            <h3 class="section-subtitle section-subtitle--line">ECOUTE - INSPIRATION - QUALITE</h3>
-                            <h2 class="section-title webartys-black text-uppercase poetsen-one title-size-bis">Web Artys</h2>
+                            <span class="h3 section-subtitle section-subtitle--line">ECOUTE - INSPIRATION - QUALITE</span>
+                            <span class="h2 section-title webartys-black text-uppercase poetsen-one title-size-bis">Web Artys</span>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-2">

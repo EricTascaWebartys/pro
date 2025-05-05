@@ -1421,7 +1421,7 @@ html {
 	font-size: 100%; }
 
 .clearfix {
-	*zoom: 1; }
+	zoom: 1; }
 	.clearfix:before, .clearfix:after {
 		display: table;
 		line-height: 0;
@@ -7093,10 +7093,12 @@ figcaption {
 	margin-bottom: 38px; }
 
 .comment {
-	list-style: none; }
-	@media only screen and (min-width: 576px) {
-		.comment .children {
-			padding-left: 8%; } }
+	list-style: none; 
+}
+@media only screen and (min-width: 576px) {
+	.comment .children {
+		padding-left: 8%; } 
+}
 	.comment-list > li:first-child > .comment-body {
 		border-top: 0;
 		padding-top: 0; }
@@ -7235,10 +7237,6 @@ figcaption {
 	.alignright {
 		max-width: 40% !important; } }
 
-@media only screen and (max-width: 575px) {
-	margin-left: 0;
-	margin-right: 0;
-	float: none; }
 
 .alignnone {
 	margin: .5em 2em; }
