@@ -362,12 +362,12 @@ color: #41b6b5;
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #dcdcdc;
+    border-top-color: #41b6b5;
     animation: a 1.7s linear infinite;
     z-index: 11;
 }
 .loader:after,.loader:before {
-    border-top-color: #facc00;
+    border-top-color: #ffd531;
 }
 .loader-mask {
     background-color: #041322;
