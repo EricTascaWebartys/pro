@@ -5,7 +5,7 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     	<meta name="cookies" content="{{ route('mentions') }}" id=mentions_url>
         <meta name="service_worker" content="{{ asset('sw.js') }}">
-        <link rel="manifest" href="{{ asset('sw.json') }}">
+        <link rel="manifest" href="{{ asset('sw.json') }}?t={{ config('app.css_version') }}">
         @if(!isset($index_page) || app()->getLocale() !== "fr")
              <meta name="robots" content="noindex" />
              <meta name="googlebot" content="noindex">
