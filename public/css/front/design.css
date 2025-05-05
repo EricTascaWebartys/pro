@@ -227,6 +227,10 @@ color: #41b6b5;
     font-style: normal;
 }
 
+.section-project-process {
+    background-color: #07213b;
+}
+
 .bg-shadow-box {
     box-shadow: 10px 7px 4px -2px rgba(0,0,0,0.19);
 }
