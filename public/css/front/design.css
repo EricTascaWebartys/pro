@@ -228,7 +228,20 @@ color: #41b6b5;
 }
 
 .section-project-process {
-    background-color: #07213b;
+    background-color: #07213b !important;
+}
+.project__process-title {
+    color: #41b6b5 !important;
+}
+.entry__meta-category-url {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.project__process-description {
+    color: #fff !important;
 }
 
 .bg-shadow-box {
@@ -559,6 +572,9 @@ color: #41b6b5;
 }
 
 .nav__socials a {
+    color: #41b6b5;
+}
+.nav__socials a:hover {
     color: #fed530;
 }
 
