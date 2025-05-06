@@ -951,6 +951,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 @media (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+      }
     .webartys {
         letter-spacing: 20px;
         font-weight: 700;
