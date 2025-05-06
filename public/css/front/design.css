@@ -29,6 +29,7 @@
     display: flex;
     gap: 0.1em;
     perspective: 1000px; /* Pour un effet de profondeur */
+    color: #ffd531 !important;
   }
 
   .letter {
@@ -39,7 +40,6 @@
     font-family: "Poetsen One", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #ffd531;
   }
 canvas {
     display: block;
