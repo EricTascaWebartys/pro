@@ -162,7 +162,7 @@
      						</div>
      						<div class="col-lg-4 col-md-6">
      							<div class="widget widget-address">
-                                    <h4 class="widget-about-us__text">WEB ARTYS</h4>
+                                    <img src="{{ asset('img/logo/logo-w.webp') }}" alt="logo web artys" class="d-inline-block" width="200px">
      								<address class="widget-address__address"><strong style="font-weight:normal">{{ __('navigation.Website') }}</strong> <br>
      								<strong style="font-weight:normal">{{ __('navigation.Conception / Creation') }}</strong><br>
      								<strong style="font-weight:normal">France</strong></address>
