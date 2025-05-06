@@ -39,6 +39,7 @@
     font-family: "Poetsen One", sans-serif;
     font-weight: 700;
     font-style: normal;
+    color: #ffd531;
   }
 canvas {
     display: block;
@@ -952,7 +953,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media (max-width: 600px) {
     .title {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        letter-spacing: 18px;
       }
     .webartys {
         letter-spacing: 20px;

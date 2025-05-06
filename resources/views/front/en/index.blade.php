@@ -6,7 +6,7 @@
                     <img src="{{ asset('img/logo/logo-middle.webp') }}" alt="web artys" class="d-block mx-auto logo-home" width="100%">
                 </div>
                 <div class="col-12" style="display: flex">
-                    <h1 class="title text-uppercase text-shadow webartys" id="title" style="margin: 0 auto"></h1>
+                    <h1 class="title text-uppercase text-shadow" id="title" style="margin: 0 auto"></h1>
                 </div>
 
                     {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}
