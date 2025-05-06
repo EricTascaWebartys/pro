@@ -279,17 +279,9 @@
                 }
             }
         </script>
+        @yield('title-animation.js')
         <script defer type="text/javascript" src="{{ asset('libs/pwa/script.js') }}"></script>
-        {{-- <script defer type="text/javascript">
-            $(document).click(function(event) {
-                if(!$(event.target).closest('.navbar').length){
-                    $('.navbar-collapse').collapse('hide');
-                }
-            });
-            document.addEventListener('scroll', function (event) {
-                $('.navbar-collapse').collapse('hide');
-            }, true);
-        </script> --}}
+
         <script type="text/javascript">
             var currentLanguage = "{{ app()->getLocale() }}";
             window.tarteaucitronForceLanguage = currentLanguage;

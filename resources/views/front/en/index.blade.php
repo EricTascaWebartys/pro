@@ -5,10 +5,8 @@
                 <div class="col-lg-4 col-md-7 col-12" style="margin:0 auto">
                     <img src="{{ asset('img/logo/logo-middle.webp') }}" alt="web artys" class="d-block mx-auto logo-home" width="100%">
                 </div>
-                <div class="col-12">
-                    <p id='head-a-1' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Awesome designs</p>
-                    <p id='head-a-2' class='header font-weight-bold text-shadow text-uppercase' style="width:100%;text-align:center">Just for you</p>
-                    <h1 id='head-a-3' class='header font-weight-bold text-shadow text-uppercase poetsen-one webartys' style="width:100%;text-align:center">Web Artys</h1>
+                <div class="col-12" style="display: flex">
+                    <h1 class="title text-uppercase text-shadow webartys" id="title" style="margin: 0 auto"></h1>
                 </div>
 
                     {{-- <p id='head5' class='header font-weight-bold mb-3'></p> --}}
@@ -76,46 +74,6 @@
                 <a href="{{ route('contact') }}" class="btn btn--lg btn--stroke btn--black"><span>Contact</span></a>
             </div> --}}
         </section>
-        {{-- @if($avis !== null)
-        <section class="section-testimonials section-testimonials--large-padding bg-pattern" style="">
-            <div class="container">
-                <div class="row justify-content-center mb-40">
-                    <div class="col-lg-7">
-                        <div class="title-row text-center">
-                            <p class="title-home text-light" style="color: #fff">Testimonies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row-80">
-                    @foreach ($avis as $key => $testimony)
-                        <div class="col-lg-6">
-                            <div class="animate">
-                                <div class="animate-container">
-                                    <div class="testimonial mb-md-40">
-                                        <img src="{{ $testimony->image_url() }}" class="testimonial__img" alt="{{ $testimony->full_name()}}" width="100%" loading="lazy">
-                                        <div class="testimonial__body">
-                                            <p class="testimonial__text">
-                                                “{{ $testimony->text }}”
-                                            </p>
-                                            <span class="testimonial__name" id="avis">{{ $testimony->full_name() }}</span>
-                                            <span class="testimonial__company">{{ $testimony->job}}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    @endforeach
-                    @if($avis_active->count() > 0)
-                        <div style="text-align:center; margin:0 auto;padding-top:40px;">
-                            <a href="{{ route('testimonies.show') }}" class="btn btn--lg btn--stroke contact-form-trigger btn--light-border">
-                                <span >Read More</span>
-                            </a>
-                        </div>
-                    @endif
-                </div>
-            </div>
-        </section>
-        @endif --}}
         @include('front.inc.'. app()->getLocale() .'.avantages')
         <section class="section-results bg-gradient-bottom bg-results">
             <div class="container-fluid">
@@ -205,4 +163,8 @@
             </div>
         </section>
     </div>
+@endsection
+
+@section('title-animation.js')
+    <script src="{{ asset("libs/title/title.js") }}"></script>
 @endsection

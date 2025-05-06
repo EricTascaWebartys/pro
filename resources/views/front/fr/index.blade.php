@@ -6,11 +6,10 @@
             <div class="col-lg-4 col-md-7 col-12" style="margin:0 auto;">
                 <img src="{{ asset('img/logo/logo-middle.webp') }}" alt="web artys" class="d-block mx-auto logo-home" width="100%">
             </div>
-            <div class="col-12">
-                <p id='head-a-1' class='header text-uppercase text-shadow' style="width:100%;text-align:center">Votre site internet</p>
-                <p id='head-a-2' class='header text-uppercase text-shadow' style="width:100%;text-align:center">Conçu pour vous</p>
-                <h1 id='head-a-3' class='header text-uppercase text-shadow poetsen-one webartys' style="width:100%;text-align:center">WEB ARTYS</h1>
+            <div class="col-12" style="display: flex">
+                <h1 class="title text-uppercase text-shadow webartys" id="title" style="margin: 0 auto"></h1>
             </div>
+            
             <div class="local-scroll">
                 <a href="#about" class="scroll-down btn-introduction" style="font-size: 2rem">
                     <i class="ui-arrow-scroll-down text-gold"></i>
@@ -196,4 +195,8 @@
             </div>
         </section>
     </div>
+@endsection
+
+@section('title-animation.js')
+    <script src="{{ asset("libs/title/title.js") }}"></script>
 @endsection

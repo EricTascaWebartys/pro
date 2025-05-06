@@ -17,6 +17,29 @@
         opacity: 0;
     }
 }
+@keyframes zoomOutReveal {
+    to {
+      opacity: 1;
+      transform: scale(1);
+      filter: blur(0);
+    }
+}
+.title {
+    font-size: 3rem;
+    display: flex;
+    gap: 0.1em;
+    perspective: 1000px; /* Pour un effet de profondeur */
+  }
+
+  .letter {
+    opacity: 0;
+    transform: scale(1.8);
+    filter: blur(4px);
+    animation: zoomOutReveal 0.6s ease-out forwards;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 canvas {
     display: block;
 }
@@ -461,6 +484,11 @@ color: #41b6b5;
 .footer__bottom {
     background-color: #031321;
     border-top: 1px solid #41b6b5;
+}
+.footer {
+    opacity: 0;
+    animation: opacity_up 0.6s ease-out forwards;
+    animation-delay: 1s;
 }
 
 .bg-techno {
