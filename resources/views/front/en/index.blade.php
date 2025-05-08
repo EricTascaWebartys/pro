@@ -15,15 +15,6 @@
                             <i class="ui-arrow-scroll-down text-gold"></i>
                         </a>
                     </div>
-                  {{-- <div class='light x1'></div>
-                  <div class='light x2'></div>
-                  <div class='light x3'></div>
-                  <div class='light x4'></div>
-                  <div class='light x5'></div>
-                  <div class='light x6'></div>
-                  <div class='light x7'></div>
-                  <div class='light x8'></div>
-                  <div class='light x9'></div> --}}
         </section>
         <section id="intro" class="bg-introduction-bottom-2">
             <div class="bg-introduction-bottom-1"></div>

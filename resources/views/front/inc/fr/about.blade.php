@@ -88,11 +88,11 @@
                                         <div class="accordion__body">
                                             <p>
                                                 {{-- Etre disponible pour nos clients, c'est agir avec vertu. <br> --}}
-                                                Nous sommes facilement joingnable et nous mettons à disposition un <span class="color-7">Espace Pro</span> ainsi qu'un serveur dédié afin que vous puissiez tester votre <strong class="color-7">application web</strong>. <br>
+                                                Nous sommes facilement joignable et nous mettons à disposition un <span class="color-7">Espace Pro</span> ainsi qu'un serveur dédié afin que vous puissiez tester votre <strong class="color-7">application web</strong>. <br>
                                                 Vous pouvez bénéficier de notre système de parrainage. <br>
                                                 Pour plus d'informations <i class="fas fa-long-arrow-alt-right" style="margin:0 0 0 5px"></i> <a href="{{ route('contact') }}"><i class="far fa-envelope color-5" style="margin-left:5px; margin-right:5px"></i>{{ __('navigation.Contact us') }}</a>
                                                 {{-- Envoyer un message : <br> <i class="fas fa-long-arrow-alt-right" style="margin:0 5px"></i> <a href="{{ route('contact') }}"><i class="far fa-envelope color-5" style="margin-left:10px; margin-right:10px"></i>Contacter</a> <br>
-                                                Joingnable par téléphone : <br> <i class="fas fa-long-arrow-alt-right" style="margin:0 5px"></i> <a href="tel:0665469516"><i class="fas fa-mobile-alt color-5" style="margin-left:10px; margin-right:10px"></i>06 65 46 95 16</a> --}}
+                                                joignable par téléphone : <br> <i class="fas fa-long-arrow-alt-right" style="margin:0 5px"></i> <a href="tel:0665469516"><i class="fas fa-mobile-alt color-5" style="margin-left:10px; margin-right:10px"></i>06 65 46 95 16</a> --}}
                                             </p>
                                         </div>
                                     </div>

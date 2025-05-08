@@ -22,7 +22,7 @@
             </section> <!-- end page title -->
 
             <!-- Blog -->
-            <section class="section-blog-single angle angle--top angle-mask pb-96">
+            <section class="section-blog-single pb-96">
                 <div class="container">
                     <div class="row justify-content-center">
 
