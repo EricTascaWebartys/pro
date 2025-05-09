@@ -80,10 +80,11 @@ canvas {
     text-shadow: 1px 1px 2px rgb(0,0,0,0.8);
 }
 .figure-text {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #031321;
     overflow: hidden;
     margin: 0 auto;
     padding: 5px 10px;
+    color: #41b6b5;
 }
 .font-weight-bold {
     font-weight: bold !important;
@@ -320,15 +321,19 @@ color: #41b6b5;
 }
 .figure-product img {
     /* opacity: 1; */
-    border: solid 3px rgba(0,0,0,0);
+    border: solid 2px #031321;
     transition: all 0.2s ease-out;
     /* transition: scale 1s; */
 }
 .figure-product img:hover {
     /* opacity: 0.8; */
-    border: solid 3px #41b6b5;
-    transition: all 0.5s ease-out;
+    border: solid 2px #41b6b5;
     /* transform: scale(1.5); */
+}
+
+.figure-product:hover .figure-text {
+    color:#fff;
+    background-color: #41b6b5;
 }
 
 
