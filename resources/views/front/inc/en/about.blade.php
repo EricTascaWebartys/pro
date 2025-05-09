@@ -25,7 +25,12 @@
                                 Customer satisfaction is at the heart of our commitment. We accompany you in your <strong class="no-strong">website</strong> creation project in a simple and direct way.
                             </p>
                         </div>
-
+                        <p class="text-center">
+                            <a href="tel:0665469516" class="btn btn--lg btn--stroke contact-form-trigger btn--green d-inline-block">
+                                <i class="fa fa-phone mr-2 text-dark"></i>
+                               <span>Call</span>
+                            </a>
+                        </p>
                         <!-- Accordion -->
                         <div id="accordion-1">
 

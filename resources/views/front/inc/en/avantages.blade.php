@@ -1,15 +1,15 @@
 @isset($homepage)
-    <section class="section-from-blog pb-96 angle angle--top angle-mask bg-light">
+    <section class="section-from-blog pb-96 bg-white">
 @else
     <section class="section-from-blog pb-96 pt-40 bg-light">
 @endisset
-    <div class="container">
+    <div class="container @isset($homepage) bg-white @else bg-light @endif">
 
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="title-row text-center">
                     <h2 class="section-title" id="avantage"  @if(!isset($homepage)) style="color:#686868" @endif>Advantages</h2>
-                    <p class="section-description">Why choose us ?</p>
+                    <p class="section-description poetsen-one text-dark text-uppercase">Why choose <img src="{{ asset('img/logo/logo-w-green.webp') }}" alt="logo web artys" class="d-inline-block logo-w" loading="lazy"> ?</p>
                 </div>
             </div>
         </div>

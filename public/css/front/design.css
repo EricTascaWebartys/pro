@@ -106,6 +106,16 @@ canvas {
     background-color: transparent;
     color: #000;
 }
+.btn--green {
+    border: 2px solid #41b6b5;
+    background-color: #41b6b5;
+    color: #fff;
+}
+.btn--green:hover {
+    border: 2px solid #031321;
+    background-color: #031321;
+    color: #41b6b5;
+}
 .flickity-prev-next-button.previous {
 	left: 10px !important;
 }

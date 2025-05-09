@@ -26,7 +26,7 @@
 
                             </p>
                             <p class="text-center">
-                                <a href="tel:0665469516" class="btn btn--lg btn--stroke contact-form-trigger btn--dark-border d-inline-block">
+                                <a href="tel:0665469516" class="btn btn--lg btn--stroke contact-form-trigger btn--green d-inline-block">
                                     <i class="fa fa-phone mr-2 text-dark"></i>
                                    <span>Appeler</span>
                                 </a>
