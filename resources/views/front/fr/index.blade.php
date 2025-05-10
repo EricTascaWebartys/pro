@@ -73,7 +73,7 @@
                                 <span class="results__number" data-from="0" data-to="100">100</span>
                                 <span class="results__suffix">%</span>
                             </div>
-                            <p class="results__text">Un site internet conçu de A à Z</p>
+                            <p class="results__text text-shadow poetsen-one">Un site internet conçu de A à Z</p>
                         </div>
                     </div>
                     <div class="col-lg-3 results-col">
@@ -82,7 +82,7 @@
                                 <span class="results__number" data-from="0" data-to="100">100</span>
                                 <span class="results__suffix">%</span>
                             </div>
-                            <p class="results__text">Compatible smartphones & tablettes</p>
+                            <p class="results__text text-shadow poetsen-one">Compatible smartphones & tablettes</p>
                         </div>
                     </div>
                     <div class="col-lg-3 results-col">
@@ -91,7 +91,7 @@
                                 <span class="results__number" data-from="0" data-to="100">100</span>
                                 <span class="results__suffix">%</span>
                             </div>
-                            <p class="results__text">Navigation simple et rapide</p>
+                            <p class="results__text text-shadow poetsen-one">Navigation simple et rapide</p>
                         </div>
                     </div>
                     <div class="col-lg-3 results-col">
@@ -100,7 +100,7 @@
                                 <span class="results__number" data-from="0" data-to="100">100</span>
                                 <span class="results__suffix">%</span>
                             </div>
-                            <p class="results__text">Respect de l'identité visuelle</p>
+                            <p class="results__text text-shadow poetsen-one">Respect de l'identité visuelle</p>
                         </div>
                     </div>
                 </div>

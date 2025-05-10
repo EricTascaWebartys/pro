@@ -75,7 +75,7 @@
                                 <span class="results__number" data-from="0" data-to="100">100</span>
                                 <span class="results__suffix">%</span>
                             </div>
-                            <p class="results__text">A website designed from A to Z</p>
+                            <p class="results__text text-shadow poetsen-one">A website designed from A to Z</p>
                         </div>
                     </div>
                     <div class="col-lg-3 results-col">
@@ -84,7 +84,7 @@
                                 <span class="results__number" data-from="0" data-to="100">100</span>
                                 <span class="results__suffix">%</span>
                             </div>
-                            <p class="results__text">Compatible width smartphones and tablets</p>
+                            <p class="results__text text-shadow poetsen-one">Compatible smartphones & tablets</p>
                         </div>
                     </div>
                     <div class="col-lg-3 results-col">
@@ -93,7 +93,7 @@
                                 <span class="results__number" data-from="0" data-to="100">100</span>
                                 <span class="results__suffix">%</span>
                             </div>
-                            <p class="results__text">Simple and fast navigation</p>
+                            <p class="results__text text-shadow poetsen-one">Simple and fast navigation</p>
                         </div>
                     </div>
                     <div class="col-lg-3 results-col">
@@ -102,7 +102,7 @@
                                 <span class="results__number" data-from="0" data-to="100">100</span>
                                 <span class="results__suffix">%</span>
                             </div>
-                            <p class="results__text">Respect for the visual identity</p>
+                            <p class="results__text text-shadow poetsen-one">Respect for the visual identity</p>
                         </div>
                     </div>
                 </div>
