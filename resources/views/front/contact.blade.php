@@ -4,7 +4,7 @@
 
 	<div class="content-wrap">
 		{{-- @include('front.inc.slider_contact') --}}
-		<section class="intro bg-dark bg-pattern angle angle--top angle--dark angle-mask" id="intro">
+		<section class="intro bg-dark bg-pattern " id="intro">
 			<div class="container">
 				<div class="animate"  id="contact">
 					<div class="animate-container">
