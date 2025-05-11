@@ -152,7 +152,7 @@ return [
     "Congo, Democratic Republic" => "République démocratique du Congo ",
     "Constant" => "Toujours",
     "Contact" => "Contact",
-    "Contacts" => "Contact/Devis",
+    "Contacts" => "Contact / Devis",
     "Contact us" => "Contactez-nous",
     "Cook Islands" => "Îles Cook",
     "Costa Rica" => "Costa Rica",
