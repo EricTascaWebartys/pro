@@ -69,14 +69,6 @@
                                         <li>
                                             <a href="@isset($homepage) #works @else {{ route('homepage') }}#works @endif" class="li-hover" @isset($homepage) data-toggle="collapse" data-target="#navbar-collapse" @endif>{{ str_replace("é","e", __('navigation.Works')) }}</a>
                                         </li>
-                                        <li><a href="{{ route('contact') }}" class="li-hover">{{ __('navigation.Contact') }}</a></li>
-                                        <li>
-                                            <a href="{{ route('contact', ['devis' => 'devis']) }}" class="li-hover @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
-                                        </li>
-                                        {{-- <li>
-                                            <a href="@isset($homepage) #avis @else {{ route('homepage') }}#avis @endif" class="li-hover  @if(isset($avis_page)) home_active @endif" @isset($homepage) data-toggle="collapse" data-target="#navbar-collapse" @endif>{{ str_replace("é","e", __('navigation.Testimonies')) }}</a>
-                                        </li> --}}
-
                                     </ul>
                                 </li>
                                 <li class="nav__dropdown text-uppercase">
@@ -90,7 +82,7 @@
                                     </ul>
                                 </li>
     							<li  class="nav__dropdown">
-    								<a href="#" data-trigger="cible_3" class="nav-link add-open-menu">{{ __('navigation.Services') }}</a>
+    								<a href="#" data-trigger="cible_3" class="nav-link add-open-menu @if(isset($services)) home_active @endif">{{ __('navigation.Services') }}</a>
                                     <i class="cible_3 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
                                     <ul  class="cible_3_bis nav__dropdown-menu">
                                         <li><a href="{{ route('fluidity') }}" class="li-hover">Design UX/UI</a></li>
@@ -100,6 +92,16 @@
                                         <li><a href="{{ route('description_3') }}" class="li-hover">Progressive Web App</a></li>
                                     </ul>
     							</li>
+                                <li class="nav__dropdown">
+                                    <a href="#" class="nav-link add-open-menu @if(isset($contact)) home_active @endif" data-trigger="cible_1">{{ __('navigation.Contacts') }}</a>
+                                    <i class="cible_1 ui-arrow-down nav__dropdown-trigger" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgba(255,255,255,1)"></i>
+                                    <ul  class="cible_1_bis nav__dropdown-menu text-uppercase bg-menu-ul">
+                                        <li><a href="{{ route('contact') }}" class="li-hover">{{ __('navigation.Contact') }}</a></li>
+                                        <li>
+                                            <a href="{{ route('contact', ['devis' => 'devis']) }}" class="li-hover @if(isset($contact)) home_active @endif">{{ __('navigation.Quote') }}</a>
+                                        </li>
+                                    </ul>
+                                </li>
 
                                 <li class="d-lg-none d-inline-block">
                                     <a href="@if(Auth::user()) {{ route('dashboard') }} @else {{ route('login') }} @endif" class="nav-link">{{ __('navigation.Pro Area') }}</a>

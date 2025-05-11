@@ -152,6 +152,7 @@ return [
     "Congo, Democratic Republic" => "Congo, Democratic Republic",
     "Constant" => "Constant",
     "Contact" => "Contact",
+    "Contacts" => "Contact/Quote",
     "Contact us" => "Contact",
     "Cook Islands" => "Cook Islands",
     "Costa Rica" => "Costa Rica",

@@ -40,21 +40,21 @@ class FrontController extends Controller
     public function description_1($return = null) {
 
         return view('front.description-1',[
-            'products' => true,
+            'services' => true,
             'return' => $return
         ]);
     }
     public function description_2($return = null) {
 
         return view('front.description-2',[
-            'products' => true,
+            'services' => true,
             'return' => $return,
         ]);
     }
     public function description_3($return = null) {
 
         return view('front.description-3',[
-            'products' => true,
+            'services' => true,
             'return' => $return
         ]);
     }
@@ -144,7 +144,7 @@ class FrontController extends Controller
     }
     public function seo($return = null) {
         return view('front.seo', [
-            'products' => true,
+            'services' => true,
             'return' => $return,
         ]);
     }
@@ -156,7 +156,7 @@ class FrontController extends Controller
     }
     public function fluidity($return = null) {
         return view('front.fluidity', [
-            'products' => true,
+            'services' => true,
             'return' => $return,
         ]);
     }
