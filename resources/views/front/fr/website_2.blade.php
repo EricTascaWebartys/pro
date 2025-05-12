@@ -53,7 +53,7 @@
                 </div>
             </div>
         </section>
-        @include('front.inc.' . app()->getLocale() . '.avantages')
+        @include('front.inc.' . app()->getLocale() . '.products')
         {{-- @include('front.inc.btn_return_products') --}}
         @include('front.inc.' . app()->getLocale() . '.webartys')
 
