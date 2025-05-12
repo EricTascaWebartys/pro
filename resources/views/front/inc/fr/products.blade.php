@@ -1,6 +1,10 @@
 <!-- Blog -->
         {{-- <section class="section-blog-single angle angle--top pb-0"> --}}
-        <section class="section-blog-single bg-light">
+        @isset($homepage)
+            <section class="section-blog-single bg-light">
+        @else
+            <section class="section-blog-single bg-light pt-40">
+        @endisset
             <div class="container">
                 <div class="row justify-content-center">
 

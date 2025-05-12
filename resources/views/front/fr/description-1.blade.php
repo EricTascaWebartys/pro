@@ -91,8 +91,7 @@
             </section> <!-- end blog -->
 
 
-            <!-- Related Posts -->
-
+            @include('front.inc.'. app()->getLocale() .'.avantages')
 
             <!-- Prev / Next post -->
             <nav class="entry-navigation" itemscope>

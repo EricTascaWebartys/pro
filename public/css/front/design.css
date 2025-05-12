@@ -282,6 +282,7 @@ color: #41b6b5;
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(0,0,0,0.8);
 }
 
 .project__process-description {
