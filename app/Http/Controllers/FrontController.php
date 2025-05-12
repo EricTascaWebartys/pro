@@ -59,27 +59,24 @@ class FrontController extends Controller
         ]);
     }
 
-    public function website_1($return = null) {
+    public function website_1() {
 
         return view('front.website_1',[
             'products' => true,
-            'return' => $return,
             'index_page' => true
         ]);
     }
-    public function website_2($return = null) {
+    public function website_2() {
 
         return view('front.website_2',[
             'products' => true,
-            'return' => $return,
             'index_page' => true
         ]);
     }
-    public function website_3($return = null) {
+    public function website_3() {
 
         return view('front.website_3',[
             'products' => true,
-            'return' => $return,
             'index_page' => true
         ]);
     }

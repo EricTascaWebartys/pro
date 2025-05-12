@@ -49,9 +49,9 @@ Route::get('/responsive-design/{return?}', [FrontController::class, 'responsive'
 Route::get('/seo/{return?}', [FrontController::class, 'seo'])->name('seo');
 Route::get('/identite-visuelle/{return?}', [FrontController::class, 'visual_identity'])->name('visual.identity');
 Route::get('/nagigation-fluide/{return?}', [FrontController::class, 'fluidity'])->name('fluidity');
-Route::get('/site-vitrine/{return?}', [FrontController::class, 'website_1'])->name('website_1');
-Route::get('/site-dynamique/{return?}', [FrontController::class, 'website_2'])->name('website_2');
-Route::get('/e-commerce/{return?}', [FrontController::class, 'website_3'])->name('website_3');
+Route::get('/site-vitrine', [FrontController::class, 'website_1'])->name('website_1');
+Route::get('/site-dynamique', [FrontController::class, 'website_2'])->name('website_2');
+Route::get('/e-commerce', [FrontController::class, 'website_3'])->name('website_3');
 Route::get('/purge-cache', [FrontController::class, 'purge_cache'])->name('purge.cache');
 
 Route::get('/contact/{devis?}', [ContactController::class, 'contact'])->name('contact');
