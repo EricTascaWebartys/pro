@@ -1,7 +1,8 @@
 @extends('layouts.front.base')
 @section('front.content')
     <div class="content-wrap" id="home">
-        <section class="bg-particles bg-techno row">
+        <section class="row background-green bg-particles">
+                <div class="background"></div>
                 <div class="col-lg-4 col-md-7 col-12" style="margin:0 auto">
                     <img src="{{ asset('img/logo/logo-middle.webp') }}" alt="web artys" class="d-block mx-auto logo-home" id="animatedImage">
                 </div>
