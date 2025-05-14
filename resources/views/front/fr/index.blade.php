@@ -4,7 +4,7 @@
     <div class="content-wrap" id="home">
         <section class="bg-particles bg-techno row">
             <div class="col-lg-4 col-md-7 col-12" style="margin:0 auto;">
-                <img src="{{ asset('img/logo/logo-middle.webp') }}" alt="web artys" class="d-block mx-auto logo-home" width="100%">
+                <img src="{{ asset('img/logo/logo-middle.webp') }}" alt="web artys" class="d-block mx-auto logo-home" id="animatedImage">
             </div>
             <div class="col-12" style="display: flex">
                 <h1 class="title text-uppercase text-shadow" id="title" style="margin: 0 auto"></h1>
