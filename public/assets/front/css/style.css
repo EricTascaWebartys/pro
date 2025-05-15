@@ -7291,7 +7291,8 @@ a img.aligncenter {
 	font-size: 1.2rem;
 	margin-bottom: 0;
 	color: #fff;
-	opacity: 0.7; }
+	opacity: 1; 
+	text-shadow: 1px 1px 2px rgb(0,0,0,0.8);}
 	@media only screen and (min-width: 992px) {
 		.project__hero-description {
 			font-size: 1.625rem; } }
